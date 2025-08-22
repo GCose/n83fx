@@ -35,7 +35,7 @@ const ForexDifference = () => {
 
         {/*==================== Focus Statement ====================*/}
         <div className="text-center mb-[clamp(6rem,8vw,8rem)]">
-          <div className="p-[clamp(3rem,4vw,4rem)] bg-n83-white rounded-[2rem] border-l-4 border-n83-black max-w-[80rem] mx-auto">
+          <div className="p-[clamp(3rem,4vw,4rem)] bg-n83-white border-l border-r border-n83-black max-w-[80rem] mx-auto">
             <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(2rem,2.5vw,2.5rem)] mb-[clamp(1.5rem,2vw,2rem)]">
               At N83-FX, we focus on what truly matters:
             </h3>
@@ -48,7 +48,7 @@ const ForexDifference = () => {
           {differences.map((difference, index) => (
             <div
               key={index}
-              className="text-center p-[clamp(3rem,4vw,4rem)] bg-n83-white rounded-[2rem] border border-n83-black/10 hover:border-n83-black/20 transition-all duration-300 hover:-translate-y-[4px] hover:shadow-[0_12px_40px_rgba(0,0,0,0.1)]"
+              className="text-center p-[clamp(3rem,4vw,4rem)] bg-n83-white rounded-[2rem] transition-all duration-300 hover:-translate-y-[4px]"
             >
               <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(1.5rem,2vw,2rem)]">
                 {difference.title}
@@ -63,7 +63,7 @@ const ForexDifference = () => {
 
         {/*==================== Bottom Statement ====================*/}
         <div className="text-center">
-          <div className="p-[clamp(3rem,4vw,4rem)] bg-n83-white rounded-[2rem] border-l-4 border-n83-black max-w-[80rem] mx-auto">
+          <div className="p-[clamp(3rem,4vw,4rem)] bg-n83-white  border-l border-r border-n83-black max-w-[80rem] mx-auto">
             <p className="m-0 font-medium leading-[1.4] text-n83-black text-[clamp(1.8rem,2vw,2rem)]">
               We don{"'"}t want you to trade more — we want you to trade better.
             </p>
