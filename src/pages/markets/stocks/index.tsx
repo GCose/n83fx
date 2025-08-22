@@ -1,15 +1,14 @@
-import StocksHero from "@/components/markets/stocks/StocksHero";
-import StocksWhatIs from "@/components/markets/stocks/StocksWhatIs";
-import StocksHistory from "@/components/markets/stocks/StocksHistory";
-import StocksWhyTrade from "@/components/markets/stocks/StocksWhyTrade";
-import StocksWhyTradeWithUs from "@/components/markets/stocks/StocksWhyTradeWithUs";
-import StocksN83Advantage from "@/components/markets/stocks/StocksN83Advantage";
-import StocksUAE from "@/components/markets/stocks/StocksUAE";
-import StocksHowToStart from "@/components/markets/stocks/StocksHowToStart";
-import StocksRiskAndResponsibility from "@/components/markets/stocks/StocksRiskAndResponsibility";
-import StocksWhyDifferent from "@/components/markets/stocks/StocksWhyDifferent";
-import StocksStartJourney from "@/components/markets/stocks/StocksStartJourney";
 import Layout from "@/components/layout/Layout";
+import StocksWhyDifferent from "@/components/markets/stocks/StocksDifference";
+import StocksHero from "@/components/markets/stocks/StocksHero";
+import StocksHistory from "@/components/markets/stocks/StocksHistory";
+import StocksHowToStart from "@/components/markets/stocks/StocksHowToStart";
+import StocksN83Advantage from "@/components/markets/stocks/StocksN83Advantage";
+import StocksRisk from "@/components/markets/stocks/StocksRisk";
+import StocksStartJourney from "@/components/markets/stocks/StocksStartJourney";
+import StocksUAE from "@/components/markets/stocks/StocksUAE";
+import StocksWhyTrade from "@/components/markets/stocks/StocksWhyTrade";
+import StocksWhatIs from "@/components/markets/stocks/StockWhatIs";
 
 const stocksMeta = {
   title: "Stocks Trading with N83-FX",
@@ -26,11 +25,11 @@ const Stocks = () => {
       <StocksWhatIs />
       <StocksHistory />
       <StocksWhyTrade />
-      <StocksWhyTradeWithUs />
+      <StocksWhyTrade />
       <StocksN83Advantage />
       <StocksUAE />
       <StocksHowToStart />
-      <StocksRiskAndResponsibility />
+      <StocksRisk />
       <StocksWhyDifferent />
       <StocksStartJourney />
     </Layout>
