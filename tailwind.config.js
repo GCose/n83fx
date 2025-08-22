@@ -16,8 +16,8 @@ module.exports = {
         "n83-gray-900": "#111827",
       },
       fontFamily: {
-        playfair: ["Playfair Display", "serif"],
-        sans: ["Playfair Display", "serif"],
+        playfair: ["var(--font-playfair)", "serif"],
+        sans: ["var(--font-playfair)", "serif"],
       },
       fontWeight: {
         300: "300",
