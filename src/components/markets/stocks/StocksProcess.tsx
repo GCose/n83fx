@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const StocksHowToStart = () => {
+const StocksProcess = () => {
   const steps = [
     {
       number: "01",
@@ -107,4 +107,4 @@ const StocksHowToStart = () => {
   );
 };
 
-export default StocksHowToStart;
+export default StocksProcess;

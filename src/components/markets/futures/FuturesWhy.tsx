@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const FuturesWhyTrade = () => {
+const FuturesWhy = () => {
   const tradingReasons = [
     "Broad exposure. Gain access to commodities, indices, currencies, and more.",
     "Leverage. Futures allow control of larger positions with smaller initial capital.",
@@ -75,4 +75,4 @@ const FuturesWhyTrade = () => {
   );
 };
 
-export default FuturesWhyTrade;
+export default FuturesWhy;

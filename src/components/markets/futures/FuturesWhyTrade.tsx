@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const FuturesWhyTrade = () => {
+const FutureWhyTrade = () => {
   const advantages = [
     {
       title: "Clarity first",
@@ -85,4 +85,4 @@ const FuturesWhyTrade = () => {
   );
 };
 
-export default FuturesWhyTrade;
+export default FutureWhyTrade;
