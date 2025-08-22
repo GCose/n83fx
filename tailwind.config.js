@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -22,15 +23,6 @@ module.exports = {
       },
       spacing: {
         container: "clamp(1.5rem, 4vw, 3rem)",
-      },
-      transitionProperty: {
-        all: "all",
-      },
-      transitionDuration: {
-        200: "200ms",
-      },
-      transitionTimingFunction: {
-        ease: "ease",
       },
     },
   },
