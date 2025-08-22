@@ -96,7 +96,7 @@ const TradingOptions = () => {
             <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2rem,2.5vw,2.4rem)] mb-[clamp(1rem,1.5vw,1.5rem)]">
               Ready to start?
             </h3>
-            <p className="m-0 w-full max-w-[50rem] font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.8rem)]">
+            <p className="m-0 w-full max-w-[50rem] font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
               We stripped out the noise and rebuilt the trading experience from
               the ground up. From real-time execution to clean design, every
               detail is designed to help you focus, not react.
@@ -104,7 +104,7 @@ const TradingOptions = () => {
           </div>
           <Link
             href="/explore"
-            className="cursor-pointer font-medium flex-shrink-0 rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center text-n83-white transition-smooth bg-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] hover:-translate-y-[2px] hover:bg-n83-gray-900 w-full lg:w-auto"
+            className="cursor-pointer font-medium flex-shrink-0 rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center text-n83-white transition-smooth bg-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] hover:-translate-y-[2px] hover:bg-n83-gray-900 w-full lg:w-auto"
           >
             Explore N83-FX
           </Link>

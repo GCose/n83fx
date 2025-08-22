@@ -19,11 +19,11 @@ const ForexHistory = () => {
             </div>
 
             {/*==================== Timeline Highlight ====================*/}
-            <div className="mt-[clamp(3rem,4vw,4rem)] p-[clamp(2.5rem,3vw,3rem)] bg-n83-white rounded-[1.6rem] border-l-4 border-n83-black">
-              <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)] mb-[1rem]">
+            <div className="mt-[clamp(3rem,4vw,4rem)] p-[clamp(2.5rem,3vw,3rem)] bg-n83-white border-l border-r border-n83-black">
+              <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2.1rem)] mb-[1rem]">
                 1971: The Bretton Woods Shift
               </h4>
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 The end of the Bretton Woods system allowed currencies to float
                 freely, creating the modern forex market we know today.
               </p>
@@ -39,7 +39,7 @@ const ForexHistory = () => {
             </h2>
 
             <div className="space-y-[clamp(2.5rem,3vw,3rem)]">
-              <p className="m-0 font-normal leading-[1.5] text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Forex as we know it today is the result of decades of global
                 financial evolution. In 1971, the Bretton Woods system ended,
                 allowing currencies to float freely instead of being tied to
@@ -47,21 +47,24 @@ const ForexHistory = () => {
                 one that is now digital, accessible, and global.
               </p>
 
-              <p className="m-0 font-normal leading-[1.5] text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 What used to be reserved for large banks and institutions is now
                 open to individual traders. With the right platform and
                 conditions, anyone can participate.
               </p>
 
               {/*==================== Evolution Points ====================*/}
-              <div className="space-y-[clamp(2rem,2.5vw,2.5rem)] pt-[clamp(2rem,3vw,3rem)] border-t border-n83-black/20">
+              <div className="space-y-[clamp(2rem,2.5vw,4rem)] pt-[clamp(2rem,3vw,3rem)] border-t border-n83-black/20">
                 <div className="flex items-start gap-[1.5rem] group">
-                  <div className="w-[clamp(1rem,1.2vw,1.2rem)] h-[clamp(1rem,1.2vw,1.2rem)] bg-n83-black rounded-full mt-[0.5rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
+                  <div
+                    className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                    style={{ transform: "rotate(45deg)" }}
+                  ></div>
                   <div>
-                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)] mb-[0.5rem]">
+                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
                       From Gold Standard to Free Float
                     </h4>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       The transition from fixed exchange rates to floating
                       currencies revolutionized global trade.
                     </p>
@@ -69,12 +72,15 @@ const ForexHistory = () => {
                 </div>
 
                 <div className="flex items-start gap-[1.5rem] group">
-                  <div className="w-[clamp(1rem,1.2vw,1.2rem)] h-[clamp(1rem,1.2vw,1.2rem)] bg-n83-black rounded-full mt-[0.5rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
+                  <div
+                    className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                    style={{ transform: "rotate(45deg)" }}
+                  ></div>
                   <div>
-                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)] mb-[0.5rem]">
+                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
                       Digital Revolution
                     </h4>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       Technology democratized forex, making it accessible to
                       individual traders worldwide.
                     </p>
@@ -82,12 +88,15 @@ const ForexHistory = () => {
                 </div>
 
                 <div className="flex items-start gap-[1.5rem] group">
-                  <div className="w-[clamp(1rem,1.2vw,1.2rem)] h-[clamp(1rem,1.2vw,1.2rem)] bg-n83-black rounded-full mt-[0.5rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
+                  <div
+                    className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                    style={{ transform: "rotate(45deg)" }}
+                  ></div>
                   <div>
-                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)] mb-[0.5rem]">
+                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
                       Modern Accessibility
                     </h4>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       Today{"'"}s platforms provide institutional-grade tools to
                       retail traders globally.
                     </p>

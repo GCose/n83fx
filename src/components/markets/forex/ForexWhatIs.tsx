@@ -13,7 +13,7 @@ const ForexWhatIs = () => {
             </h2>
 
             <div className="space-y-[clamp(2.5rem,3vw,3rem)]">
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,2rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Foreign exchange, or Forex, is the global marketplace where
                 currencies are exchanged. It is the largest and most active
                 financial market in the world, with over $6 trillion traded
@@ -21,7 +21,7 @@ const ForexWhatIs = () => {
                 participate in this market to exchange one currency for another.
               </p>
 
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,2rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 For traders, Forex offers opportunity because prices are always
                 moving. Every major event — from interest rate decisions to oil
                 prices to political news — is reflected in the movement of
@@ -31,7 +31,7 @@ const ForexWhatIs = () => {
               </p>
 
               {/*==================== Highlight Quote ====================*/}
-              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-n83-gray-50 rounded-[1.6rem] border-l-4 border-n83-black">
+              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-n83-gray-50 border-l border-r border-n83-black">
                 <p className="m-0 font-medium leading-[1.4] text-n83-black text-[clamp(1.8rem,2vw,2rem)]">
                   At N83-FX, we believe that opportunity is best used when
                   trading is done with calm and clarity.
@@ -55,8 +55,8 @@ const ForexWhatIs = () => {
             </div>
 
             {/*==================== Key Facts Grid ====================*/}
-            <div className="mt-[clamp(3rem,4vw,4rem)] grid grid-cols-2 gap-[clamp(1.5rem,2vw,2rem)]">
-              <div className="p-[clamp(2rem,3vw,3rem)] bg-n83-gray-50 rounded-[1.6rem] text-center">
+            <div className="mt-[clamp(3rem,4vw,4rem)] border-t border-n83-black border-b grid grid-cols-2 gap-[clamp(1.5rem,2vw,2rem)]">
+              <div className="p-[clamp(2rem,3vw,3rem)]  text-center">
                 <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
                   $6T+
                 </h4>
@@ -64,7 +64,7 @@ const ForexWhatIs = () => {
                   Traded Daily
                 </p>
               </div>
-              <div className="p-[clamp(2rem,3vw,3rem)] bg-n83-gray-50 rounded-[1.6rem] text-center">
+              <div className="p-[clamp(2rem,3vw,3rem)]  text-center">
                 <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
                   24/5
                 </h4>

@@ -31,7 +31,7 @@ const Footer = () => {
 
           {/*==================== Platform Links ====================*/}
           <div>
-            <h4 className="text-[clamp(1.6rem,1.8vw,1.8rem)] font-semibold text-n83-white mb-[clamp(2rem,3vw,3rem)]">
+            <h4 className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-semibold text-n83-white mb-[clamp(2rem,3vw,3rem)]">
               Platform
             </h4>
             <div className="flex flex-col gap-[clamp(1rem,1.5vw,1.5rem)]">
@@ -64,7 +64,7 @@ const Footer = () => {
 
           {/*==================== Learn Links ====================*/}
           <div>
-            <h4 className="text-[clamp(1.6rem,1.8vw,1.8rem)] font-semibold text-n83-white mb-[clamp(2rem,3vw,3rem)]">
+            <h4 className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-semibold text-n83-white mb-[clamp(2rem,3vw,3rem)]">
               Learn
             </h4>
             <div className="flex flex-col gap-[clamp(1rem,1.5vw,1.5rem)]">
@@ -97,7 +97,7 @@ const Footer = () => {
 
           {/*==================== Company Links ====================*/}
           <div>
-            <h4 className="text-[clamp(1.6rem,1.8vw,1.8rem)] font-semibold text-n83-white mb-[clamp(2rem,3vw,3rem)]">
+            <h4 className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-semibold text-n83-white mb-[clamp(2rem,3vw,3rem)]">
               Company
             </h4>
             <div className="flex flex-col gap-[clamp(1rem,1.5vw,1.5rem)]">

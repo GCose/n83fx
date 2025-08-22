@@ -55,7 +55,7 @@ const BuiltAround = () => {
                     index % 2 === 0 ? "md:border-r" : ""
                   } border-n83-black md:border-n83-gray-600`}
                 >
-                  <h4 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)] mb-[clamp(0.5rem,0.8vw,0.8rem)]">
+                  <h4 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[clamp(0.5rem,0.8vw,0.8rem)]">
                     {feature.title}
                   </h4>
                   <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.3rem,1.5vw,1.5rem)]">
@@ -72,11 +72,11 @@ const BuiltAround = () => {
           <div className="flex items-center rounded-[3rem_0_0_3rem] bg-n83-gray-50 py-[clamp(4rem,6vw,6rem)] px-[clamp(3rem,4vw,4rem)] lg:py-[clamp(4rem,5vw,5rem)] lg:px-0">
             <div className="w-full relative lg:text-center">
               <div className="relative pl-12 lg:pl-0 mb-[clamp(4rem,5vw,5rem)] before:content-[''] before:absolute before:top-0 before:left-0 before:w-1 before:h-32 before:bg-gradient-to-b before:from-n83-black before:to-n83-gray-600 lg:before:hidden">
-                <p className="m-0 font-normal leading-[1.6] text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)] mb-[clamp(2rem,2.5vw,2.5rem)] first:font-semibold first:text-[clamp(1.8rem,2vw,5rem)]">
+                <p className="m-0 font-normal leading-[1.6] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[clamp(2rem,2.5vw,2.5rem)] first:font-semibold first:text-[clamp(1.8rem,2vw,5rem)]">
                   We designed our platform for two kinds of users: The curious
                   beginner. And the confident operator.
                 </p>
-                <p className="m-0 font-normal leading-[1.6] text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)]">
+                <p className="m-0 font-normal leading-[1.6] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)]">
                   Toggle between modes. Customize your dashboard. Stay in
                   control at every level.
                 </p>
@@ -85,7 +85,7 @@ const BuiltAround = () => {
               <div className="pl-12 lg:pl-0">
                 <Link
                   href="/demo"
-                  className="cursor-pointer font-semibold rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center text-n83-white transition-smooth bg-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)] shadow-[0_8px_25px_rgba(0,0,0,0.1)] py-[clamp(1.8rem,2vw,2rem)] px-[clamp(4rem,5vw,5rem)] hover:-translate-y-[3px] hover:bg-n83-gray-900 hover:shadow-[0_15px_35px_rgba(0,0,0,0.2)] w-full lg:w-auto max-w-[30rem]"
+                  className="cursor-pointer font-semibold rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center text-n83-white transition-smooth bg-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] shadow-[0_8px_25px_rgba(0,0,0,0.1)] py-[clamp(1.8rem,2vw,2rem)] px-[clamp(4rem,5vw,5rem)] hover:-translate-y-[3px] hover:bg-n83-gray-900 hover:shadow-[0_15px_35px_rgba(0,0,0,0.2)] w-full lg:w-auto max-w-[30rem]"
                 >
                   Try Demo View
                 </Link>
