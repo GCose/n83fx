@@ -5,7 +5,7 @@ const ForexWhatIs = () => {
     <section className="relative bg-n83-white py-[clamp(8rem,12vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
-        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
+        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-start">
           {/*==================== Left: Content ====================*/}
           <div className="flex flex-col justify-center">
             <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
@@ -48,7 +48,7 @@ const ForexWhatIs = () => {
               <Image
                 width={800}
                 height={600}
-                src="/images/markets/forex/forex-history.avif"
+                src="/images/markets/forex/forex-whatis.jpg"
                 alt="Global currency exchange and forex market visualization"
                 className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(40rem,50vh,60rem)] lg:min-h-[clamp(35rem,45vh,50rem)] md:min-h-[clamp(30rem,40vh,45rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />
