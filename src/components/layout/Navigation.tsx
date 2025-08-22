@@ -23,7 +23,7 @@ const Navigation = () => {
 
   const marketsItems: NavigationItem[] = [
     { href: "/markets/forex", label: "Forex" },
-    { href: "/markets/cryptos", label: "Cryptos" },
+    { href: "/markets/crypto", label: "Crypto" },
     { href: "/markets/stocks", label: "Stocks" },
     { href: "/markets/futures", label: "Futures" },
     { href: "/markets/commodities", label: "Commodities" },
