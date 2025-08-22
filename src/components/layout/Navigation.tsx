@@ -6,6 +6,7 @@ import type { NavigationItem, DropdownMenuProps } from "@/types/navigation";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
   useEffect(() => {
     const updateNavbar = () => {
@@ -27,6 +28,7 @@ const Navigation = () => {
     { href: "/markets/futures", label: "Futures" },
     { href: "/markets/commodities", label: "Commodities" },
     { href: "/markets/metals", label: "Metals" },
+    { href: "/markets/indices", label: "Indices" },
   ];
 
   const aboutItems: NavigationItem[] = [
@@ -85,6 +87,51 @@ const Navigation = () => {
     </div>
   );
 
+  const MobileDropdown = ({ trigger, items }: DropdownMenuProps) => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    return (
+      <div className="border-b border-gray-200">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="w-full text-left text-[2rem] font-normal text-gray-600 transition-smooth hover:text-black flex items-center justify-between py-4 px-4"
+        >
+          {trigger}
+          <svg
+            className={cn(
+              "w-5 h-5 transition-transform duration-200",
+              isOpen && "rotate-180"
+            )}
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </button>
+        {isOpen && (
+          <div className="bg-gray-50 border-t border-gray-200">
+            {items.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block py-3 px-8 text-[1.8rem] text-gray-600 transition-smooth hover:text-black hover:bg-gray-100"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  };
+
   return (
     <nav
       className={cn(
@@ -98,7 +145,7 @@ const Navigation = () => {
         {/*==================== Logo ====================*/}
         <Link
           href="/"
-          className="flex items-center justify-center gap-4 text-[2rem] font-semibold text-black"
+          className="flex items-center justify-center gap-4 text-[2rem] font-semibold text-black relative z-50"
         >
           <Image
             width={20}
@@ -110,8 +157,8 @@ const Navigation = () => {
         </Link>
         {/*==================== End of Logo ====================*/}
 
-        {/*==================== Navigation Menu ====================*/}
-        <div className="flex">
+        {/*==================== Desktop Navigation Menu ====================*/}
+        <div className="hidden lg:flex">
           <ul className="flex gap-[clamp(2rem,4vw,4rem)] list-none">
             <li>
               <Link
@@ -151,10 +198,10 @@ const Navigation = () => {
             </li>
           </ul>
         </div>
-        {/*==================== End of Navigation Menu ====================*/}
+        {/*==================== End of Desktop Navigation Menu ====================*/}
 
-        {/*==================== Action Buttons ====================*/}
-        <div className="flex items-center gap-8">
+        {/*==================== Desktop Action Buttons ====================*/}
+        <div className="hidden lg:flex items-center gap-8">
           <Link
             href="/sign-in"
             className="text-black text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal transition-smooth hover:text-gray-600"
@@ -168,8 +215,92 @@ const Navigation = () => {
             Get Started
           </Link>
         </div>
-        {/*==================== End of Action Buttons ====================*/}
+        {/*==================== End of Desktop Action Buttons ====================*/}
+
+        {/*==================== Mobile Menu Button ====================*/}
+        <button
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          className="lg:hidden relative z-50 w-8 h-8 flex flex-col justify-center items-center"
+        >
+          <span
+            className={cn(
+              "block w-7 h-0.5 bg-black transition-all duration-300",
+              isMobileMenuOpen ? "rotate-45 translate-y-0" : "-translate-y-2"
+            )}
+          />
+          <span
+            className={cn(
+              "block w-7 h-0.5 bg-black transition-all duration-300",
+              isMobileMenuOpen ? "opacity-0" : "opacity-100"
+            )}
+          />
+          <span
+            className={cn(
+              "block w-7 h-0.5 bg-black transition-all duration-300",
+              isMobileMenuOpen ? "-rotate-45 -translate-y-0" : "translate-y-2"
+            )}
+          />
+        </button>
+        {/*==================== End of Mobile Menu Button ====================*/}
       </div>
+
+      {/*==================== Mobile Dropdown Menu ====================*/}
+      <div
+        className={cn(
+          "lg:hidden bg-white border-t border-gray-200 shadow-lg transition-all duration-300 overflow-hidden",
+          isMobileMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+        )}
+      >
+        <div className="max-h-[70vh] overflow-y-auto">
+          <Link
+            href="/"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="block text-[2rem] font-normal text-gray-600 transition-smooth hover:text-black py-4 px-4 border-b border-gray-200 hover:bg-gray-50"
+          >
+            Home
+          </Link>
+
+          <MobileDropdown trigger="Markets" items={marketsItems} />
+
+          <Link
+            href="/account-type"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="block text-[2rem] font-normal text-gray-600 transition-smooth hover:text-black py-4 px-4 border-b border-gray-200 hover:bg-gray-50"
+          >
+            Accounts
+          </Link>
+
+          <MobileDropdown trigger="About Us" items={aboutItems} />
+          <MobileDropdown trigger="Tools" items={toolsItems} />
+          <MobileDropdown trigger="Legal" items={legalItems} />
+
+          <Link
+            href="/contact-us"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="block text-[2rem] font-normal text-gray-600 transition-smooth hover:text-black py-4 px-4 border-b border-gray-200 hover:bg-gray-50"
+          >
+            Contact Us
+          </Link>
+
+          <div className="p-4 border-t border-gray-200 bg-gray-50">
+            <Link
+              href="/sign-in"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block text-center text-black text-[2rem] font-normal transition-smooth hover:text-gray-600 py-3 mb-3"
+            >
+              Sign In
+            </Link>
+            <Link
+              href="/get-started"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block text-center px-8 py-4 text-[1.8rem] font-medium text-white bg-black rounded-[3rem] transition-smooth hover:bg-blue-600"
+            >
+              Get Started
+            </Link>
+          </div>
+        </div>
+      </div>
+      {/*==================== End of Mobile Dropdown Menu ====================*/}
     </nav>
   );
 };
