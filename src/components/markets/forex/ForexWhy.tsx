@@ -38,7 +38,7 @@ const ForexWhy = () => {
         {/*==================== End of Section Header ====================*/}
 
         {/*==================== Main Layout ====================*/}
-        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
+        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-start">
           {/*==================== Left: Content ====================*/}
           <div className="flex flex-col justify-center">
             <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2.4rem,3vw,3.2rem)] mb-[clamp(3rem,4vw,4rem)]">

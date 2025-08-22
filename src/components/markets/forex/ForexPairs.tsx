@@ -49,7 +49,7 @@ const ForexPairs = () => {
                 {pair.description}
               </p>
               <div className="pt-[clamp(1.5rem,2vw,2rem)] border-t border-n83-black/10">
-                <p className="m-0 font-medium text-n83-black text-[clamp(1.3rem,1.5vw,1.5rem)]">
+                <p className="m-0 font-medium text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)]">
                   Examples:{" "}
                   <span className="font-normal text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)">
                     {pair.examples}
@@ -63,7 +63,7 @@ const ForexPairs = () => {
 
         {/*==================== Bottom Note ====================*/}
         <div className="text-center">
-          <p className="m-0 font-medium leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)] max-w-[80rem] mx-auto">
+          <p className="m-0 font-medium leading-[1.4] text-n83-gray-600 text-[clamp(2rem,2.2vw,2.4rem)] max-w-[80rem] mx-auto">
             At N83-FX, you have access to a wide range of currency pairs —
             whether you want the stability of majors or the opportunities in
             minors and exotics.
