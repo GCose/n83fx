@@ -30,9 +30,15 @@ const ForexRisk = () => {
                 {riskPoints.map((point, index) => (
                   <div
                     key={index}
-                    className="flex items-start gap-[1.5rem] group"
+                    className="flex items-center gap-[1.5rem] group"
                   >
-                    <div className="w-[0.6rem] h-[0.6rem] bg-n83-black rounded-full mt-[1rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
+                    <svg
+                      className="w-[3rem] h-[3rem] text-n83-black mt-[0.4rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-110"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99zM11 16h2v2h-2v-2zm0-6h2v4h-2v-4z" />
+                    </svg>
                     <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {point}
                     </p>
