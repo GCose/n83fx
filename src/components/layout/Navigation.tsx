@@ -53,7 +53,7 @@ const Navigation = () => {
 
   const DropdownMenu = ({ trigger, items }: DropdownMenuProps) => (
     <div className="group relative">
-      <span className="cursor-pointer text-[1.5rem] font-normal text-gray-600 transition-smooth hover:text-black flex items-center gap-1">
+      <span className="cursor-pointer text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-600 transition-smooth hover:text-black flex items-center gap-1">
         {trigger}
         <svg
           className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
@@ -75,7 +75,7 @@ const Navigation = () => {
             <Link
               key={item.href}
               href={item.href}
-              className="block py-2 px-4 text-[1.4rem] text-gray-600 transition-smooth hover:bg-gray-50 hover:text-black"
+              className="block py-2 px-4 text-[1.7rem] text-gray-600 transition-smooth hover:bg-gray-50 hover:text-black"
             >
               {item.label}
             </Link>
@@ -116,7 +116,7 @@ const Navigation = () => {
             <li>
               <Link
                 href="/"
-                className="text-[1.5rem] font-normal text-gray-600 transition-smooth hover:text-black"
+                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-600 transition-smooth hover:text-black"
               >
                 Home
               </Link>
@@ -127,7 +127,7 @@ const Navigation = () => {
             <li>
               <Link
                 href="/account-type"
-                className="text-[1.5rem] font-normal text-gray-600 transition-smooth hover:text-black"
+                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-600 transition-smooth hover:text-black"
               >
                 Accounts
               </Link>
@@ -144,7 +144,7 @@ const Navigation = () => {
             <li>
               <Link
                 href="/contact-us"
-                className="text-[1.5rem] font-normal text-gray-600 transition-smooth hover:text-black"
+                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-600 transition-smooth hover:text-black"
               >
                 Contact Us
               </Link>
@@ -157,7 +157,7 @@ const Navigation = () => {
         <div className="flex items-center gap-8">
           <Link
             href="/sign-in"
-            className="text-black text-[1.5rem] font-normal transition-smooth hover:text-gray-600"
+            className="text-black text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal transition-smooth hover:text-gray-600"
           >
             Sign In
           </Link>
