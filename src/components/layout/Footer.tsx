@@ -21,7 +21,7 @@ const Footer = () => {
               />
             </Link>
             <p className="text-[clamp(1.8rem,2.2vw,2.2rem)] font-normal leading-[1.5] text-white/80 mb-[clamp(3rem,4vw,4rem)]">
-              Trading made simple. Emotions made calm.
+              Trade with clarity
             </p>
             <p className="text-[clamp(1.5rem,1.8vw,1.7rem)] leading-[1.6] text-white/70">
               We believe investing should feel good. No complexity, no pressure,
