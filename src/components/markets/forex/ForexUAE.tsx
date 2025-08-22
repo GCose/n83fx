@@ -5,7 +5,7 @@ const ForexUAE = () => {
     <section className="relative bg-n83-white py-[clamp(8rem,12vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
-        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
+        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-start">
           {/*==================== Left: Content ====================*/}
           <div className="flex flex-col justify-center">
             <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
@@ -28,9 +28,15 @@ const ForexUAE = () => {
               </p>
 
               {/*==================== UAE Benefits ====================*/}
-              <div className="grid gap-[clamp(2rem,2.5vw,2.5rem)] py-[clamp(2rem,3vw,3rem)] border-t border-b border-n83-black">
+              <div className="grid gap-[clamp(2rem,2.5vw,4rem)] py-[clamp(2rem,3vw,3rem)] border-t border-b border-n83-black">
                 <div className="flex items-start gap-[1.5rem] group">
-                  <div className="w-[0.6rem] h-[0.6rem] bg-n83-black rounded-full mt-[1rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
+                  <svg
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    className="w-[2rem] h-[2rem] text-n83-black mt-[0.6rem] flex-shrink-0"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
                   <div>
                     <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2rem)] mb-[0.5rem]">
                       Clear Regulatory Framework
@@ -43,7 +49,13 @@ const ForexUAE = () => {
                 </div>
 
                 <div className="flex items-start gap-[1.5rem] group">
-                  <div className="w-[0.6rem] h-[0.6rem] bg-n83-black rounded-full mt-[1rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
+                  <svg
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    className="w-[2rem] h-[2rem] text-n83-black mt-[0.6rem] flex-shrink-0"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
                   <div>
                     <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2rem)] mb-[0.5rem]">
                       Islamic Account Options
@@ -56,7 +68,13 @@ const ForexUAE = () => {
                 </div>
 
                 <div className="flex items-start gap-[1.5rem] group">
-                  <div className="w-[0.6rem] h-[0.6rem] bg-n83-black rounded-full mt-[1rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
+                  <svg
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    className="w-[2rem] h-[2rem] text-n83-black mt-[0.6rem] flex-shrink-0"
+                  >
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
                   <div>
                     <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
                       Growing Market Interest

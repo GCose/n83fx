@@ -54,7 +54,10 @@ const ForexN83Advantage = () => {
                     key={index}
                     className="flex items-start gap-[1.5rem] group"
                   >
-                    <div className="w-[0.6rem] h-[0.6rem] bg-n83-black rounded-full mt-[1rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"></div>
+                    <div className="relative w-[1.8rem] h-[1.8rem] mt-[0.5rem]">
+                      <div className="absolute w-full h-[5px] bg-n83-black top-1/2 -translate-y-1/2"></div>
+                      <div className="absolute h-full w-[5px] bg-n83-black left-1/2 -translate-x-1/2"></div>
+                    </div>
                     <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {condition}
                     </p>
