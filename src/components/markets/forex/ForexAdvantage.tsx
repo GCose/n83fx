@@ -32,7 +32,7 @@ const ForexN83Advantage = () => {
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
         <div className="text-center mb-[clamp(6rem,8vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(4rem,5vw,6rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
+          <h2 className="m-0 word-spacing font-extrabold leading-[1.2] text-n83-black text-[clamp(4rem,5vw,6rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
             The N83-FX Advantage
           </h2>
         </div>

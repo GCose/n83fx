@@ -34,6 +34,7 @@ module.exports = {
       spacing: {
         container: "clamp(1.5rem, 4vw, 3rem)",
       },
+      
     },
   },
   plugins: [],
