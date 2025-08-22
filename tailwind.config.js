@@ -17,6 +17,16 @@ module.exports = {
       },
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
+        sans: ["Playfair Display", "serif"],
+      },
+      fontWeight: {
+        300: "300",
+        400: "400",
+        500: "500",
+        600: "600",
+        700: "700",
+        800: "800",
+        900: "900",
       },
       maxWidth: {
         container: "1800px",

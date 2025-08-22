@@ -20,13 +20,13 @@ const Navigation = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const investingItems: NavigationItem[] = [
-    { href: "/investing/forex", label: "Forex" },
-    { href: "/investing/cryptos", label: "Cryptos" },
-    { href: "/investing/stocks", label: "Stocks" },
-    { href: "/investing/futures", label: "Futures" },
-    { href: "/investing/commodities", label: "Commodities" },
-    { href: "/investing/metals", label: "Metals" },
+  const marketsItems: NavigationItem[] = [
+    { href: "/markets/forex", label: "Forex" },
+    { href: "/markets/cryptos", label: "Cryptos" },
+    { href: "/markets/stocks", label: "Stocks" },
+    { href: "/markets/futures", label: "Futures" },
+    { href: "/markets/commodities", label: "Commodities" },
+    { href: "/markets/metals", label: "Metals" },
   ];
 
   const aboutItems: NavigationItem[] = [
@@ -122,14 +122,14 @@ const Navigation = () => {
               </Link>
             </li>
             <li>
-              <DropdownMenu trigger="Investing" items={investingItems} />
+              <DropdownMenu trigger="Markets" items={marketsItems} />
             </li>
             <li>
               <Link
                 href="/account-type"
                 className="text-[1.5rem] font-normal text-gray-600 transition-smooth hover:text-black"
               >
-                Account Type
+                Accounts
               </Link>
             </li>
             <li>
