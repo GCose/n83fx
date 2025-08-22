@@ -1,23 +1,23 @@
 import Image from "next/image";
 
-const StocksWhyTrade = () => {
+const FuturesWhyTrade = () => {
   const advantages = [
     {
-      title: "Clarity in execution",
-      description: "Transparent pricing, no hidden conditions.",
+      title: "Clarity first",
+      description: "Transparent contracts, no hidden conditions.",
     },
     {
-      title: "Calm trading environment",
-      description: "Simple layouts designed to reduce distractions.",
+      title: "Calm platform",
+      description: "Designed to reduce noise and support disciplined trading.",
     },
     {
-      title: "Broad market access",
-      description: "From U.S. tech to global blue chips.",
+      title: "Access to global markets",
+      description:
+        "Trade futures across commodities, indices, metals, and more.",
     },
     {
       title: "Respect for your capital",
-      description:
-        "Segregated client funds and fair conditions across all accounts.",
+      description: "Segregated accounts, fair leverage, and risk transparency.",
     },
   ];
 
@@ -32,8 +32,8 @@ const StocksWhyTrade = () => {
               <Image
                 width={800}
                 height={600}
-                src="/images/markets/stocks/stocks-whytradewithus.jpg"
-                alt="Clean stocks trading platform showing N83-FX advantages"
+                src="/images/markets/futures/futures-whytradewithus.jpg"
+                alt="Balanced futures trading platform showing N83-FX advantages"
                 className="w-full h-screen object-cover transition-transform duration-[0.6s] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />
             </div>
@@ -43,19 +43,13 @@ const StocksWhyTrade = () => {
           {/*==================== Right: Content ====================*/}
           <div className="flex flex-col justify-center">
             <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
-              Why Trade Stocks with N83-FX?
+              Why Trade Futures with N83-FX?
             </h2>
 
             <div className="space-y-[clamp(2.5rem,3vw,3rem)]">
               <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
-                Many brokers position stocks as just another tab in their
-                platform. At N83-FX, we believe stocks deserve focus — because
-                they{"'"}re where traders connect directly with the world{"'"}s
-                economic story.
-              </p>
-
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
-                With us, you gain:
+                Many brokers emphasize futures as a high-risk, high-reward
+                product. At N83-FX, we treat them with balance:
               </p>
 
               {/*==================== Advantages List ====================*/}
@@ -91,4 +85,4 @@ const StocksWhyTrade = () => {
   );
 };
 
-export default StocksWhyTrade;
+export default FuturesWhyTrade;
