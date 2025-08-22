@@ -86,10 +86,10 @@ const Navigation = () => {
           className="flex items-center justify-center gap-4 text-[2rem] font-semibold text-n83-black"
         >
           <Image
-            src="/images/logos/logo-dark.svg"
-            alt="N83-FX Logo"
             width={20}
             height={20}
+            alt="N83-FX Logo"
+            src="/images/logos/logo-dark.svg"
           />
           <span>N83-FX</span>
         </Link>
@@ -97,7 +97,7 @@ const Navigation = () => {
 
         {/*==================== Navigation Menu ====================*/}
         <div className="hidden lg:block">
-          <ul className="flex gap-[clamp(2rem,4vw,4rem)] list-none">
+          <ul className="flex gap-[clamp(2rem,calc(4vw + 0.5rem),4rem)] list-none">
             <li>
               <Link
                 href="/"

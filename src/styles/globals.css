@@ -41,6 +41,15 @@
   .transition-smooth {
     transition: var(--transition);
   }
+
+  .px-container {
+    padding-left: clamp(1.5rem, 4vw, 3rem);
+    padding-right: clamp(1.5rem, 4vw, 3rem);
+  }
+
+  .max-w-container {
+    max-width: 1800px;
+  }
 }
 
 /**===================

@@ -27,7 +27,7 @@ module.exports = {
         all: "all",
       },
       transitionDuration: {
-        "200": "200ms",
+        200: "200ms",
       },
       transitionTimingFunction: {
         ease: "ease",
