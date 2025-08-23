@@ -32,8 +32,8 @@ const Navigation = () => {
   ];
 
   const aboutItems: NavigationItem[] = [
-    { href: "/about/company-info", label: "Company Info" },
-    { href: "/about/economic-calendar", label: "Economic Calendar" },
+    { href: "/about/company-profile", label: "Company Profile" },
+    { href: "/about/about-n83fx", label: "About N83-FX" },
     { href: "/about/metatrader-5", label: "MetaTrader 5" },
     { href: "/about/currency-converter", label: "Currency Converter" },
   ];
@@ -173,7 +173,7 @@ const Navigation = () => {
             </li>
             <li>
               <Link
-                href="/account-type"
+                href="/accounts"
                 className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-600 transition-smooth hover:text-black"
               >
                 Accounts
