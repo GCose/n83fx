@@ -20,32 +20,6 @@ const IndicesHero = () => {
               </p>
             </div>
 
-            {/*==================== Key Points ====================*/}
-            <div className="mb-[clamp(4rem,5vw,5rem)]">
-              <div className="grid gap-[clamp(1.5rem,2vw,2rem)] border-t border-b border-n83-black py-[clamp(2rem,3vw,3rem)]">
-                <div className="flex items-start gap-[1rem]">
-                  <div className="w-[0.4rem] h-[0.4rem] bg-n83-black rounded-full mt-[1rem] flex-shrink-0"></div>
-                  <p className="m-0 font-medium text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)] leading-[1.3]">
-                    Global benchmarks - S&P 500, Dow Jones, FTSE 100, and major
-                    indices
-                  </p>
-                </div>
-                <div className="flex items-start gap-[1rem]">
-                  <div className="w-[0.4rem] h-[0.4rem] bg-n83-black rounded-full mt-[1rem] flex-shrink-0"></div>
-                  <p className="m-0 font-medium text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)] leading-[1.3]">
-                    Market exposure - Trade entire economies in single positions
-                  </p>
-                </div>
-                <div className="flex items-start gap-[1rem]">
-                  <div className="w-[0.4rem] h-[0.4rem] bg-n83-black rounded-full mt-[1rem] flex-shrink-0"></div>
-                  <p className="m-0 font-medium text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)] leading-[1.3]">
-                    Economic trends - Reflect earnings seasons, central bank
-                    decisions, global events
-                  </p>
-                </div>
-              </div>
-            </div>
-
             {/*==================== CTA Section ====================*/}
             <div className="flex items-center gap-[clamp(2rem,3vw,3rem)] flex-col lg:flex-row">
               <Link
