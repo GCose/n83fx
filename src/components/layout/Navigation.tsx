@@ -263,7 +263,7 @@ const Navigation = () => {
           <MobileDropdown trigger="Markets" items={marketsItems} />
 
           <Link
-            href="/account-type"
+            href="/accounts"
             onClick={() => setIsMobileMenuOpen(false)}
             className="block text-[2rem] font-normal text-gray-600 transition-smooth hover:text-black py-4 px-4 border-b border-gray-200 hover:bg-gray-50"
           >
