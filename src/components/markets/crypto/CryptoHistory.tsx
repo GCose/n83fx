@@ -14,21 +14,9 @@ const CryptoHistory = () => {
                 height={600}
                 src="/images/markets/crypto/crypto-history.jpg"
                 alt="Bitcoin launch in 2009 and crypto evolution timeline"
-                className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(40rem,50vh,60rem)] lg:min-h-[clamp(35rem,45vh,50rem)] md:min-h-[clamp(30rem,40vh,45rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
+                className="w-full h-screen object-cover transition-transform duration-[0.6s] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />
             </div>
-
-            {/*==================== Timeline Highlight ====================*/}
-            <div className="mt-[clamp(3rem,4vw,4rem)] p-[clamp(2.5rem,3vw,3rem)] bg-n83-white border-l border-r border-n83-black">
-              <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2.1rem)] mb-[1rem]">
-                2009: Bitcoin Launch
-              </h4>
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
-                The first decentralized digital currency, creating the
-                foundation for today{"'"}s crypto markets.
-              </p>
-            </div>
-            {/*==================== End of Timeline Highlight ====================*/}
           </div>
           {/*==================== End of Left: Visual ====================*/}
 

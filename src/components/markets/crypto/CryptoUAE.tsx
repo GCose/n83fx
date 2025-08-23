@@ -5,7 +5,7 @@ const CryptoUAE = () => {
     <section className="relative bg-n83-gray-50 py-[clamp(8rem,12vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
-        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
+        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-start">
           {/*==================== Left: Content ====================*/}
           <div className="flex flex-col justify-center">
             <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
