@@ -12,7 +12,7 @@ import FuturesDifference from "@/components/markets/futures/FuturesDifference";
 import FuturesProcess from "@/components/markets/futures/FuturesProcess";
 
 const futuresMeta = {
-  title: "B83-FX | Futures Trading with N83-FX",
+  title: "N83-FX | Futures Trading with N83-FX",
   description:
     "Trade global futures contracts with a platform built for clarity, discipline, and respect for your capital.",
   keywords:

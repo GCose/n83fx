@@ -12,7 +12,7 @@ import CommoditiesWhy from "@/components/markets/commodities/CommoditiesWhy";
 import CommoditiesProcess from "@/components/markets/commodities/CommoditesProcess";
 
 const commoditiesMeta = {
-  title: "NBA | Commodities Trading with N83-FX",
+  title: "N83-FX | Commodities Trading with N83-FX",
   description:
     "Diversify your portfolio with energy, metals, and agricultural markets — traded with clarity, transparency, and precision.",
   keywords:
