@@ -102,7 +102,7 @@ const AboutN83FXHow = () => {
         {/*==================== Ethics & Trust Section ====================*/}
         <div className="space-y-[clamp(3rem,4vw,4rem)]">
           {/*==================== Ethics Statement ====================*/}
-          <div className="bg-n83-gray-50 rounded-[2rem] p-[clamp(3rem,4vw,4rem)] border-t border-b border-n83-black text-center">
+          <div className="bg-n83-gray-50 p-[clamp(3rem,4vw,4rem)] border-t border-b border-n83-black text-center">
             <p className="m-0 font-normal leading-[1.4] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)]">
               No ads. No selling of order flow. No compromises. <br />
               <span className="text-[clamp(1.4rem,1.5vw,1.6rem)] text-n83-gray-600 italic">
