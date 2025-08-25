@@ -1,9 +1,9 @@
-import CompanyProfileCTA from "@/components/company-profile/CompanyProfileCTA";
-import CompanyProfileHero from "@/components/company-profile/CompanyProfileHero";
-import CompanyProfileLegal from "@/components/company-profile/CompanyProfileLegal";
-import CompanyProfilePolicies from "@/components/company-profile/CompanyProfilePolicies";
-import CompanyProfileProducts from "@/components/company-profile/CompanyProfileProducts";
-import CompanyProfileSupport from "@/components/company-profile/CompanyProfileSupport";
+import CompanyProfileCTA from "@/components/about-us/company-profile/CompanyProfileCTA";
+import CompanyProfileHero from "@/components/about-us/company-profile/CompanyProfileHero";
+import CompanyProfileLegal from "@/components/about-us/company-profile/CompanyProfileLegal";
+import CompanyProfilePolicies from "@/components/about-us/company-profile/CompanyProfilePolicies";
+import CompanyProfileProducts from "@/components/about-us/company-profile/CompanyProfileProducts";
+import CompanyProfileSupport from "@/components/about-us/company-profile/CompanyProfileSupport";
 import Layout from "@/components/layout/Layout";
 
 const companyProfileMeta = {

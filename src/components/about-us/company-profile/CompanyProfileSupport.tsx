@@ -33,7 +33,7 @@ const CompanyProfileSupport = () => {
             {supportDetails.map((detail, index) => (
               <div
                 key={index}
-                className="bg-n83-gray-50 rounded-[1.5rem] p-[clamp(2.5rem,3vw,3rem)]"
+                className="bg-n83-gray-100 rounded-[1.5rem] p-[clamp(2.5rem,3vw,3rem)]"
               >
                 <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(1rem,1.5vw,1.5rem)] uppercase">
                   {detail.title}

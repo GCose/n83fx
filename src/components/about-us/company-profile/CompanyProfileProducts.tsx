@@ -30,7 +30,7 @@ const CompanyProfileProducts = () => {
           {productSections.map((section, index) => (
             <div
               key={index}
-              className="bg-n83-gray-50 rounded-[2rem] p-[clamp(3rem,4vw,4rem)] text-center"
+              className="bg-n83-gray-100 rounded-[2rem] p-[clamp(3rem,4vw,4rem)] text-center"
             >
               <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(2rem,2.5vw,2.8rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase">
                 {section.title}
