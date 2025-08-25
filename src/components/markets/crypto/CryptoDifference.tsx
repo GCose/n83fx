@@ -42,7 +42,7 @@ const CryptoWhyDifferent = () => {
           {differences.map((difference, index) => (
             <div
               key={index}
-              className="p-[clamp(3rem,4vw,4rem)] bg-n83-gray-50 rounded-[2rem] border border-n83-black/10 hover:border-n83-black/20 transition-all duration-300 hover:-translate-y-[4px] hover:shadow-[0_12px_40px_rgba(0,0,0,0.1)]"
+              className="p-[clamp(3rem,4vw,4rem)] bg-n83-gray-100 rounded-[2rem] transition-all duration-300 hover:-translate-y-[4px]"
             >
               <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(1.5rem,2vw,2rem)]">
                 {difference.title}

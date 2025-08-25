@@ -34,11 +34,11 @@ const Navigation = () => {
   const aboutItems: NavigationItem[] = [
     { href: "/about/company-profile", label: "Company Profile" },
     { href: "/about/about-n83fx", label: "About N83-FX" },
-    { href: "/about/metatrader-5", label: "MetaTrader 5" },
-    { href: "/about/currency-converter", label: "Currency Converter" },
   ];
 
   const toolsItems: NavigationItem[] = [
+    { href: "/tools/metatrader-5", label: "MetaTrader 5" },
+    { href: "/tools/currency-converter", label: "Currency Converter" },
     { href: "/tools/market-news", label: "Market News" },
     { href: "/tools/blog", label: "Blog" },
   ];

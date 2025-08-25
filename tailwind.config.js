@@ -12,6 +12,7 @@ module.exports = {
         "n83-white": "#ffffff",
         "n83-blue": "#2563eb",
         "n83-gray-50": "#f9fafb",
+        "n83-gray-100": "#f1f4f7",
         "n83-gray-600": "#4b5563",
         "n83-gray-900": "#111827",
       },
@@ -34,7 +35,6 @@ module.exports = {
       spacing: {
         container: "clamp(1.5rem, 4vw, 3rem)",
       },
-      
     },
   },
   plugins: [],

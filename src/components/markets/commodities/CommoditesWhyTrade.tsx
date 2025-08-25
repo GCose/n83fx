@@ -22,7 +22,7 @@ const CommoditiesWhyTrade = () => {
   ];
 
   return (
-    <section className="relative bg-n83-gray-50 py-[clamp(8rem,12vw,12rem)]">
+    <section className="relative bg-n83-gray-100 py-[clamp(8rem,12vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
