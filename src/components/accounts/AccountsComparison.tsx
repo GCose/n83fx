@@ -39,7 +39,10 @@ const AccountsComparison = () => {
   ];
 
   return (
-    <section id="compare" className="py-[clamp(12rem,15vw,20rem)] bg-gray-50">
+    <section
+      id="compare"
+      className="py-[clamp(12rem,15vw,20rem)] bg-gray-white"
+    >
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
         <div className="text-center mb-[clamp(8rem,10vw,12rem)]">
@@ -209,7 +212,7 @@ const AccountsComparison = () => {
         {/*==================== End of Comparison Table ====================*/}
 
         {/*==================== Risk Reminder ====================*/}
-        <div className="bg-white p-[clamp(4rem,6vw,6rem)] text-center border-l border-r border-n83-black">
+        <div className="bg-n83-gray-50 p-[clamp(4rem,6vw,6rem)] text-center border-l border-r border-n83-black">
           <h3 className="m-0 font-bold leading-[1.3] text-black text-[clamp(2.5rem,3vw,3rem)] mb-[clamp(2rem,3vw,3rem)]">
             Risk Reminder
           </h3>
