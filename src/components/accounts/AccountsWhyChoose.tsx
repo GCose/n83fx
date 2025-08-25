@@ -27,7 +27,7 @@ const AccountsWhyChoose = () => {
         {/*==================== Editorial Layout ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
           {/*==================== Left: Content ====================*/}
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center order-2 lg:order-1">
             <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
               Why Traders Choose N83-FX Accounts
             </h2>
@@ -75,14 +75,14 @@ const AccountsWhyChoose = () => {
           {/*==================== End of Left: Content ====================*/}
 
           {/*==================== Right: Visual ====================*/}
-          <div className="relative">
+          <div className="relative order-1 lg:order-2">
             <div className="overflow-hidden relative rounded-[2.4rem] md:rounded-[1.6rem] bg-n83-black group">
               <Image
                 width={800}
                 height={600}
                 src="/images/accounts/accounts-why-choose.jpg"
                 alt="N83-FX account benefits and trader-focused approach"
-                className="w-full h-screen object-cover transition-transform duration-[0.6s] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
+                className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(25rem,35vh,35rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />
             </div>
 

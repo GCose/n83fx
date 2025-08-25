@@ -83,7 +83,7 @@ const AccountsTypes = () => {
         {/*==================== End of Section Header ====================*/}
 
         {/*==================== Account Types Grid ====================*/}
-        <div className="grid gap-[clamp(6rem,16vw,26rem)] mb-[clamp(6rem,8vw,8rem)]">
+        <div className="space-y-[clamp(8rem,12vw,15rem)]">
           {accountTypes.map((account, index) => (
             <div
               key={index}
@@ -103,7 +103,7 @@ const AccountsTypes = () => {
                     height={600}
                     src={account.image}
                     alt={`${account.title} trading interface and features`}
-                    className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(35rem,45vh,50rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
+                    className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(25rem,35vh,35rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
                   />
                 </div>
               </div>
@@ -115,11 +115,11 @@ const AccountsTypes = () => {
                   index % 2 === 1 ? "lg:col-start-1" : ""
                 }`}
               >
-                <div className="flex items-baseline gap-[2rem] mb-[clamp(2rem,3vw,3rem)]">
+                <div className="flex items-baseline gap-[2rem] mb-[clamp(2rem,3vw,3rem)] flex-col sm:flex-row sm:items-center">
                   <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2.4rem,3vw,3.2rem)] uppercase tracking-tight">
                     {account.title}
                   </h3>
-                  <span className="font-medium text-n83-gray-600 text-[clamp(2rem,1.6vw,4rem)]">
+                  <span className="font-medium text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                     {account.minDeposit}
                   </span>
                 </div>
