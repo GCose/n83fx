@@ -1,19 +1,27 @@
-import BuiltAround from "@/components/home/BuiltAround";
-import Hero from "@/components/home/Hero";
-import TradingOptions from "@/components/home/TradingOptions";
-import WhyChoose from "@/components/home/WhyChoose";
-import YoureInControl from "@/components/home/YourInControl";
+import HomeAccountsDetailed from "@/components/home/HomeAccountsDetailed";
+import HomeEducationTools from "@/components/home/HomeEducationTools";
+import HomeFAQFinalCTA from "@/components/home/HomeFAQFinalCTA";
+import HomeHero from "@/components/home/HomeHero";
+import HomeMarketsOverview from "@/components/home/HomeMarketsOverview";
+import HomeN83FXSystem from "@/components/home/HomeN83FXSystem";
+import HomeOperations from "@/components/home/HomeOperations";
+import HomeTrustRegulation from "@/components/home/HomeTrustRegulation";
+import HomeWhyExist from "@/components/home/HomeWhyExist";
 import Layout from "@/components/layout/Layout";
 import { N83FXPageMeta } from "@/pageMeta/meta";
 
 const Home = () => {
   return (
-    <Layout meta={N83FXPageMeta.homePage}>
-      <Hero />
-      <TradingOptions />
-      <WhyChoose />
-      <BuiltAround />
-      <YoureInControl />
+    <Layout meta={N83FXPageMeta.homePageMeta}>
+      <HomeHero />
+      <HomeWhyExist />
+      <HomeOperations />
+      <HomeN83FXSystem />
+      <HomeAccountsDetailed />
+      <HomeMarketsOverview />
+      <HomeEducationTools />
+      <HomeTrustRegulation />
+      <HomeFAQFinalCTA />
     </Layout>
   );
 };

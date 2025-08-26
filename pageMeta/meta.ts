@@ -1,8 +1,8 @@
 export const N83FXPageMeta = {
-  homePage: {
-    title: "N83-FX | Trading With Clarity",
+  homePageMeta: {
+    title: "N83-FX | Trade With Clarity.",
     description:
-      "Trading made simple. No complexity, no intimidation. Just straightforward investing for everyone.",
+      "A boutique multi-asset broker on MT5, built for calm, precise trading in the UAE. Licensed, regulated, with segregated client funds.",
   },
 
   // Investing Pages
