@@ -84,7 +84,10 @@ const HomeTrustRegulation = () => {
               <div className="space-y-[clamp(1.5rem,2vw,2rem)]">
                 {policies.map((policy, index) => (
                   <div key={index} className="flex items-center gap-[1.5rem]">
-                    <div className="w-[0.8rem] h-[0.8rem] bg-n83-black rounded-full flex-shrink-0"></div>
+                    <div className="relative w-[2rem] h-[2rem] mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125">
+                      <div className="absolute w-full h-[5px] bg-n83-black top-1/2 -translate-y-1/2"></div>
+                      <div className="absolute h-full w-[5px] bg-n83-black left-1/2 -translate-x-1/2"></div>
+                    </div>
                     <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {policy}
                     </p>
