@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const CompanyProfileCTA = () => {
   return (
-    <section className="bg-n83-black py-[clamp(8rem,10vw,12rem)]">
+    <section className="bg-n83-black py-[clamp(8rem,10vw,12rem)] mb-[clamp(8rem,10vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== CTA Section ====================*/}
         <div className="text-center mb-[clamp(6rem,8vw,10rem)]">
