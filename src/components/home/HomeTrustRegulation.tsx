@@ -127,7 +127,7 @@ const HomeTrustRegulation = () => {
           {/*==================== End of Section Header ====================*/}
 
           {/*==================== Expectations List ====================*/}
-          <div className="bg-n83-white border-l border-r border-n83-black rounded-[2rem] p-[clamp(4rem,5vw,5rem)] max-w-[80rem] mx-auto">
+          <div className="bg-n83-white border-l border-r border-n83-black p-[clamp(4rem,5vw,5rem)] max-w-[80rem] mx-auto">
             <div className="grid md:grid-cols-2 gap-[clamp(3rem,4vw,4rem)]">
               {expectations.map((expectation, index) => (
                 <div

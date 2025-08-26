@@ -68,7 +68,7 @@ const Hero = () => {
       {/*==================== Hero Quote ====================*/}
       <div className="py-[clamp(4rem,6vw,6rem)] border-t border-black/20">
         <div className="mx-auto text-center max-w-container px-container">
-          <blockquote className="font-normal leading-[1.4] max-w-[70rem] mx-auto italic mb-8 text-black font-playfair text-[clamp(2rem,3vw,2.4rem)]">
+          <blockquote className="font-normal leading-[1.4] max-w-[70rem] mx-auto  mb-8 text-black font-playfair text-[clamp(2rem,3vw,2.4rem)]">
             {'"'}Finally, a trading platform that doesn{"'"}t feel like you need
             a finance degree to use it.{'"'}
           </blockquote>
@@ -76,7 +76,7 @@ const Hero = () => {
             <div className="text-[#fbbf24] text-[1.8rem] tracking-[0.2rem]">
               ★★★★★
             </div>
-            <cite className="font-medium text-[1.4rem] not-italic text-gray-600 font-playfair">
+            <cite className="font-medium text-[1.4rem] not- text-gray-600 font-playfair">
               — Sarah M.
             </cite>
           </div>

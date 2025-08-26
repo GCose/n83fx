@@ -76,7 +76,7 @@ const HomeOperations = () => {
           {/*==================== Legal Statement ====================*/}
           <div className="mt-[clamp(6rem,8vw,8rem)]">
             <div className="bg-n83-gray-100 border-l border-r border-n83-black p-[clamp(3rem,4vw,4rem)] text-center">
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)] italic">
+              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)] ">
                 Client funds are held in segregated accounts with [Bank].
                 Licensed by [Regulator], License [XXXX]. → [Company Profile]
               </p>
