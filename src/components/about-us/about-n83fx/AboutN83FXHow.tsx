@@ -88,10 +88,10 @@ const AboutN83FXHow = () => {
               key={index}
               className="bg-n83-gray-50 rounded-[2rem] p-[clamp(3rem,3.5vw,3.5rem)] text-center group hover:bg-n83-white hover:-translate-y-[2px] transition-all duration-300"
             >
-              <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(1rem,1.5vw,1.5rem)]">
+              <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(1rem,1.5vw,2.1rem)]">
                 {block.title}
               </h3>
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.7rem)] italic">
+              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.9rem)] italic">
                 {block.description}
               </p>
             </div>
@@ -103,9 +103,9 @@ const AboutN83FXHow = () => {
         <div className="space-y-[clamp(3rem,4vw,4rem)]">
           {/*==================== Ethics Statement ====================*/}
           <div className="bg-n83-gray-50 p-[clamp(3rem,4vw,4rem)] border-t border-b border-n83-black text-center">
-            <p className="m-0 font-normal leading-[1.4] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)]">
+            <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,2.1rem)]">
               No ads. No selling of order flow. No compromises. <br />
-              <span className="text-[clamp(1.4rem,1.5vw,1.6rem)] text-n83-gray-600 italic">
+              <span className="text-[clamp(1.4rem,1.5vw,1.9rem)] text-n83-gray-600 italic">
                 *If applicable—confirm with legal; otherwise remove.
               </span>
             </p>
