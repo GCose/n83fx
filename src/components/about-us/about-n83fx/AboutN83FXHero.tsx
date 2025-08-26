@@ -23,9 +23,9 @@ const AboutN83FXHero = () => {
               priority
               width={1200}
               height={800}
-              alt="N83-FX trading philosophy visualization"
               src="/images/home-page/hero.jpg"
-              className="w-full h-full object-cover transition-transform duration-[600ms] ease-out saturate-[0.8] contrast-[1.1] group-hover:scale-[1.02]"
+              alt="N83-FX trading philosophy visualization"
+              className="w-full min-h-[clamp(50rem,60vh,70rem)] object-cover transition-transform duration-[600ms] ease-out saturate-[0.8] contrast-[1.1] group-hover:scale-[1.02]"
             />
 
             {/*==================== Overlay Content ====================*/}
