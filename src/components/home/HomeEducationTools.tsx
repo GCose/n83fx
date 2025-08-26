@@ -6,22 +6,22 @@ const HomeEducationTools = () => {
     {
       title: "The Calm Trader",
       description: "Mindset, risk, and systems in short, practical lessons",
-      image: "/images/home-page/education-calm-trader.jpg",
+      image: "/images/home-page/education-tools/home-calm-trader.jpg",
     },
     {
       title: "Economic Calendar",
       description: "What matters, when it matters",
-      image: "/images/home-page/education-calendar.jpg",
+      image: "/images/home-page/education-tools/home-economic-calendar.jpg",
     },
     {
       title: "Platform Guides",
       description: "MT5 made simple: orders, charts, risk tools",
-      image: "/images/home-page/education-platform.jpg",
+      image: "/images/home-page/education-tools/home-platform-guide.jpg",
     },
     {
       title: "Funding & Withdrawals",
       description: "Clear methods and timelines in plain English",
-      image: "/images/home-page/education-funding.jpg",
+      image: "/images/home-page/education-tools/home-funding.jpg",
     },
   ];
 

@@ -7,7 +7,7 @@ const HomeMarketsOverview = () => {
       title: "Forex",
       description: "The world's most liquid market, made clear.",
       href: "/markets/forex",
-      image: "/images/home-page/markets-section/home-forex.jpg",
+      image: "/images/home-page/forex-hero.jpg",
     },
     {
       title: "Commodities",
