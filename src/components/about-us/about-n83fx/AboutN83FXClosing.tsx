@@ -46,7 +46,7 @@ const AboutN83FXClosing = () => {
 
             {/*==================== Risk Reminder ====================*/}
             <div className="bg-n83-gray-50 border-n83-black border-l border-r p-[clamp(2.5rem,3vw,3rem)] mb-[clamp(4rem,5vw,5rem)]">
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] italic">
+              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)]">
                 Risk reminder: CFDs are complex instruments and carry a high
                 risk of loss due to leverage. Trade only what you can afford to
                 lose.

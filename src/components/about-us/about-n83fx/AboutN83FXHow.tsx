@@ -88,10 +88,10 @@ const AboutN83FXHow = () => {
               key={index}
               className="bg-n83-gray-50 rounded-[2rem] p-[clamp(3rem,3.5vw,3.5rem)] text-center group hover:bg-n83-white hover:-translate-y-[2px] transition-all duration-300"
             >
-              <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(1rem,1.5vw,2.1rem)]">
+              <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.9rem,1.8vw,2.4rem)] mb-[clamp(1rem,1.5vw,2rem)]">
                 {block.title}
               </h3>
-              <p className="m-0 font-normal leading-[1.2] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.2] text-n83-gray-600 text-[clamp(1.7rem,1.6vw,2.1rem)]">
                 {block.description}
               </p>
             </div>

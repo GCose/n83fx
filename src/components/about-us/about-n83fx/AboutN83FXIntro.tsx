@@ -18,7 +18,7 @@ const AboutN83FXIntro = () => {
 
             {/*==================== Definition Highlight ====================*/}
             <div className="bg-n83-white p-[clamp(3rem,4vw,4rem)] border-l border-r border-n83-black mb-[clamp(4rem,5vw,5rem)]">
-              <p className="m-0 font-medium leading-[1.4] text-n83-black text-[clamp(1.6rem,1.8vw,2rem)] italic">
+              <p className="m-0 font-medium leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,2rem)]">
                 N83-FX is a multi-asset broker on MT5, serving traders who value
                 a calm, precise environment.
               </p>
