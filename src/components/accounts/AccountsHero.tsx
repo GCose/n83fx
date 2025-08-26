@@ -28,8 +28,8 @@ const AccountsHero = () => {
               priority
               width={1600}
               height={800}
-              alt="N83-FX account types and trading interface"
               src="/images/accounts/accounts-hero.jpg"
+              alt="N83-FX account types and trading interface"
               className="w-full h-full object-cover transition-transform duration-[600ms] ease-out saturate-[0.8] contrast-[1.1] group-hover:scale-[1.02] min-h-[80vh]"
             />
 

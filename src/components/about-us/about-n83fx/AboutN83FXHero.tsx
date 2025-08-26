@@ -23,7 +23,7 @@ const AboutN83FXHero = () => {
               priority
               width={1200}
               height={800}
-              src="/images/home-page/hero.jpg"
+              src="/images/about/about-hero.jpg"
               alt="N83-FX trading philosophy visualization"
               className="w-full min-h-[clamp(50rem,60vh,70rem)] object-cover transition-transform duration-[600ms] ease-out saturate-[0.8] contrast-[1.1] group-hover:scale-[1.02]"
             />
