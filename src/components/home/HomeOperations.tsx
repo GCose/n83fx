@@ -29,9 +29,9 @@ const HomeOperations = () => {
             <Image
               width={1200}
               height={600}
-              src="/images/home-page/how-operate.jpg"
+              src="/images/home-page/operations-section/home-operations.jpg"
               alt="N83-FX clean platform design vs cluttered trading interfaces"
-              className="w-full h-full object-cover transition-transform duration-[600ms] ease-out saturate-[0.8] contrast-[1.1] group-hover:scale-[1.02]"
+              className="w-full h-full object-cover transition-transform duration-[600ms] ease-out saturate-[0.5] contrast-[1.1] group-hover:scale-[1.02]"
             />
           </div>
         </div>

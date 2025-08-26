@@ -7,18 +7,18 @@ const HomeN83FXSystem = () => {
       title: "Markets",
       description:
         "Access Forex, Commodities, Stocks, Indices, Crypto, Metals, Futures with transparent conditions and clear education.",
-      image: "/images/home-page/system-markets.jpg",
+      image: "/images/home-page/n83fx-system/home-markets.jpg",
     },
     {
       title: "Accounts",
       description:
         "Four straightforward options that match different stages: Standard, Advanced, Pro, Islamic (swap-free).",
-      image: "/images/home-page/system-accounts.jpg",
+      image: "/images/home-page/n83fx-system/home-accounts.jpg",
     },
     {
       title: "Platform",
       description: "MT5, configured for clarity and consistency—not noise.",
-      image: "/images/home-page/system-platform.jpg",
+      image: "/images/home-page/n83fx-system/home-platform.jpg",
     },
   ];
 
@@ -57,7 +57,7 @@ const HomeN83FXSystem = () => {
                     height={500}
                     src={component.image}
                     alt={`N83-FX ${component.title.toLowerCase()} system component`}
-                    className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(30rem,40vh,45rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
+                    className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(30rem,40vh,45rem)] saturate-[0.4] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
                   />
                 </div>
               </div>
