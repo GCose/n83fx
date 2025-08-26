@@ -40,7 +40,7 @@ const AboutN83FXHow = () => {
                 <Image
                   width={600}
                   height={400}
-                  src="/images/about/chaotic-platform.jpg"
+                  src="/images/about/about-confusion.jpg"
                   alt="Chaotic, overwhelming trading platform interface"
                   className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(25rem,30vh,35rem)] saturate-[0.6] contrast-[1.2] brightness-[0.8] opacity-80 group-hover:scale-[1.02]"
                 />
@@ -62,7 +62,7 @@ const AboutN83FXHow = () => {
                 <Image
                   width={600}
                   height={400}
-                  src="/images/about/calm-platform.jpg"
+                  src="/images/about/about-calm.jpg"
                   alt="N83-FX clean, minimal trading interface"
                   className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(25rem,30vh,35rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
                 />
