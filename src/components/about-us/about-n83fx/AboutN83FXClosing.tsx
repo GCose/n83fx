@@ -13,7 +13,7 @@ const AboutN83FXClosing = () => {
               <Image
                 width={600}
                 height={700}
-                src="/images/about/closing-statement.jpg"
+                src="/images/about/about-cta.jpg"
                 alt="N83-FX - Trading with clarity and intention"
                 className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(50rem,55vh,60rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />

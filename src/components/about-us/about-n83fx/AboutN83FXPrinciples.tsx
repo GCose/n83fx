@@ -82,7 +82,7 @@ const AboutN83FXPrinciples = () => {
               <Image
                 width={800}
                 height={900}
-                src="/images/about/principles-visual.jpg"
+                src="/images/about/about-principles.jpg"
                 alt="N83-FX core principles visualization - stillness, design, truth"
                 className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(50rem,60vh,70rem)] lg:min-h-[clamp(45rem,55vh,65rem)] md:min-h-[clamp(40rem,50vh,60rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />
