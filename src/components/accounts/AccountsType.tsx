@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 const AccountsTypes = () => {
   const accountTypes = [
@@ -7,6 +6,9 @@ const AccountsTypes = () => {
       title: "Standard Account",
       subtitle: "Start with Simplicity",
       minDeposit: "$100",
+      spreads: "From 1.5 pips",
+      leverage: "1:200",
+      commission: "No",
       description:
         "If you're new to trading or want to begin with smaller capital, the Standard Account gives you direct access to global markets without complexity.",
       features: [
@@ -17,12 +19,14 @@ const AccountsTypes = () => {
       bestFor:
         "Best for beginners testing strategies and learning the markets.",
       cta: "Open Standard Account",
-      image: "/images/accounts/standard-account.jpg",
     },
     {
       title: "Advanced Account",
       subtitle: "More Flexibility, Lower Costs",
       minDeposit: "$500",
+      spreads: "From 1.0 pips",
+      leverage: "1:200",
+      commission: "No",
       description:
         "For traders who are ready to trade more actively, the Advanced Account offers tighter spreads and a better pricing environment.",
       features: [
@@ -32,12 +36,14 @@ const AccountsTypes = () => {
       ],
       bestFor: "Choose this if you're trading regularly and want lower costs.",
       cta: "Open Advanced Account",
-      image: "/images/accounts/advanced-account.jpg",
     },
     {
       title: "Pro Account",
       subtitle: "Built for Professionals",
       minDeposit: "$2,000",
+      spreads: "From 0.2 pips",
+      leverage: "1:100",
+      commission: "No",
       description:
         "The Pro Account is designed for high-volume traders who need precision and top execution. With very tight spreads and professional conditions, this account is made for scaling.",
       features: [
@@ -48,12 +54,15 @@ const AccountsTypes = () => {
       bestFor:
         "Best if you're managing large positions and advanced strategies.",
       cta: "Open Pro Account",
-      image: "/images/accounts/pro-account.jpg",
+      popular: true,
     },
     {
       title: "Islamic Account",
       subtitle: "100% Swap-Free",
       minDeposit: "$100",
+      spreads: "Same as Standard",
+      leverage: "1:200",
+      commission: "No swaps",
       description:
         "Respecting the principles of Sharia, the Islamic Account provides a fully swap-free option without time limits or hidden charges.",
       features: [
@@ -63,15 +72,14 @@ const AccountsTypes = () => {
       ],
       bestFor: "The right choice if you require halal, swap-free trading.",
       cta: "Open Islamic Account",
-      image: "/images/accounts/islamic-account.jpg",
     },
   ];
 
   return (
-    <section className="relative bg-n83-gray-100 py-[clamp(8rem,12vw,12rem)]">
+    <section className="bg-n83-gray-100 py-[clamp(8rem,10vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
-        <div className="text-center mb-[clamp(6rem,8vw,8rem)]">
+        <div className="text-center mb-[clamp(6rem,7vw,8rem)]">
           <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
             Four Clear Choices
           </h2>
@@ -82,97 +90,121 @@ const AccountsTypes = () => {
         </div>
         {/*==================== End of Section Header ====================*/}
 
-        {/*==================== Account Types Grid ====================*/}
-        <div className="space-y-[clamp(8rem,12vw,15rem)]">
+        {/*==================== Account Cards Grid ====================*/}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[clamp(3rem,4vw,4rem)]">
           {accountTypes.map((account, index) => (
             <div
               key={index}
-              className={`grid lg:grid-cols-2 gap-[clamp(4rem,6vw,6rem)] items-center ${
-                index % 2 === 1 ? "lg:grid-flow-col-dense" : ""
+              className={`relative bg-n83-white rounded-[1.6rem] p-[clamp(3rem,4vw,4rem)] transition-all duration-300 hover:-translate-y-[2px] ${
+                account.popular
+                  ? "border-2 border-n83-black"
+                  : "border border-n83-gray-200"
               }`}
             >
-              {/*==================== Account Visual ====================*/}
-              <div
-                className={`relative ${
-                  index % 2 === 1 ? "lg:col-start-2" : ""
-                }`}
-              >
-                <div className="overflow-hidden relative rounded-[2.4rem] md:rounded-[1.6rem] bg-n83-black group">
-                  <Image
-                    width={800}
-                    height={600}
-                    src={account.image}
-                    alt={`${account.title} trading interface and features`}
-                    className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(25rem,35vh,35rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
-                  />
+              {/*==================== Popular Badge ====================*/}
+              {account.popular && (
+                <div className="absolute -top-[1.5rem] left-1/2 -translate-x-1/2">
+                  <div className="bg-n83-black text-n83-white px-[2rem] py-[0.8rem] rounded-full text-[1.4rem] font-medium uppercase tracking-wide">
+                    Most Popular
+                  </div>
                 </div>
-              </div>
-              {/*==================== End of Account Visual ====================*/}
+              )}
+              {/*==================== End of Popular Badge ====================*/}
 
-              {/*==================== Account Content ====================*/}
-              <div
-                className={`flex flex-col justify-center ${
-                  index % 2 === 1 ? "lg:col-start-1" : ""
-                }`}
-              >
-                <div className="flex items-baseline gap-[2rem] mb-[clamp(2rem,3vw,3rem)] flex-col sm:flex-row sm:items-center">
-                  <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2.4rem,3vw,3.2rem)] uppercase tracking-tight">
-                    {account.title}
-                  </h3>
-                  <span className="font-medium text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              {/*==================== Card Header ====================*/}
+              <div className="text-center mb-[clamp(3rem,4vw,3rem)]">
+                <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2rem,2.4vw,2.4rem)] mb-[clamp(1.5rem,2vw,2rem)] uppercase tracking-tight">
+                  {account.title}
+                </h3>
+                <h4 className="m-0 font-bold leading-[1.3] text-n83-black text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
+                  {account.subtitle}
+                </h4>
+                <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.5rem,1.6vw,1.8rem)]">
+                  {account.description}
+                </p>
+              </div>
+              {/*==================== End of Card Header ====================*/}
+
+              {/*==================== Pricing Details ====================*/}
+              <div className="space-y-[1.8rem] mb-[clamp(3rem,4vw,3rem)]">
+                <div className="flex justify-between items-center">
+                  <span className="text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    Min deposit
+                  </span>
+                  <span className="font-bold text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)]">
                     {account.minDeposit}
                   </span>
                 </div>
-
-                <h4 className="m-0 font-bold leading-[1.3] text-n83-black text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(1.5rem,2vw,2rem)]">
-                  {account.subtitle}
-                </h4>
-
-                <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[clamp(2.5rem,3vw,3rem)]">
-                  {account.description}
-                </p>
-
-                {/*==================== Account Features ====================*/}
-                <div className="space-y-[clamp(1.5rem,2vw,2rem)] mb-[clamp(2.5rem,3vw,3rem)]">
-                  {account.features.map((feature, featureIndex) => (
-                    <div
-                      key={featureIndex}
-                      className="flex items-start gap-[1.5rem]"
-                    >
-                      <div
-                        className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0"
-                        style={{ transform: "rotate(45deg)" }}
-                      ></div>
-                      <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
-                        {feature}
-                      </p>
-                    </div>
-                  ))}
+                <div className="flex justify-between items-center">
+                  <span className="text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    Spreads from
+                  </span>
+                  <span className="font-bold text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)]">
+                    {account.spreads}
+                  </span>
                 </div>
-                {/*==================== End of Account Features ====================*/}
-
-                {/*==================== Best For Section ====================*/}
-                <div className="p-[clamp(2rem,3vw,3rem)] bg-n83-white border-l border-r border-n83-black mb-[clamp(3rem,4vw,4rem)]">
-                  <p className="m-0 font-medium leading-[1.4] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)]">
-                    👉 {account.bestFor}
-                  </p>
+                <div className="flex justify-between items-center">
+                  <span className="text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    Leverage up to
+                  </span>
+                  <span className="font-bold text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)]">
+                    {account.leverage}
+                  </span>
                 </div>
-                {/*==================== End of Best For Section ====================*/}
-
-                {/*==================== Account CTA ====================*/}
-                <Link
-                  href="/account/open"
-                  className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-n83-black hover:-translate-y-[2px] hover:bg-n83-gray-900 hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] w-full lg:w-auto max-w-[35rem]"
-                >
-                  {account.cta}
-                </Link>
-                {/*==================== End of Account CTA ====================*/}
+                <div className="flex justify-between items-center">
+                  <span className="text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    Commission
+                  </span>
+                  <span className="font-bold text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)]">
+                    {account.commission}
+                  </span>
+                </div>
               </div>
-              {/*==================== End of Account Content ====================*/}
+              {/*==================== End of Pricing Details ====================*/}
+
+              {/*==================== Account Features ====================*/}
+              <div className="space-y-[1.5rem] mb-[clamp(2.5rem,3vw,3rem)]">
+                {account.features.map((feature, featureIndex) => (
+                  <div
+                    key={featureIndex}
+                    className="flex items-start gap-[1.5rem]"
+                  >
+                    <div
+                      className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0"
+                      style={{ transform: "rotate(45deg)" }}
+                    ></div>
+                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                      {feature}
+                    </p>
+                  </div>
+                ))}
+              </div>
+              {/*==================== End of Account Features ====================*/}
+
+              {/*==================== Best For Section ====================*/}
+              <div className="p-[clamp(2rem,3vw,3rem)] bg-n83-white border-l border-r border-n83-black mb-[clamp(3rem,4vw,4rem)]">
+                <p className="m-0 font-medium leading-[1.4] text-n83-black text-[clamp(1.5rem,1.7vw,1.7rem)]">
+                  👉 {account.bestFor}
+                </p>
+              </div>
+              {/*==================== End of Best For Section ====================*/}
+
+              {/*==================== CTA Button ====================*/}
+              <Link
+                href="/account/open"
+                className={`cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] w-full ${
+                  account.popular
+                    ? "text-n83-white bg-n83-black hover:-translate-y-[2px] hover:bg-n83-gray-900 hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)]"
+                    : "text-n83-black bg-transparent border-2 border-n83-black hover:text-n83-white hover:-translate-y-[2px] hover:bg-n83-black"
+                }`}
+              >
+                {account.cta}
+              </Link>
+              {/*==================== End of CTA Button ====================*/}
             </div>
           ))}
         </div>
-        {/*==================== End of Account Types Grid ====================*/}
+        {/*==================== End of Account Cards Grid ====================*/}
       </div>
     </section>
   );
