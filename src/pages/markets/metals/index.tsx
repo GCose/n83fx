@@ -6,7 +6,7 @@ import MetalsN83Advantage from "@/components/markets/metals/MetalsN83Advantage";
 import MetalsProcess from "@/components/markets/metals/MetalsProcess";
 import MetalsRisk from "@/components/markets/metals/MetalsRisk";
 import MetalsStartJourney from "@/components/markets/metals/MetalsStartJourney";
-import MetalsUAE from "@/components/markets/metals/MetalsUAE";
+// import MetalsUAE from "@/components/markets/metals/MetalsUAE";
 import MetalsWhatIs from "@/components/markets/metals/MetalsWhatIs";
 import MetalsWhy from "@/components/markets/metals/MetalsWhy";
 import MetalsWhyTrade from "@/components/markets/metals/MetalsWhyTrade";
@@ -28,7 +28,7 @@ const Metals = () => {
       <MetalsWhy />
       <MetalsWhyTrade />
       <MetalsN83Advantage />
-      <MetalsUAE />
+      {/* <MetalsUAE /> */}
       <MetalsProcess />
       <MetalsRisk />
       <MetalsDifference />

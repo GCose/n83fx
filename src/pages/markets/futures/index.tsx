@@ -4,7 +4,7 @@ import FuturesHistory from "@/components/markets/futures/FuturesHistory";
 import FuturesWhyTrade from "@/components/markets/futures/FuturesWhyTrade";
 import FuturesWhyTradeWithUs from "@/components/markets/futures/FuturesWhy";
 import FuturesN83Advantage from "@/components/markets/futures/FuturesN83Advantage";
-import FuturesUAE from "@/components/markets/futures/FuturesUAE";
+// import FuturesUAE from "@/components/markets/futures/FuturesUAE";
 import Layout from "@/components/layout/Layout";
 import FuturesRisk from "@/components/markets/futures/FuturesRisk";
 import FuturesStartJourney from "@/components/markets/futures/FutureStartJourney";
@@ -28,7 +28,7 @@ const Futures = () => {
       <FuturesWhyTrade />
       <FuturesWhyTradeWithUs />
       <FuturesN83Advantage />
-      <FuturesUAE />
+      {/* <FuturesUAE /> */}
       <FuturesProcess />
       <FuturesRisk />
       <FuturesDifference />

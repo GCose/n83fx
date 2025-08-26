@@ -4,7 +4,7 @@ import CryptoHistory from "@/components/markets/crypto/CryptoHistory";
 import CryptoWhyTrade from "@/components/markets/crypto/CryptoWhy";
 import CryptoWhyTradeWithUs from "@/components/markets/crypto/CryptoWhyTrade";
 import CryptoN83Advantage from "@/components/markets/crypto/CryptoN83Advantage";
-import CryptoUAE from "@/components/markets/crypto/CryptoUAE";
+// import CryptoUAE from "@/components/markets/crypto/CryptoUAE";
 import CryptoHowToTrade from "@/components/markets/crypto/CryptoHowToTrade";
 import CryptoManagingRisk from "@/components/markets/crypto/CryptoRiskManagement";
 import CryptoWhyDifferent from "@/components/markets/crypto/CryptoDifference";
@@ -28,7 +28,7 @@ const Crypto = () => {
       <CryptoWhyTrade />
       <CryptoWhyTradeWithUs />
       <CryptoN83Advantage />
-      <CryptoUAE />
+      {/* <CryptoUAE /> */}
       <CryptoHowToTrade />
       <CryptoManagingRisk />
       <CryptoWhyDifferent />

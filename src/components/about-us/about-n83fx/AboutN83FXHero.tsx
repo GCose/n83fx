@@ -27,18 +27,6 @@ const AboutN83FXHero = () => {
               alt="N83-FX trading philosophy visualization"
               className="w-full min-h-[clamp(50rem,60vh,70rem)] object-cover transition-transform duration-[600ms] ease-out saturate-[0.8] contrast-[1.1] group-hover:scale-[1.02]"
             />
-
-            {/*==================== Overlay Content ====================*/}
-            <div className="absolute top-0 left-0 right-0 bottom-0 z-[3] flex items-center justify-center p-[clamp(3rem,5vw,5rem)]">
-              <div className="text-center max-w-[80rem] mx-auto">
-                <h2 className="m-0 font-extrabold leading-[1.1] text-n83-white text-[clamp(3.5rem,4.5vw,5.5rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
-                  Clarity is our currency.
-                  <br />
-                  Stillness is our strategy.
-                </h2>
-              </div>
-            </div>
-            {/*==================== End of Overlay Content ====================*/}
           </div>
           <div className="text-center mt-[clamp(2rem,3vw,4rem)]">
             <p className="m-0 font-medium leading-[1.4] text-n83-black text-[clamp(1.6rem,1.8vw,2rem)]">

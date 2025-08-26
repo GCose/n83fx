@@ -4,7 +4,7 @@ import ForexHistory from "@/components/markets/forex/ForexHistory";
 import ForexPairs from "@/components/markets/forex/ForexPairs";
 import ForexWhy from "@/components/markets/forex/ForexWhy";
 import ForexAdvantage from "@/components/markets/forex/ForexAdvantage";
-import ForexUAE from "@/components/markets/forex/ForexUAE";
+// import ForexUAE from "@/components/markets/forex/ForexUAE";
 import ForexProcess from "@/components/markets/forex/ForexProcess";
 import ForexRisk from "@/components/markets/forex/ForexRisk";
 import ForexDifference from "@/components/markets/forex/ForexDifference";
@@ -28,7 +28,7 @@ const Forex = () => {
       <ForexPairs />
       <ForexWhy />
       <ForexAdvantage />
-      <ForexUAE />
+      {/* <ForexUAE /> */}
       <ForexProcess />
       <ForexRisk />
       <ForexDifference />

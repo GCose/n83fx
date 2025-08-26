@@ -6,7 +6,7 @@ import CommoditiesWhyDifferent from "@/components/markets/commodities/Commoditie
 import CommoditiesN83Advantage from "@/components/markets/commodities/Commoditiesm83Advantage";
 import CommoditiesRisk from "@/components/markets/commodities/CommoditiesRisk";
 import CommoditiesStartJourney from "@/components/markets/commodities/CommoditiesStartJourney";
-import CommoditiesUAE from "@/components/markets/commodities/CommoditiesUAE";
+// import CommoditiesUAE from "@/components/markets/commodities/CommoditiesUAE";
 import CommoditiesHistory from "@/components/markets/commodities/CommoditiesHistory";
 import CommoditiesWhy from "@/components/markets/commodities/CommoditiesWhy";
 import CommoditiesProcess from "@/components/markets/commodities/CommoditesProcess";
@@ -28,7 +28,7 @@ const Commodities = () => {
       <CommoditiesWhy />
       <CommoditiesWhyTrade />
       <CommoditiesN83Advantage />
-      <CommoditiesUAE />
+      {/* <CommoditiesUAE /> */}
       <CommoditiesProcess />
       <CommoditiesRisk />
       <CommoditiesWhyDifferent />

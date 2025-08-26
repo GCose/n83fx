@@ -4,7 +4,7 @@ import IndicesHistory from "@/components/markets/indices/IndicesHistory";
 import IndicesWhy from "@/components/markets/indices/IndicesWhy";
 import IndicesWhyTrade from "@/components/markets/indices/IndicesWhyTrade";
 import IndicesN83Advantage from "@/components/markets/indices/IndicesN83Advantage";
-import IndicesUAE from "@/components/markets/indices/IndicesUAE";
+// import IndicesUAE from "@/components/markets/indices/IndicesUAE";
 import IndicesProcess from "@/components/markets/indices/IndicesProcess";
 import IndicesRiskManagement from "@/components/markets/indices/IndicesRisk";
 import IndicesDifference from "@/components/markets/indices/IndicesDifference";
@@ -28,7 +28,7 @@ const Indices = () => {
       <IndicesWhy />
       <IndicesWhyTrade />
       <IndicesN83Advantage />
-      <IndicesUAE />
+      {/* <IndicesUAE /> */}
       <IndicesProcess />
       <IndicesRiskManagement />
       <IndicesDifference />

@@ -6,7 +6,7 @@ import StocksProcess from "@/components/markets/stocks/StocksProcess";
 import StocksN83Advantage from "@/components/markets/stocks/StocksN83Advantage";
 import StocksRisk from "@/components/markets/stocks/StocksRisk";
 import StocksStartJourney from "@/components/markets/stocks/StocksStartJourney";
-import StocksUAE from "@/components/markets/stocks/StocksUAE";
+// import StocksUAE from "@/components/markets/stocks/StocksUAE";
 import StocksWhy from "@/components/markets/stocks/StocksWhy";
 import StocksWhyTrade from "@/components/markets/stocks/StocksWhyTrade";
 import StocksWhatIs from "@/components/markets/stocks/StockWhatIs";
@@ -28,7 +28,7 @@ const Stocks = () => {
       <StocksWhy />
       <StocksWhyTrade />
       <StocksN83Advantage />
-      <StocksUAE />
+      {/* <StocksUAE /> */}
       <StocksProcess />
       <StocksRisk />
       <StocksWhyDifferent />

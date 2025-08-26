@@ -17,7 +17,7 @@ const HomeMarketsOverview = () => {
     },
     {
       title: "Stocks",
-      description: "Trade global businesses you can research and understand.",
+      description: "Trade global businesses you can research.",
       href: "/markets/stocks",
       image: "/images/home-page/market-stocks.jpg",
     },

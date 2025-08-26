@@ -32,13 +32,13 @@ const AboutN83FXClosing = () => {
 
             {/*==================== Brand Statements ====================*/}
             <div className="mb-[clamp(4rem,5vw,5rem)]">
-              <p className="m-0 font-normal leading-[1] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
+              <p className="m-0 font-extrabold leading-[1] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
                 This is N83-FX.
               </p>
-              <p className="m-0 font-normal leading-[1] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
+              <p className="m-0 font-extrabold leading-[1] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
                 This is Stillness-as-a-Service™.
               </p>
-              <p className="m-0 font-normal leading-[1] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(3rem,4vw,4rem)]">
+              <p className="m-0 font-extrabold leading-[1] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(3rem,4vw,4rem)]">
                 And this is only the beginning.
               </p>
             </div>
