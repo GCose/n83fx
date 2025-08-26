@@ -55,7 +55,7 @@ const AboutN83FXWho = () => {
                 N83-FX gives you what the market rarely offers:{" "}
                 <strong>a platform that respects your attention</strong>.
               </p>
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 We don{"'"}t push. We don{"'"}t gamify. We provide the
                 environment—
                 <strong>you bring the intelligence</strong>.
