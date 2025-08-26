@@ -23,7 +23,7 @@ const AboutN83FXClosing = () => {
 
           {/*==================== Right: Content ====================*/}
           <div>
-            <p className="m-0 font-normal leading-[1.5] text-n83-black text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(4rem,5vw,5rem)]">
+            <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(4rem,5vw,5rem)]">
               N83-FX isn{"'"}t here to shout louder than other platforms. It
               {"'"}s here to speak to a different kind of investor—one who doesn
               {"'"}t need noise to know they{"'"}re doing it right; one who sees
@@ -32,20 +32,20 @@ const AboutN83FXClosing = () => {
 
             {/*==================== Brand Statements ====================*/}
             <div className="mb-[clamp(4rem,5vw,5rem)]">
-              <p className="m-0 font-normal leading-[1.5] text-n83-black text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
+              <p className="m-0 font-normal leading-[1] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
                 This is N83-FX.
               </p>
-              <p className="m-0 font-normal leading-[1.5] text-n83-black text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
+              <p className="m-0 font-normal leading-[1] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
                 This is Stillness-as-a-Service™.
               </p>
-              <p className="m-0 font-normal leading-[1.5] text-n83-black text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(3rem,4vw,4rem)]">
+              <p className="m-0 font-normal leading-[1] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(3rem,4vw,4rem)]">
                 And this is only the beginning.
               </p>
             </div>
             {/*==================== End of Brand Statements ====================*/}
 
             {/*==================== Risk Reminder ====================*/}
-            <div className="bg-n83-gray-50 rounded-[1.5rem] p-[clamp(2.5rem,3vw,3rem)] mb-[clamp(4rem,5vw,5rem)]">
+            <div className="bg-n83-gray-50 border-n83-black border-l border-r p-[clamp(2.5rem,3vw,3rem)] mb-[clamp(4rem,5vw,5rem)]">
               <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.8rem,2vw,2rem)] italic">
                 Risk reminder: CFDs are complex instruments and carry a high
                 risk of loss due to leverage. Trade only what you can afford to

@@ -62,10 +62,10 @@ const AboutN83FXPrinciples = () => {
                       </svg>
                     </div>
                     <div className="flex-1">
-                      <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.8rem,2vw,2.2rem)] mb-[clamp(1rem,1.5vw,1.5rem)] uppercase">
+                      <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.8rem,2vw,2.4rem)] mb-[clamp(1rem,1.5vw,1.5rem)] uppercase">
                         {item.principle}
                       </h3>
-                      <p className="m-0 font-normal leading-[1.4] text-n83-black text-[clamp(1.4rem,1.6vw,1.7rem)]">
+                      <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,2rem)]">
                         {item.meaning}
                       </p>
                     </div>

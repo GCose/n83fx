@@ -9,7 +9,7 @@ const AboutN83FXHero = () => {
           <h1 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(4rem,5vw,6rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
             About N83-FX
           </h1>
-          <p className="m-0 font-normal leading-[1.4] text-n83-black text-[clamp(2rem,2.5vw,2.8rem)] max-w-[60rem] mx-auto">
+          <p className="m-0 font-normal leading-[1.4] text-n83-black text-[clamp(1.9rem,2.5vw,2.4rem)] max-w-[60rem] mx-auto">
             A statement. A space. A philosophy of wealth.
           </p>
         </div>
