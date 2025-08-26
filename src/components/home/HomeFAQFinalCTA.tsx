@@ -68,7 +68,7 @@ const HomeFAQFinalCTA = () => {
         <div className="w-full max-w-container mx-auto px-container">
           {/*==================== Final Statement ====================*/}
           <div className="text-center mb-[clamp(6rem,8vw,8rem)]">
-            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
+            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,6rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
               Trade with a platform that respects your attention.
             </h2>
 
