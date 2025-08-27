@@ -32,7 +32,7 @@ const CommoditiesWhyTrade = () => {
               <Image
                 width={800}
                 height={600}
-                src="/images/markets/commodities/commodities-whytradewithus.jpg"
+                src="/images/markets/commodities/commodities-why-trade.jpg"
                 alt="N83-FX commodities trading advantages and platform benefits"
                 className="w-full h-screen object-cover transition-transform duration-[0.6s] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />
