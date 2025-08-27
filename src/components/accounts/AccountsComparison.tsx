@@ -46,7 +46,7 @@ const AccountsComparison = () => {
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
         <div className="text-center mb-[clamp(8rem,10vw,12rem)]">
-          <h2 className="m-0 font-800 leading-[1.4] tracking-[-0.02em] uppercase text-black text-[clamp(5rem,5vw,8rem)] mb-[clamp(3rem,4vw,4rem)] font-playfair">
+          <h2 className="m-0 font-800 leading-[1.4] tracking-[-0.02em] uppercase text-black text-[clamp(4rem,5vw,6rem)] mb-[clamp(3rem,4vw,4rem)] font-playfair">
             Compare All
             <br />
             Accounts
