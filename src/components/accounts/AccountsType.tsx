@@ -100,7 +100,7 @@ const AccountsTypes = () => {
               {/*==================== End of Popular Badge ====================*/}
 
               {/*==================== Card Header ====================*/}
-              <div className="text-left mb-[clamp(3rem,4vw,3rem)]">
+              <div className="text-left my-2">
                 <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2rem,2.4vw,2.4rem)] mb-[clamp(1.5rem,2vw,2rem)] uppercase tracking-tight">
                   {account.title}
                 </h3>
@@ -122,7 +122,7 @@ const AccountsTypes = () => {
               {/*==================== End of Card Header ====================*/}
 
               {/*==================== Account Features ====================*/}
-              <div className="space-y-[1.5rem] mb-[clamp(2.5rem,3vw,3rem)]">
+              <div className="space-y-[1.5rem] my-[clamp(2.5rem,3vw,3rem)]">
                 {account.features.map((feature, featureIndex) => (
                   <div
                     key={featureIndex}
