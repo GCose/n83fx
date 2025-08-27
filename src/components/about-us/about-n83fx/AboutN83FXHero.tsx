@@ -6,10 +6,10 @@ const AboutN83FXHero = () => {
       <div className="flex-1 w-full flex flex-col px-container py-[clamp(4rem,6vw,6rem)]">
         {/*==================== Hero Title ====================*/}
         <div className="w-full mx-auto max-w-[100rem] text-center mb-[clamp(4rem,5vw,5rem)]">
-          <h1 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(4rem,5vw,6rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
+          <h1 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(4rem,5vw,8rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
             About N83-FX
           </h1>
-          <p className="m-0 font-normal leading-[1.4] text-n83-black text-[clamp(1.9rem,2.5vw,2.4rem)] max-w-[60rem] mx-auto">
+          <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.8rem,2vw,2.4rem)] max-w-[90rem] mx-auto">
             A statement. A space. A philosophy of wealth.
           </p>
         </div>

@@ -6,13 +6,13 @@ const AccountsHero = () => {
     <section className="flex min-h-screen pt-[5rem] flex-col bg-white">
       <div className="flex-1 w-full flex flex-col px-container py-[clamp(4rem,6vw,6rem)]">
         {/*==================== Editorial Title ====================*/}
-        <div className="w-full mx-auto max-w-[120rem] text-center mb-[clamp(6rem,8vw,8rem)]">
-          <h1 className="m-0 font-800 leading-[1.4] tracking-[-0.02em] uppercase text-black font-playfair text-[clamp(4rem,5vw,8rem)]">
+        <div className="w-full mx-auto max-w-[120rem] text-center mb-[clamp(4rem,5vw,5rem)]">
+          <h1 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(4rem,5vw,8rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
             Our Accounts
             <br />
             in Detail
           </h1>
-          <p className="mt-[clamp(3rem,4vw,4rem)] font-normal text-[clamp(1.8rem,2.5vw,2.7rem)] text-gray-600 max-w-[80rem] mx-auto leading-[1.5]">
+          <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.8rem,2vw,2.4rem)] max-w-[90rem] mx-auto">
             Choose from Standard, Advanced, Pro, or Islamic accounts — each
             designed with simple structure, full transparency, and respect for
             traders at every level.
