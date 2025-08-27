@@ -96,7 +96,7 @@ const MetalsN83Advantage = () => {
                 <Image
                   width={800}
                   height={600}
-                  src="/images/markets/metals/metals-platform.jpg"
+                  src="/images/markets/metals/metals-advantage-2.jpg"
                   alt="MetaTrader 5 platform optimized for metals trading"
                   className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(40rem,50vh,60rem)] lg:min-h-[clamp(35rem,45vh,50rem)] md:min-h-[clamp(30rem,40vh,45rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
                 />

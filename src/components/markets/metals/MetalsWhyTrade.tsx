@@ -32,7 +32,7 @@ const MetalsWhyTrade = () => {
               <Image
                 width={800}
                 height={600}
-                src="/images/markets/metals/metals-whytradewithus.jpg"
+                src="/images/markets/metals/metals-why-trade.jpg"
                 alt="N83-FX metals trading advantages and platform benefits"
                 className="w-full h-screen object-cover transition-transform duration-[0.6s] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />
