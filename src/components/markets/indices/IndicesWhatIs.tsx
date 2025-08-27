@@ -50,7 +50,7 @@ const IndicesWhatIs = () => {
               <Image
                 width={800}
                 height={600}
-                src="/images/markets/indices/indices-whatis.jpg"
+                src="/images/markets/indices/indices-what-is.jpg"
                 alt="Stock indices representing global market performance and sectors"
                 className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(40rem,50vh,60rem)] lg:min-h-[clamp(35rem,45vh,50rem)] md:min-h-[clamp(30rem,40vh,45rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />

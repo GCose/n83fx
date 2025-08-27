@@ -31,7 +31,7 @@ const IndicesWhyTrade = () => {
               <Image
                 width={800}
                 height={600}
-                src="/images/markets/indices/indices-whytradewithus.jpg"
+                src="/images/markets/indices/indices-why-trade.jpg"
                 alt="N83-FX indices trading advantages and core platform benefits"
                 className="w-full h-screen object-cover transition-transform duration-[0.6s] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />

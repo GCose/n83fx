@@ -7,7 +7,7 @@ const AccountsHero = () => {
       <div className="flex-1 w-full flex flex-col px-container py-[clamp(4rem,6vw,6rem)]">
         {/*==================== Editorial Title ====================*/}
         <div className="w-full mx-auto max-w-[120rem] text-center mb-[clamp(6rem,8vw,8rem)]">
-          <h1 className="m-0 font-800 leading-[1.4] tracking-[-0.02em] uppercase text-black font-playfair text-[clamp(4rem,5vw,11rem)]">
+          <h1 className="m-0 font-800 leading-[1.4] tracking-[-0.02em] uppercase text-black font-playfair text-[clamp(4rem,5vw,8rem)]">
             Our Accounts
             <br />
             in Detail
