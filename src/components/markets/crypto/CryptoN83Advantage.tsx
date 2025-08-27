@@ -73,7 +73,7 @@ const CryptoN83Advantage = () => {
                 <Image
                   width={800}
                   height={600}
-                  src="/images/markets/crypto/boutique-conditions.jpg"
+                  src="/images/markets/crypto/crypto-advantage.jpg"
                   alt="Professional crypto trading conditions and competitive spreads"
                   className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(40rem,50vh,60rem)] lg:min-h-[clamp(35rem,45vh,50rem)] md:min-h-[clamp(30rem,40vh,45rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
                 />
@@ -97,7 +97,7 @@ const CryptoN83Advantage = () => {
             {accountTypes.map((account, index) => (
               <div
                 key={index}
-                className="p-[clamp(2rem,3vw,3rem)] border border-n83-black/10 rounded-[1.6rem] hover:border-n83-black/20 transition-all duration-300 hover:-translate-y-[2px] hover:shadow-[0_8px_25px_rgba(0,0,0,0.1)]"
+                className="p-[clamp(2rem,3vw,3rem)] border border-n83-black/10 rounded-[1.6rem] hover:border-n83-black/20 transition-all duration-300 hover:-translate-y-[2px]"
               >
                 <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.8rem)] mb-[1rem]">
                   {account.title}
@@ -118,7 +118,7 @@ const CryptoN83Advantage = () => {
           <div className="relative">
             <div className="overflow-hidden relative rounded-[2.4rem] md:rounded-[1.6rem] bg-n83-black group">
               <Image
-                src="/images/markets/crypto/mt5-platform.jpg"
+                src="/images/markets/crypto/crypto-advantage-2.jpg"
                 alt="MetaTrader 5 platform with crypto integration"
                 width={800}
                 height={600}

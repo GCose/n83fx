@@ -100,7 +100,7 @@ const AccountsTypes = () => {
               {/*==================== End of Popular Badge ====================*/}
 
               {/*==================== Card Header ====================*/}
-              <div className="text-left my-2">
+              <div className="text-left max-[480px]:mt-10 my-2">
                 <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2rem,2.4vw,2.4rem)] mb-[clamp(1.5rem,2vw,2rem)] uppercase tracking-tight">
                   {account.title}
                 </h3>
