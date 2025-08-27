@@ -10,18 +10,11 @@ import MetalsStartJourney from "@/components/markets/metals/MetalsStartJourney";
 import MetalsWhatIs from "@/components/markets/metals/MetalsWhatIs";
 import MetalsWhy from "@/components/markets/metals/MetalsWhy";
 import MetalsWhyTrade from "@/components/markets/metals/MetalsWhyTrade";
-
-const metalsMeta = {
-  title: "N83-FX | Metals Trading with N83-FX",
-  description:
-    "Trade gold, silver, platinum, and more — with a platform designed for clarity, simplicity, and long-term trust.",
-  keywords:
-    "metals trading, gold, silver, platinum, precious metals, UAE metals broker, MetaTrader 5",
-};
+import { N83FXPageMeta } from "@/pageMeta/meta";
 
 const Metals = () => {
   return (
-    <Layout meta={metalsMeta}>
+    <Layout meta={N83FXPageMeta.metalsMeta}>
       <MetalsHero />
       <MetalsWhatIs />
       <MetalsHistory />

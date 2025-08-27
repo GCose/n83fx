@@ -10,18 +10,11 @@ import FuturesRisk from "@/components/markets/futures/FuturesRisk";
 import FuturesStartJourney from "@/components/markets/futures/FutureStartJourney";
 import FuturesDifference from "@/components/markets/futures/FuturesDifference";
 import FuturesProcess from "@/components/markets/futures/FuturesProcess";
-
-const futuresMeta = {
-  title: "N83-FX | Futures Trading with N83-FX",
-  description:
-    "Trade global futures contracts with a platform built for clarity, discipline, and respect for your capital.",
-  keywords:
-    "futures trading, commodities, indices, energy, UAE futures broker, MetaTrader 5",
-};
+import { N83FXPageMeta } from "@/pageMeta/meta";
 
 const Futures = () => {
   return (
-    <Layout meta={futuresMeta}>
+    <Layout meta={N83FXPageMeta.futuresMeta}>
       <FuturesHero />
       <FuturesWhatIs />
       <FuturesHistory />

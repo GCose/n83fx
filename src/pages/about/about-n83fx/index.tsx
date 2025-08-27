@@ -6,16 +6,11 @@ import AboutN83FXPrinciples from "@/components/about-us/about-n83fx/AboutN83FXPr
 import AboutN83FXWho from "@/components/about-us/about-n83fx/AboutN83FXWho";
 import AboutN83FXWhy from "@/components/about-us/about-n83fx/AboutN83FXWhy";
 import Layout from "@/components/layout/Layout";
-
-const aboutN83FXMeta = {
-  title: "N83-FX | About N83-FX",
-  description:
-    "A statement. A space. A philosophy of wealth. Clarity is our currency. Stillness is our strategy. Discover the N83-FX difference.",
-};
+import { N83FXPageMeta } from "@/pageMeta/meta";
 
 const AboutN83FX = () => {
   return (
-    <Layout meta={aboutN83FXMeta}>
+    <Layout meta={N83FXPageMeta.aboutN83FXMeta}>
       <AboutN83FXHero />
       <AboutN83FXIntro />
       <AboutN83FXWhy />

@@ -10,18 +10,11 @@ import StocksStartJourney from "@/components/markets/stocks/StocksStartJourney";
 import StocksWhy from "@/components/markets/stocks/StocksWhy";
 import StocksWhyTrade from "@/components/markets/stocks/StocksWhyTrade";
 import StocksWhatIs from "@/components/markets/stocks/StockWhatIs";
-
-const stocksMeta = {
-  title: "N83-FX | Stocks Trading with N83-FX",
-  description:
-    "Access the world's most recognized companies with a platform built for clarity, simplicity, and respect for your capital.",
-  keywords:
-    "stocks trading, equities, global companies, UAE stock broker, MetaTrader 5",
-};
+import { N83FXPageMeta } from "@/pageMeta/meta";
 
 const Stocks = () => {
   return (
-    <Layout meta={stocksMeta}>
+    <Layout meta={N83FXPageMeta.stocksMeta}>
       <StocksHero />
       <StocksWhatIs />
       <StocksHistory />

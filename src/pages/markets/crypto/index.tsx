@@ -10,18 +10,11 @@ import CryptoManagingRisk from "@/components/markets/crypto/CryptoRiskManagement
 import CryptoWhyDifferent from "@/components/markets/crypto/CryptoDifference";
 import CryptoBeginJourney from "@/components/markets/crypto/CryptoStartJourney";
 import Layout from "@/components/layout/Layout";
-
-const cryptoMeta = {
-  title: "N83-FX | Crypto Trading with N83-FX",
-  description:
-    "Trade the future of finance with the clarity, transparency, and discipline that this market deserves.",
-  keywords:
-    "crypto trading, bitcoin, ethereum, digital assets, UAE crypto broker, MetaTrader 5",
-};
+import { N83FXPageMeta } from "@/pageMeta/meta";
 
 const Crypto = () => {
   return (
-    <Layout meta={cryptoMeta}>
+    <Layout meta={N83FXPageMeta.cryptoMeta}>
       <CryptoHero />
       <CryptoWhatIs />
       <CryptoHistory />

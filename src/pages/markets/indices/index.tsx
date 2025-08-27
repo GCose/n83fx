@@ -10,18 +10,11 @@ import IndicesRiskManagement from "@/components/markets/indices/IndicesRisk";
 import IndicesDifference from "@/components/markets/indices/IndicesDifference";
 import IndicesStartJourney from "@/components/markets/indices/IndicesStartJourney";
 import Layout from "@/components/layout/Layout";
-
-const indicesMeta = {
-  title: "N83-FX | Indices Trading with N83-FX",
-  description:
-    "Trade the performance of global markets through carefully selected stock indices — with clarity, transparency, and discipline.",
-  keywords:
-    "indices trading, S&P 500, Dow Jones, FTSE 100, DAX 40, Nikkei 225, UAE indices broker, MetaTrader 5",
-};
+import { N83FXPageMeta } from "@/pageMeta/meta";
 
 const Indices = () => {
   return (
-    <Layout meta={indicesMeta}>
+    <Layout meta={N83FXPageMeta.indicesMeta}>
       <IndicesHero />
       <IndicesWhatIs />
       <IndicesHistory />

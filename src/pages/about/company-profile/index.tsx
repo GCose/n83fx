@@ -5,18 +5,11 @@ import CompanyProfilePolicies from "@/components/about-us/company-profile/Compan
 import CompanyProfileProducts from "@/components/about-us/company-profile/CompanyProfileProducts";
 import CompanyProfileSupport from "@/components/about-us/company-profile/CompanyProfileSupport";
 import Layout from "@/components/layout/Layout";
-
-const companyProfileMeta = {
-  title: "N83-FX | Company Profile",
-  description:
-    "N83-FX is a boutique multi-asset broker focused on clarity, discipline, and respect for client capital. Licensed and regulated with segregated client funds.",
-  keywords:
-    "N83-FX company profile, licensed broker, regulated, client funds protection, multi-asset trading",
-};
+import { N83FXPageMeta } from "@/pageMeta/meta";
 
 const CompanyProfile = () => {
   return (
-    <Layout meta={companyProfileMeta}>
+    <Layout meta={N83FXPageMeta.companyProfileMeta}>
       <CompanyProfileHero />
       <CompanyProfileLegal />
       <CompanyProfileProducts />
