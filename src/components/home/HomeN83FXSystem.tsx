@@ -69,7 +69,7 @@ const HomeN83FXSystem = () => {
                   index % 2 === 1 ? "lg:col-start-1" : ""
                 }`}
               >
-                <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.8rem,2vw,2.4rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
+                <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2.4rem,3vw,3.2rem)] mb-[clamp(2rem,3vw,3rem)]">
                   {component.title}
                 </h3>
                 <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,2rem)]">
