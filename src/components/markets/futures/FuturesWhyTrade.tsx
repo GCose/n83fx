@@ -32,7 +32,7 @@ const FutureWhyTrade = () => {
               <Image
                 width={800}
                 height={600}
-                src="/images/markets/futures/futures-whytradewithus.jpg"
+                src="/images/markets/futures/futures-why.jpg"
                 alt="Balanced futures trading platform showing N83-FX advantages"
                 className="w-full h-screen object-cover transition-transform duration-[0.6s] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />
