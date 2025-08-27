@@ -3,9 +3,9 @@ import Image from "next/image";
 const StocksWhyDifferent = () => {
   const differences = [
     "Honest trading conditions",
-    "No noise, no overhype", 
+    "No noise, no overhype",
     "A calm environment built for discipline and clarity",
-    "Long-term trust over short-term marketing gimmicks"
+    "Long-term trust over short-term marketing gimmicks",
   ];
 
   return (
@@ -21,13 +21,18 @@ const StocksWhyDifferent = () => {
 
             <div className="space-y-[clamp(2.5rem,3vw,3rem)]">
               <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
-                Competitors often highlight short-term promotions or advertise {"'"}zero commission{"'"} without explaining true costs. At N83-FX, we take another approach:
+                Competitors often highlight short-term promotions or advertise{" "}
+                {"'"}zero commission{"'"} without explaining true costs. At
+                N83-FX, we take another approach:
               </p>
 
               {/*==================== Differences List ====================*/}
               <div className="space-y-[clamp(1.5rem,2vw,2rem)]">
                 {differences.map((difference, index) => (
-                  <div key={index} className="flex items-start gap-[1.5rem] group">
+                  <div
+                    key={index}
+                    className="flex items-start gap-[1.5rem] group"
+                  >
                     <div
                       className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
                       style={{ transform: "rotate(45deg)" }}
@@ -43,7 +48,8 @@ const StocksWhyDifferent = () => {
               {/*==================== Philosophy Statement ====================*/}
               <div className="pt-[clamp(2rem,3vw,3rem)] border-t border-n83-black">
                 <p className="m-0 font-medium leading-[1.5] text-n83-black text-[clamp(1.7rem,1.9vw,2rem)]">
-                  We believe that sustainable trading relationships are built on transparency, not temporary incentives.
+                  We believe that sustainable trading relationships are built on
+                  transparency, not temporary incentives.
                 </p>
               </div>
               {/*==================== End of Philosophy Statement ====================*/}
@@ -51,7 +57,9 @@ const StocksWhyDifferent = () => {
               {/*==================== Clarity Focus ====================*/}
               <div className="p-[clamp(2.5rem,3vw,3rem)] bg-n83-gray-50 border-l border-r border-n83-black">
                 <p className="m-0 font-medium leading-[1.4] text-n83-black text-[clamp(1.8rem,2vw,2rem)]">
-                  Every feature at N83-FX is designed to eliminate distractions and help you focus on what matters: making informed trading decisions.
+                  Every feature at N83-FX is designed to eliminate distractions
+                  and help you focus on what matters: making informed trading
+                  decisions.
                 </p>
               </div>
               {/*==================== End of Clarity Focus ====================*/}
@@ -65,7 +73,7 @@ const StocksWhyDifferent = () => {
               <Image
                 width={800}
                 height={600}
-                src="/images/markets/stocks/stocks-different.jpg"
+                src="/images/markets/stocks/stocks-difference.jpg"
                 alt="Clean and transparent stocks trading environment at N83-FX"
                 className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(40rem,50vh,60rem)] lg:min-h-[clamp(35rem,45vh,50rem)] md:min-h-[clamp(30rem,40vh,45rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />

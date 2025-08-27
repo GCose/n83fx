@@ -93,7 +93,7 @@ const StocksProcess = () => {
               <Image
                 width={800}
                 height={600}
-                src="/images/markets/stocks/stocks-process.jpg"
+                src="/images/markets/stocks/stocks-how.jpg"
                 alt="Step-by-step stocks trading account setup process"
                 className="w-full h-screen object-cover transition-transform duration-[0.6s] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />

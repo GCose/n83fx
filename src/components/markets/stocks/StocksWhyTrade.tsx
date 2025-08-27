@@ -32,7 +32,7 @@ const StocksWhyTrade = () => {
               <Image
                 width={800}
                 height={600}
-                src="/images/markets/stocks/stocks-whytradewithus.jpg"
+                src="/images/markets/stocks/stocks-why-trade.jpg"
                 alt="Clean stocks trading platform showing N83-FX advantages"
                 className="w-full h-screen object-cover transition-transform duration-[0.6s] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
               />
