@@ -7,9 +7,9 @@ const HeroSection = () => {
         {/*==================== Video Background ====================*/}
         <div className="absolute inset-0 z-0">
           <video
-            autoPlay
             loop
             muted
+            autoPlay
             playsInline
             className="h-full w-full object-cover"
           >
@@ -17,8 +17,7 @@ const HeroSection = () => {
           </video>
 
           {/*==================== Gradient Overlays ====================*/}
-          <div className="absolute inset-0 bg-gradient-to-r from-n83-black/90 via-n83-black/60 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-t from-n83-black/50 via-transparent to-n83-black/30" />
+          <div className="absolute inset-0 bg-gradient-to-r from-n83-black/90 via-n83-black/80 to-transparent" />
           {/*==================== End of Gradient Overlays ====================*/}
         </div>
         {/*==================== End of Video Background ====================*/}
@@ -31,7 +30,7 @@ const HeroSection = () => {
               <div className="space-y-8">
                 {/*==================== Primary Headline ====================*/}
                 <div>
-                  <h1 className="typography-display text-[clamp(4rem,8vw,12rem)] text-text-primary">
+                  <h1 className="typography-display text-[clamp(4rem,10vw,17rem)] text-text-primary">
                     Built for{" "}
                     <span className="text-neon-primary animate-glow">
                       Winners
