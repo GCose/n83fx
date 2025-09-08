@@ -28,7 +28,7 @@ const Layout = ({ children, meta }: LayoutProps) => {
       </Head>
 
       <Navigation />
-      <main className="mx-auto max-w-container">{children}</main>
+      <main>{children}</main>
       <Footer />
     </>
   );

@@ -1,10 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   --transition: all 0.2s ease;
+
+  /*=== Font Families ===*/
+  --font-display: "Playfair Display", serif;
+  --font-body: "Space Grotesk", var(--font-space-grotesk), -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /*=== Typography Scale ===*/
+  --text-xs: 1.2rem; /* 12px */
+  --text-sm: 1.4rem; /* 14px */
+  --text-base: 1.6rem; /* 16px */
+  --text-lg: 1.8rem; /* 18px */
+  --text-xl: 2.4rem; /* 24px */
+  --text-2xl: 3.2rem; /* 32px */
+  --text-3xl: 4.8rem; /* 48px */
+  --text-4xl: 6.4rem; /* 64px */
+  --text-5xl: 9.6rem; /* 96px */
+  --text-6xl: 12.8rem; /* 128px */
+
+  /*=== Line Heights ===*/
+  --leading-snug: 1.2;
+  --leading-tight: 1.1;
+  --leading-loose: 1.6;
+  --leading-normal: 1.3;
+  --leading-relaxed: 1.5;
+
+  /*=== Letter Spacing ===*/
+  --tracking-normal: 0em;
+  --tracking-wide: 0.01em;
+  --tracking-tight: -0.02em;
+  --tracking-tighter: -0.04em;
 }
 
 @layer base {
@@ -18,11 +49,11 @@
 
   body {
     color: #000000;
-    line-height: 1.6;
-    font-size: 1.6rem;
+    font-size: var(--text-base);
     background-color: #ffffff;
+    font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
-    font-family: "Playfair Display", serif;
+    line-height: var(--leading-relaxed);
   }
 
   * {
@@ -35,10 +66,54 @@
     max-width: 100%;
   }
 
-  main {
-    margin-left: auto;
-    max-width: 1800px;
-    margin-right: auto;
+  /*========== Typography Hierarchy ==========*/
+  h1,
+  .text-display {
+    font-weight: 900;
+    font-family: var(--font-display);
+    line-height: var(--leading-tight);
+    letter-spacing: var(--tracking-tighter);
+  }
+
+  h2,
+  .text-title {
+    font-weight: 700;
+    font-family: var(--font-display);
+    line-height: var(--leading-snug);
+    letter-spacing: var(--tracking-tight);
+  }
+
+  h3,
+  .text-subtitle {
+    font-weight: 600;
+    font-family: var(--font-display);
+    line-height: var(--leading-normal);
+    letter-spacing: var(--tracking-tight);
+  }
+
+  h4,
+  h5,
+  h6,
+  .text-heading {
+    font-weight: 600;
+    font-family: var(--font-body);
+    line-height: var(--leading-normal);
+    letter-spacing: var(--tracking-normal);
+  }
+
+  p,
+  .text-body {
+    font-weight: 400;
+    font-family: var(--font-body);
+    line-height: var(--leading-relaxed);
+    letter-spacing: var(--tracking-normal);
+  }
+
+  .text-caption {
+    font-weight: 500;
+    font-family: var(--font-body);
+    line-height: var(--leading-normal);
+    letter-spacing: var(--tracking-wide);
   }
 
   .word-spacing {
@@ -56,8 +131,40 @@
     padding-right: clamp(1.5rem, 4vw, 3rem);
   }
 
-  .max-w-container {
-    max-width: 1800px;
+  /*========== Typography Utility Classes ==========*/
+  .typography-display {
+    font-weight: 900;
+    font-family: var(--font-display);
+    line-height: var(--leading-tight);
+    letter-spacing: var(--tracking-tighter);
+  }
+
+  .typography-title {
+    font-weight: 700;
+    font-family: var(--font-display);
+    line-height: var(--leading-snug);
+    letter-spacing: var(--tracking-tight);
+  }
+
+  .typography-subtitle {
+    font-weight: 600;
+    font-family: var(--font-display);
+    line-height: var(--leading-normal);
+    letter-spacing: var(--tracking-tight);
+  }
+
+  .typography-body {
+    font-weight: 400;
+    font-family: var(--font-body);
+    line-height: var(--leading-relaxed);
+    letter-spacing: var(--tracking-normal);
+  }
+
+  .typography-caption {
+    font-weight: 500;
+    font-family: var(--font-body);
+    line-height: var(--leading-normal);
+    letter-spacing: var(--tracking-wide);
   }
 
   /**===================
@@ -76,6 +183,6 @@
   }
 
   ::selection {
-    @apply text-white bg-black;
+    @apply text-n83-black bg-gray-50;
   }
 }

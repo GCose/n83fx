@@ -7,13 +7,15 @@ import HomeN83FXSystem from "@/components/home/HomeN83FXSystem";
 import HomeOperations from "@/components/home/HomeOperations";
 import HomeTrustRegulation from "@/components/home/HomeTrustRegulation";
 import HomeWhyExist from "@/components/home/HomeWhyExist";
+import HeroSection from "@/components/home2/HomeSection";
 import Layout from "@/components/layout/Layout";
 import { N83FXPageMeta } from "@/pageMeta/meta";
 
 const Home = () => {
   return (
     <Layout meta={N83FXPageMeta.homePageMeta}>
-      <HomeHero />
+      <HeroSection />
+      {/* <HomeHero /> */}
       <HomeWhyExist />
       <HomeOperations />
       <HomeN83FXSystem />

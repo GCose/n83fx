@@ -55,7 +55,7 @@ const Navigation = () => {
 
   const DropdownMenu = ({ trigger, items }: DropdownMenuProps) => (
     <div className="group relative">
-      <span className="cursor-pointer text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-600 transition-smooth hover:text-black flex items-center gap-1">
+      <span className="cursor-pointer text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-50 transition-smooth hover:text-black flex items-center gap-1">
         {trigger}
         <svg
           className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
@@ -136,24 +136,22 @@ const Navigation = () => {
     <nav
       className={cn(
         "fixed top-0 left-0 right-0 z-[100] backdrop-blur-[10px] border-b transition-all duration-300 w-full",
-        isScrolled
-          ? "bg-white/98 border-black/10 shadow-sm"
-          : "bg-white/95 border-black/5"
+        isScrolled ? "bg-black" : "bg-transparent backdrop-blur-sm"
       )}
     >
       <div className="h-[7rem] flex items-center justify-between w-full px-[clamp(1.5rem,4vw,3rem)]">
         {/*==================== Logo ====================*/}
         <Link
           href="/"
-          className="flex items-center justify-center gap-4 text-[2rem] font-semibold text-black relative z-50"
+          className="flex items-center justify-center gap-2 text-[2rem] font-semibold text-black relative z-50"
         >
           <Image
-            width={20}
-            height={20}
+            width={50}
+            height={50}
             alt="N83-FX Logo"
-            src="/images/logos/logo-dark.svg"
+            src="/images/logos/logo-light.svg"
           />
-          <span>N83-FX</span>
+          <span className="text-gray-50 mt-1">N83-FX</span>
         </Link>
         {/*==================== End of Logo ====================*/}
 
@@ -163,7 +161,7 @@ const Navigation = () => {
             <li>
               <Link
                 href="/"
-                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-600 transition-smooth hover:text-black"
+                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-50 transition-smooth hover:text-black"
               >
                 Home
               </Link>
@@ -174,7 +172,7 @@ const Navigation = () => {
             <li>
               <Link
                 href="/accounts"
-                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-600 transition-smooth hover:text-black"
+                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-50 transition-smooth hover:text-black"
               >
                 Accounts
               </Link>
@@ -191,7 +189,7 @@ const Navigation = () => {
             <li>
               <Link
                 href="/contact-us"
-                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-600 transition-smooth hover:text-black"
+                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-50 transition-smooth hover:text-black"
               >
                 Contact Us
               </Link>
@@ -199,23 +197,6 @@ const Navigation = () => {
           </ul>
         </div>
         {/*==================== End of Desktop Navigation Menu ====================*/}
-
-        {/*==================== Desktop Action Buttons ====================*/}
-        <div className="hidden lg:flex items-center gap-8">
-          <Link
-            href="/sign-in"
-            className="text-black text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal transition-smooth hover:text-gray-600"
-          >
-            Sign In
-          </Link>
-          <Link
-            href="/get-started"
-            className="inline-flex items-center justify-center px-8 py-4 text-[1.4rem] font-medium text-white bg-black rounded-[3rem] transition-smooth hover:bg-blue-600 hover:-translate-y-[1px]"
-          >
-            Get Started
-          </Link>
-        </div>
-        {/*==================== End of Desktop Action Buttons ====================*/}
 
         {/*==================== Mobile Menu Button ====================*/}
         <button
