@@ -1,7 +1,7 @@
 import HomeAccountsDetailed from "@/components/home/HomeAccountsDetailed";
 import HomeEducationTools from "@/components/home/HomeEducationTools";
 import HomeFAQFinalCTA from "@/components/home/HomeFAQFinalCTA";
-import HomeHero from "@/components/home/HomeHero";
+// import HomeHero from "@/components/home/HomeHero";
 import HomeMarketsOverview from "@/components/home/HomeMarketsOverview";
 import HomeN83FXSystem from "@/components/home/HomeN83FXSystem";
 import HomeOperations from "@/components/home/HomeOperations";
