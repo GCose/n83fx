@@ -184,6 +184,6 @@
   }
 
   ::selection {
-    @apply text-n83-black bg-gray-50;
+    @apply text-green-300 bg-green-700;
   }
 }
