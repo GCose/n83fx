@@ -55,19 +55,19 @@ const Navigation = () => {
 
   const DropdownMenu = ({ trigger, items }: DropdownMenuProps) => (
     <div className="group relative">
-      <span className="cursor-pointer text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-50 transition-smooth hover:text-black flex items-center gap-1">
+      <span className="cursor-pointer text-[clamp(1.4rem,1.8vw,1.7rem)] font-normal text-gray-50 transition-smooth hover:text-white flex items-center gap-1">
         {trigger}
         <svg
-          className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
           fill="none"
-          stroke="currentColor"
           viewBox="0 0 24 24"
+          stroke="currentColor"
+          className="w-2 h-2 transition-transform duration-200 group-hover:rotate-180"
         >
           <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
             strokeWidth={2}
             d="M19 9l-7 7-7-7"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </span>
@@ -77,7 +77,7 @@ const Navigation = () => {
             <Link
               key={item.href}
               href={item.href}
-              className="block py-2 px-4 text-[1.7rem] text-gray-600 transition-smooth hover:bg-gray-50 hover:text-black"
+              className="block py-2 px-4 text-[1.7rem] text-gray-600 transition-smooth hover:bg-gray-50 hover:text-white"
             >
               {item.label}
             </Link>
@@ -94,7 +94,7 @@ const Navigation = () => {
       <div className="border-b border-gray-200">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="w-full text-left text-[2rem] font-normal text-gray-600 transition-smooth hover:text-black flex items-center justify-between py-4 px-4"
+          className="w-full text-left text-[2rem] font-normal text-gray-600 transition-smooth hover:text-white flex items-center justify-between py-4 px-4"
         >
           {trigger}
           <svg
@@ -121,7 +121,7 @@ const Navigation = () => {
                 key={item.href}
                 href={item.href}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="block py-3 px-8 text-[1.8rem] text-gray-600 transition-smooth hover:text-black hover:bg-gray-100"
+                className="block py-3 px-8 text-[1.8rem] text-gray-600 transition-smooth hover:text-white hover:bg-gray-100"
               >
                 {item.label}
               </Link>
@@ -161,7 +161,7 @@ const Navigation = () => {
             <li>
               <Link
                 href="/"
-                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-50 transition-smooth hover:text-black"
+                className="text-[clamp(1.4rem,1.8vw,1.7rem)] font-normal text-gray-50 transition-smooth hover:text-white"
               >
                 Home
               </Link>
@@ -172,7 +172,7 @@ const Navigation = () => {
             <li>
               <Link
                 href="/accounts"
-                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-50 transition-smooth hover:text-black"
+                className="text-[clamp(1.4rem,1.8vw,1.7rem)] font-normal text-gray-50 transition-smooth hover:text-white"
               >
                 Accounts
               </Link>
@@ -189,7 +189,7 @@ const Navigation = () => {
             <li>
               <Link
                 href="/contact-us"
-                className="text-[clamp(1.6rem,1.8vw,1.9rem)] font-normal text-gray-50 transition-smooth hover:text-black"
+                className="text-[clamp(1.4rem,1.8vw,1.7rem)] font-normal text-gray-50 transition-smooth hover:text-white"
               >
                 Contact Us
               </Link>
@@ -236,7 +236,7 @@ const Navigation = () => {
           <Link
             href="/"
             onClick={() => setIsMobileMenuOpen(false)}
-            className="block text-[2rem] font-normal text-gray-600 transition-smooth hover:text-black py-4 px-4 border-b border-gray-200 hover:bg-gray-50"
+            className="block text-[2rem] font-normal text-gray-600 transition-smooth hover:text-white py-4 px-4 border-b border-gray-200 hover:bg-gray-50"
           >
             Home
           </Link>
@@ -246,7 +246,7 @@ const Navigation = () => {
           <Link
             href="/accounts"
             onClick={() => setIsMobileMenuOpen(false)}
-            className="block text-[2rem] font-normal text-gray-600 transition-smooth hover:text-black py-4 px-4 border-b border-gray-200 hover:bg-gray-50"
+            className="block text-[2rem] font-normal text-gray-600 transition-smooth hover:text-white py-4 px-4 border-b border-gray-200 hover:bg-gray-50"
           >
             Accounts
           </Link>
@@ -258,7 +258,7 @@ const Navigation = () => {
           <Link
             href="/contact-us"
             onClick={() => setIsMobileMenuOpen(false)}
-            className="block text-[2rem] font-normal text-gray-600 transition-smooth hover:text-black py-4 px-4 border-b border-gray-200 hover:bg-gray-50"
+            className="block text-[2rem] font-normal text-gray-600 transition-smooth hover:text-white py-4 px-4 border-b border-gray-200 hover:bg-gray-50"
           >
             Contact Us
           </Link>
