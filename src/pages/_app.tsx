@@ -1,11 +1,11 @@
-import { Playfair_Display, Space_Grotesk } from "next/font/google";
+import { Space_Mono, Space_Grotesk } from "next/font/google";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 
-const playfairDisplay = Playfair_Display({
+const spaceMono = Space_Mono({
   subsets: ["latin"],
-  variable: "--font-playfair",
-  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-space-mono",
+  weight: ["400", "700"],
 });
 
 const spaceGrotesk = Space_Grotesk({
@@ -16,7 +16,7 @@ const spaceGrotesk = Space_Grotesk({
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
-    <main className={`${playfairDisplay.className} ${spaceGrotesk.variable}`}>
+    <main className={`${spaceMono.className} ${spaceGrotesk.variable}`}>
       <Component {...pageProps} />
     </main>
   );

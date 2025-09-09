@@ -30,7 +30,7 @@ const HeroSection = () => {
               <div className="space-y-8">
                 {/*==================== Primary Headline ====================*/}
                 <div>
-                  <h1 className="typography-display text-[clamp(4rem,10vw,17rem)] text-text-primary">
+                  <h1 className="typography-display text-[clamp(5rem,10vw,17rem)] text-text-primary">
                     Built for{" "}
                     <span className="text-neon-primary animate-glow">
                       Winners
@@ -38,14 +38,14 @@ const HeroSection = () => {
                     .
                   </h1>
 
-                  <p className="typography-body text-[clamp(var(--text-lg),3vw,var(--text-2xl))] font-500 text-text-secondary max-w-[60rem]">
+                  <p className="typography-body text-[clamp(var(--text-lg),3vw,var(--text-xl))] font-500 text-text-secondary max-w-[80rem]">
                     Simple tools. Clean screen. Fast moves.
                   </p>
                 </div>
                 {/*==================== End of Primary Headline ====================*/}
 
                 {/*==================== CTA Buttons ====================*/}
-                <div className="flex flex-col sm:flex-row gap-6 pt-2">
+                <div className="flex flex-col sm:flex-row gap-6 pt-2 ">
                   <Link
                     href="/account/open"
                     className="group relative inline-flex items-center justify-center px-8 py-2 bg-neon-primary text-n83-black typography-body font-700 text-[var(--text-lg)] rounded-none border-2 border-neon-primary hover:bg-transparent hover:text-neon-primary transition-all duration-300 animate-pulse-neon"
