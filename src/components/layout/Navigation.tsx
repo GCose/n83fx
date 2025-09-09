@@ -205,19 +205,19 @@ const Navigation = () => {
         >
           <span
             className={cn(
-              "block w-7 h-0.5 bg-black transition-all duration-300",
+              "block w-7 h-0.5 bg-white transition-all duration-300",
               isMobileMenuOpen ? "rotate-45 translate-y-0" : "-translate-y-2"
             )}
           />
           <span
             className={cn(
-              "block w-7 h-0.5 bg-black transition-all duration-300",
+              "block w-7 h-0.5 bg-white transition-all duration-300",
               isMobileMenuOpen ? "opacity-0" : "opacity-100"
             )}
           />
           <span
             className={cn(
-              "block w-7 h-0.5 bg-black transition-all duration-300",
+              "block w-7 h-0.5 bg-white transition-all duration-300",
               isMobileMenuOpen ? "-rotate-45 -translate-y-0" : "translate-y-2"
             )}
           />
