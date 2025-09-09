@@ -5,6 +5,10 @@ const HeroSection = () => {
     <>
       {/*==================== Hero Section ====================*/}
       <section className="relative min-h-[130vh] w-full pt-[10rem] pb-[clamp(6rem,8vw,10rem)]">
+        {/*==================== Dark Overlay for Readability ====================*/}
+        <div className="absolute inset-0 bg-n83-black backdrop-blur-sm"></div>
+        {/*==================== End of Dark Overlay ====================*/}
+
         {/*==================== Hero Content ====================*/}
         <div className="flex items-center min-h-[calc(100vh-10rem)]">
           <div className="w-full max-w-container mx-auto px-container">
