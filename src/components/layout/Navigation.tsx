@@ -136,7 +136,7 @@ const Navigation = () => {
     <nav
       className={cn(
         "fixed top-0 left-0 right-0 z-[100] backdrop-blur-[10px] border-b transition-all duration-300 w-full",
-        isScrolled ? "bg-black" : "bg-transparent backdrop-blur-sm"
+        isScrolled ? "bg-black/20" : "bg-transparent backdrop-blur-sm"
       )}
     >
       <div className="h-[7rem] flex items-center justify-between w-full px-[clamp(1.5rem,4vw,3rem)]">

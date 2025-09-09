@@ -3,34 +3,17 @@ import Link from "next/link";
 const HeroSection = () => {
   return (
     <>
-      <section className="relative min-h-screen w-full overflow-hidden bg-n83-black">
-        {/*==================== Video Background ====================*/}
-        <div className="absolute inset-0 z-0">
-          <video
-            loop
-            muted
-            autoPlay
-            playsInline
-            className="h-full w-full object-cover"
-          >
-            <source src="/videos/hero-section-2.mp4" type="video/mp4" />
-          </video>
-
-          {/*==================== Gradient Overlays ====================*/}
-          <div className="absolute inset-0 bg-gradient-to-r from-n83-black/20 via-n83-black/10 to-transparent" />
-          {/*==================== End of Gradient Overlays ====================*/}
-        </div>
-        {/*==================== End of Video Background ====================*/}
-
+      {/*==================== Hero Section ====================*/}
+      <section className="relative min-h-[130vh] w-full pt-[10rem] pb-[clamp(6rem,8vw,10rem)]">
         {/*==================== Hero Content ====================*/}
-        <div className="relative z-10 flex min-h-screen items-center">
+        <div className="flex items-center min-h-[calc(100vh-10rem)]">
           <div className="w-full max-w-container mx-auto px-container">
-            <div className="flex items-center">
+            <div className="max-w-[120rem]">
               {/*==================== Main Content ====================*/}
-              <div className="space-y-3 md:space-y-8">
+              <div className="space-y-[clamp(1.9rem,6vw,2.5rem)]">
                 {/*==================== Primary Headline ====================*/}
-                <div>
-                  <h1 className="typography-display text-[clamp(5rem,10vw,19rem)] leading-1 text-text-primary">
+                <div className="space-y-[clamp(1.7rem,3vw,2rem)]">
+                  <h1 className="font-display text-[clamp(4rem,8vw,16rem)] font-900 leading-[0.85] text-text-primary tracking-tight">
                     Built for{" "}
                     <span className="text-neon-primary animate-glow">
                       Winners
@@ -38,30 +21,30 @@ const HeroSection = () => {
                     .
                   </h1>
 
-                  <p className="typography-body pt-2 md:pt-0 text-[clamp(var(--text-lg),3vw,var(--text-xl))] font-500 text-text-secondary max-w-[80rem]">
+                  <p className="font-body text-[clamp(1.8rem,3vw,3rem)] font-500 text-text-secondary leading-[1.2] max-w-[90rem]">
                     Simple tools. Clean screen. Fast moves.
                   </p>
                 </div>
                 {/*==================== End of Primary Headline ====================*/}
 
                 {/*==================== CTA Buttons ====================*/}
-                <div className="flex flex-col sm:flex-row gap-4 md:gap-6 pt-2 ">
+                <div className="flex flex-col sm:flex-row gap-[clamp(2rem,3vw,4rem)] pt-[clamp(3rem,4vw,6rem)]">
                   <Link
                     href="/account/open"
-                    className="group relative inline-flex items-center justify-center px-4 py-2 bg-neon-primary text-n83-black typography-body font-700 text-[var(--text-lg)] rounded-none border-2 border-neon-primary hover:bg-transparent hover:text-neon-primary transition-all duration-300 animate-pulse-neon"
+                    className="group relative inline-flex items-center justify-center px-[clamp(3rem,4vw,5rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-neon-primary text-n83-black font-body font-700 text-[clamp(1.6rem,2vw,2rem)] rounded-none border-2 border-neon-primary hover:bg-transparent hover:text-neon-primary transition-all duration-300"
                   >
                     Open Account
-                    <span className="ml-3 group-hover:translate-x-1 transition-transform duration-300">
+                    <span className="ml-[1rem] group-hover:translate-x-[0.5rem] transition-transform duration-300">
                       →
                     </span>
                   </Link>
 
                   <Link
                     href="/pricing"
-                    className="group inline-flex items-center justify-center px-4 py-2 bg-transparent text-text-primary typography-body font-600 text-[var(--text-lg)] border-2 border-text-primary hover:border-neon-primary hover:text-neon-primary transition-all duration-300"
+                    className="group inline-flex items-center justify-center px-[clamp(3rem,4vw,5rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-transparent text-text-primary font-body font-600 text-[clamp(1.6rem,2vw,2rem)] border-2 border-text-primary hover:border-neon-primary hover:text-neon-primary transition-all duration-300"
                   >
                     See Pricing
-                    <span className="ml-3 group-hover:translate-x-1 transition-transform duration-300">
+                    <span className="ml-[1rem] group-hover:translate-x-[0.5rem] transition-transform duration-300">
                       →
                     </span>
                   </Link>
@@ -74,6 +57,7 @@ const HeroSection = () => {
         </div>
         {/*==================== End of Hero Content ====================*/}
       </section>
+      {/*==================== End of Hero Section ====================*/}
     </>
   );
 };
