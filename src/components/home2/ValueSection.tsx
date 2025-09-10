@@ -31,10 +31,14 @@ const ValueSection = () => {
 
   return (
     <>
-      {/*==================== What You Get Section ====================*/}
+      {/*==================== Value Section ====================*/}
       <section className="relative py-[clamp(10rem,20vw,15rem)]">
+        {/*==================== Falling Tech Particles ====================*/}
+        <div className="falling__particles"></div>
+        {/*==================== End of Falling Tech Particles ====================*/}
+
         {/*==================== Dark Overlay ====================*/}
-        <div className="absolute inset-0 bg-n83-black backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-n83-black backdrop-blur-sm z-0"></div>
         {/*==================== End of Dark Overlay ====================*/}
 
         <div className="relative z-10 w-full max-w-container mx-auto px-container">
@@ -51,27 +55,27 @@ const ValueSection = () => {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="grid grid-cols-12 gap-[clamp(3rem,4vw,25rem)] items-start border-t border-neon-primary/60 pt-6"
+                className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-[clamp(2rem,4vw,4rem)] items-start border-t border-neon-primary/60 pt-6"
               >
                 {/*==================== Column 1: Number ====================*/}
-                <div className="col-span-1">
-                  <span className="font-display text-[clamp(4rem,6vw,6rem)] font-900 text-neon-primary leading-[1]">
+                <div className="col-span-1 md:col-span-1 lg:col-span-1 mb-4 md:mb-0">
+                  <span className="font-display text-[clamp(3rem,5vw,6rem)] font-900 text-neon-primary leading-[1]">
                     {feature.number}
                   </span>
                 </div>
                 {/*==================== End of Column 1 ====================*/}
 
                 {/*==================== Column 2: Title ====================*/}
-                <div className="col-span-3">
-                  <h3 className="font-display text-[clamp(2rem,4vw,3.5rem)] font-700 text-text-primary leading-[1.1] tracking-tight">
+                <div className="col-span-1 md:col-span-2 lg:col-span-3 mb-4 md:mb-0">
+                  <h3 className="font-display text-[clamp(1.8rem,3vw,3.5rem)] font-700 text-text-primary leading-[1.1] tracking-tight">
                     {feature.title}
                   </h3>
                 </div>
                 {/*==================== End of Column 2 ====================*/}
 
                 {/*==================== Column 3: Content + Image ====================*/}
-                <div className="col-span-8">
-                  <p className="font-body text-[clamp(2rem,4vw,3.5rem)] text-right text-text-secondary leading-[1.1] mb-[clamp(4rem,6vw,2rem)]">
+                <div className="col-span-1 md:col-span-3 lg:col-span-8">
+                  <p className="font-body text-[clamp(1.6rem,3vw,3.5rem)] text-left md:text-right text-text-secondary leading-[1.1] mb-[clamp(3rem,4vw,2rem)]">
                     {feature.description}
                   </p>
 
@@ -81,7 +85,7 @@ const ValueSection = () => {
                       height={800}
                       src={feature.image}
                       alt={feature.title}
-                      className="w-full h-screen object-cover transition-transform duration-500 hover:scale-105"
+                      className="w-full h-[clamp(40rem,60vh,100vh)] md:h-[clamp(50rem,70vh,100vh)] lg:h-screen object-cover transition-transform duration-500 hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-n83-black/40 via-transparent to-transparent pointer-events-none"></div>
                   </div>
@@ -93,7 +97,7 @@ const ValueSection = () => {
           {/*==================== End of Features Rows ====================*/}
 
           {/*==================== Call to Action ====================*/}
-          <div className="mt-[clamp(15rem,20vw,25rem)] ">
+          <div className="mt-[clamp(15rem,20vw,25rem)]">
             <Link
               href="/account/open"
               className="group inline-flex items-center justify-center px-[clamp(3rem,4vw,5rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-neon-primary text-n83-black font-body font-700 text-[clamp(1.6rem,2vw,2rem)] hover:bg-transparent hover:text-neon-primary border-2 border-neon-primary transition-all duration-300"
@@ -111,7 +115,7 @@ const ValueSection = () => {
           {/*==================== End of Call to Action ====================*/}
         </div>
       </section>
-      {/*==================== End of What You Get Section ====================*/}
+      {/*==================== End of Value Section ====================*/}
     </>
   );
 };

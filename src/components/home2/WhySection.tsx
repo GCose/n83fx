@@ -62,10 +62,6 @@ const WhySection = () => {
               >
                 <source src="/videos/hero-section.mp4" type="video/mp4" />
               </video>
-
-              {/*==================== Video Overlay ====================*/}
-              {/* <div className="absolute inset-0 bg-gradient-to-t from-n83-black/60 via-transparent to-n83-black/30 pointer-events-none"></div> */}
-              {/*==================== End of Video Overlay ====================*/}
             </div>
           </div>
           {/*==================== End of Video Section ====================*/}
