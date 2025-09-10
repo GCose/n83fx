@@ -31,7 +31,7 @@ const SpeedSilenceSection = () => {
           {/*==================== Main Content Grid ====================*/}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-[clamp(8rem,10vw,12rem)] items-center">
             {/*==================== Left: Features in Diagonal Flow ====================*/}
-            <div className="lg:col-span-7 space-y-[clamp(6rem,8vw,8rem)]">
+            <div className="lg:col-span-5 space-y-[clamp(6rem,8vw,8rem)]">
               {features.map((feature, index) => (
                 <div
                   key={index}
@@ -60,13 +60,7 @@ const SpeedSilenceSection = () => {
               ))}
 
               {/*==================== CTA Section ====================*/}
-              <div
-                className="pt-[clamp(6rem,8vw,8rem)]"
-                style={{
-                  transform: "translateX(18rem)",
-                  maxWidth: "calc(100% - 18rem)",
-                }}
-              >
+              <div >
                 <Link
                   href="/about/about-n83fx"
                   className="group inline-flex items-center justify-center px-[clamp(4rem,6vw,8rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-transparent text-neon-primary font-body font-600 text-[clamp(1.6rem,2vw,2rem)] border-2 border-neon-primary hover:bg-neon-primary hover:text-n83-black transition-all duration-300"
@@ -82,15 +76,15 @@ const SpeedSilenceSection = () => {
             {/*==================== End of Left: Features ====================*/}
 
             {/*==================== Right: Rotated Image ====================*/}
-            <div className="lg:col-span-5 flex items-center justify-center">
+            <div className="lg:col-span-7 flex items-center justify-center">
               <div className="relative transform group">
                 <div className="relative overflow-hidden bg-n83-black shadow-[0_2rem_6rem_rgba(0,255,136,0.2)] transition-all duration-700 group-hover:shadow-[0_3rem,8rem_rgba(0,255,136,0.4)] group-hover:rotate-[3deg]">
                   <Image
                     width={600}
                     height={800}
-                    src="/images/home-page/operations-section/home-operations.jpg"
+                    src="/images/home-page/education-tools/home-calm-trader.jpg"
                     alt="N83-FX platform showing speed and silent operation"
-                    className="w-full h-screen object-cover transition-transform duration-700 saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.05]"
+                    className="w-screen h-full object-cover transition-transform duration-700 saturate-[0.8] contrast-[1.1] brightness-[0.95]"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-n83-black/60 via-transparent to-transparent pointer-events-none"></div>
                 </div>

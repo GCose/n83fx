@@ -1,8 +1,8 @@
 import HomeFAQFinalCTA from "@/components/home/HomeFAQFinalCTA";
-import HomeTrustRegulation from "@/components/home/HomeTrustRegulation";
 import AccountsSection from "@/components/home2/AccountsSection";
 import HeroSection from "@/components/home2/HomeSection";
 import SpeedSilenceSection from "@/components/home2/SpeedSection";
+import TrustSection from "@/components/home2/TrustSection";
 import ValueSection from "@/components/home2/ValueSection";
 import WhySection from "@/components/home2/WhySection";
 import Layout from "@/components/layout/Layout";
@@ -36,7 +36,7 @@ const Home = () => {
           <ValueSection />
           <AccountsSection />
           <SpeedSilenceSection />
-          <HomeTrustRegulation />
+          <TrustSection />
           <HomeFAQFinalCTA />
         </div>
       </div>
