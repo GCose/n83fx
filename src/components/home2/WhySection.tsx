@@ -20,14 +20,14 @@ const WhySection = () => {
     <>
       {/*==================== Why N83-FX Section ====================*/}
       <section className="relative py-[clamp(10rem,20vw,15rem)]">
-        {/*==================== Dark Overlay for Readability ====================*/}
+        {/*==================== Dark Overlay ====================*/}
         <div className="absolute inset-0 bg-n83-black backdrop-blur-sm"></div>
         {/*==================== End of Dark Overlay ====================*/}
 
         <div className="relative z-10 w-full max-w-container mx-auto px-container">
           {/*==================== Section Title ====================*/}
           <div className="mb-[clamp(8rem,12vw,10rem)]">
-            <h2 className="font-display text-[clamp(5rem,8vw,12rem)] font-900 text-text-primary leading-[0.9] tracking-tight">
+            <h2 className="font-display text-right text-[clamp(5rem,8vw,12rem)] font-900 text-text-primary leading-[0.9] tracking-tight">
               Why N83-FX
             </h2>
           </div>

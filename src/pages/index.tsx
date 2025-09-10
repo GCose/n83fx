@@ -1,8 +1,8 @@
-import HomeAccountsDetailed from "@/components/home/HomeAccountsDetailed";
 import HomeEducationTools from "@/components/home/HomeEducationTools";
 import HomeFAQFinalCTA from "@/components/home/HomeFAQFinalCTA";
 import HomeMarketsOverview from "@/components/home/HomeMarketsOverview";
 import HomeTrustRegulation from "@/components/home/HomeTrustRegulation";
+import AccountsSection from "@/components/home2/AccountsSection";
 import HeroSection from "@/components/home2/HomeSection";
 import ValueSection from "@/components/home2/ValueSection";
 import WhySection from "@/components/home2/WhySection";
@@ -31,7 +31,7 @@ const Home = () => {
         <HeroSection />
         <WhySection />
         <ValueSection />
-        <HomeAccountsDetailed />
+        <AccountsSection />
         <HomeMarketsOverview />
         <HomeEducationTools />
         <HomeTrustRegulation />
