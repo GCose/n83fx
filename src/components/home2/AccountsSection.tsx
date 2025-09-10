@@ -4,36 +4,36 @@ const AccountsSection = () => {
   const accountTypes = [
     {
       name: "Standard",
-      subtitle: "start simple",
+      subtitle: "Start simple",
       minDeposit: "$100",
       spreads: "[X] pips",
       leverage: "1:200",
       commission: "No",
-      bestFor: "new traders and strategy testing",
+      bestFor: "New traders and strategy testing",
       openLink: "/account/open?type=standard",
       compareLink: "/accounts/compare#standard",
       featured: false,
     },
     {
       name: "Advanced",
-      subtitle: "lower costs for frequent trading",
+      subtitle: "Lower costs for frequent trading",
       minDeposit: "$500",
       spreads: "[Y] pips",
       leverage: "1:200",
       commission: "No",
-      bestFor: "active traders seeking tighter pricing",
+      bestFor: "Active traders seeking tighter pricing",
       openLink: "/account/open?type=advanced",
       compareLink: "/accounts/compare#advanced",
       featured: false,
     },
     {
       name: "Pro",
-      subtitle: "tight pricing for large positions",
+      subtitle: "Tight pricing for large positions",
       minDeposit: "$2,000",
       spreads: "[Z] pips",
       leverage: "1:100",
       commission: "No",
-      bestFor: "high-volume, professional strategies",
+      bestFor: "High-volume, professional strategies",
       openLink: "/account/open?type=pro",
       compareLink: "/accounts/compare#pro",
       featured: true,
@@ -73,7 +73,7 @@ const AccountsSection = () => {
           {/*==================== End of Section Header ====================*/}
 
           {/*==================== Accounts Grid ====================*/}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-[clamp(3rem,4vw,4rem)] mb-[clamp(8rem,10vw,10rem)]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-[clamp(3rem,4vw,12rem)] mb-[clamp(8rem,10vw,10rem)]">
             {accountTypes.map((account, index) => (
               <div
                 key={index}
@@ -87,7 +87,7 @@ const AccountsSection = () => {
                 <div className="mb-[clamp(2.5rem,3vw,3rem)]">
                   <div className="flex items-baseline gap-[1rem] mb-[clamp(1rem,1.5vw,1.5rem)]">
                     <h3
-                      className={`font-display text-[clamp(2.4rem,3vw,3.2rem)] font-700 leading-[1.1] ${
+                      className={`font-display text-center text-[clamp(2.4rem,3vw,3.2rem)] font-700 leading-[1.1] ${
                         account.featured
                           ? "text-neon-primary"
                           : "text-text-primary"
@@ -110,7 +110,7 @@ const AccountsSection = () => {
                 {/*==================== Account Details ====================*/}
                 <div className="space-y-[clamp(1.5rem,2vw,2rem)] mb-[clamp(3rem,4vw,4rem)]">
                   <div className="flex justify-between items-center py-[1rem] border-b border-text-tertiary/30">
-                    <span className="font-body text-[clamp(1.4rem,1.6vw,1.6rem)] text-text-tertiary">
+                    <span className="font-body text-[clamp(1.6rem,1.6vw,1.8rem)] text-text-tertiary">
                       Minimum deposit:
                     </span>
                     <span className="font-body text-[clamp(1.6rem,1.8vw,1.8rem)] font-600 text-text-primary">
@@ -118,7 +118,7 @@ const AccountsSection = () => {
                     </span>
                   </div>
                   <div className="flex justify-between items-center py-[1rem] border-b border-text-tertiary/30">
-                    <span className="font-body text-[clamp(1.4rem,1.6vw,1.6rem)] text-text-tertiary">
+                    <span className="font-body text-[clamp(1.6rem,1.6vw,1.8rem)] text-text-tertiary">
                       Spreads from:
                     </span>
                     <span className="font-body text-[clamp(1.6rem,1.8vw,1.8rem)] font-600 text-text-primary">
@@ -126,7 +126,7 @@ const AccountsSection = () => {
                     </span>
                   </div>
                   <div className="flex justify-between items-center py-[1rem] border-b border-text-tertiary/30">
-                    <span className="font-body text-[clamp(1.4rem,1.6vw,1.6rem)] text-text-tertiary">
+                    <span className="font-body text-[clamp(1.6rem,1.6vw,1.8rem)] text-text-tertiary">
                       Leverage up to:
                     </span>
                     <span className="font-body text-[clamp(1.6rem,1.8vw,1.8rem)] font-600 text-text-primary">
@@ -134,7 +134,7 @@ const AccountsSection = () => {
                     </span>
                   </div>
                   <div className="flex justify-between items-center py-[1rem] border-b border-text-tertiary/30">
-                    <span className="font-body text-[clamp(1.4rem,1.6vw,1.6rem)] text-text-tertiary">
+                    <span className="font-body text-[clamp(1.6rem,1.6vw,1.8rem)] text-text-tertiary">
                       Commission:
                     </span>
                     <span className="font-body text-[clamp(1.6rem,1.8vw,1.8rem)] font-600 text-text-primary">
@@ -146,7 +146,7 @@ const AccountsSection = () => {
 
                 {/*==================== Best For ====================*/}
                 <div className="mb-[clamp(3rem,4vw,4rem)]">
-                  <p className="font-body text-[clamp(1.4rem,1.6vw,1.6rem)] text-text-tertiary mb-[1rem]">
+                  <p className="font-body text-[clamp(1.6rem,1.6vw,1.8rem)] text-text-tertiary mb-[1rem]">
                     Best for:
                   </p>
                   <p className="font-body text-[clamp(1.5rem,1.7vw,1.7rem)] text-text-secondary leading-[1.4]">
@@ -159,7 +159,7 @@ const AccountsSection = () => {
                 <div className="flex flex-col sm:flex-row gap-[clamp(1.5rem,2vw,2rem)]">
                   <Link
                     href={account.openLink}
-                    className={`group inline-flex items-center justify-center px-[clamp(2.5rem,3vw,3.5rem)] py-[clamp(1.2rem,1.5vw,1.4rem)] font-body font-600 text-[clamp(1.4rem,1.6vw,1.6rem)] border-2 transition-all duration-300 flex-1 ${
+                    className={`group inline-flex items-center justify-center px-[clamp(2.5rem,3vw,3.5rem)] py-[clamp(1.2rem,1.5vw,1.4rem)] font-body font-600 text-[clamp(1.6rem,1.6vw,1.8rem)] border-2 transition-all duration-300 flex-1 ${
                       account.featured
                         ? "bg-neon-primary text-n83-black border-neon-primary hover:bg-transparent hover:text-neon-primary"
                         : "bg-transparent text-text-primary border-text-primary hover:border-neon-primary hover:text-neon-primary"
@@ -172,7 +172,7 @@ const AccountsSection = () => {
                   </Link>
                   <Link
                     href={account.compareLink}
-                    className="inline-flex items-center justify-center px-[clamp(2.5rem,3vw,3.5rem)] py-[clamp(1.2rem,1.5vw,1.4rem)] bg-transparent text-text-tertiary font-body font-500 text-[clamp(1.4rem,1.6vw,1.6rem)] border-2 border-text-tertiary/40 hover:border-text-secondary hover:text-text-secondary transition-all duration-300"
+                    className="inline-flex items-center justify-center px-[clamp(2.5rem,3vw,3.5rem)] py-[clamp(1.2rem,1.5vw,1.4rem)] bg-transparent text-text-tertiary font-body font-500 text-[clamp(1.6rem,1.6vw,1.8rem)] border-2 border-text-tertiary/40 hover:border-text-secondary hover:text-text-secondary transition-all duration-300"
                   >
                     Compare
                   </Link>
