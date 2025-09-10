@@ -4,6 +4,7 @@ import HomeMarketsOverview from "@/components/home/HomeMarketsOverview";
 import HomeTrustRegulation from "@/components/home/HomeTrustRegulation";
 import AccountsSection from "@/components/home2/AccountsSection";
 import HeroSection from "@/components/home2/HomeSection";
+import SpeedSilenceSection from "@/components/home2/SpeedSection";
 import ValueSection from "@/components/home2/ValueSection";
 import WhySection from "@/components/home2/WhySection";
 import Layout from "@/components/layout/Layout";
@@ -36,7 +37,7 @@ const Home = () => {
           <WhySection />
           <ValueSection />
           <AccountsSection />
-          <HomeMarketsOverview />
+          <SpeedSilenceSection />
           <HomeEducationTools />
           <HomeTrustRegulation />
           <HomeFAQFinalCTA />
