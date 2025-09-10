@@ -66,7 +66,7 @@ const AccountsSection = () => {
             <h2 className="font-display text-[clamp(5rem,8vw,12rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,4rem)]">
               Account Types
             </h2>
-            <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-text-secondary leading-[1.4] max-w-[60rem] pb-6">
+            <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-text-secondary leading-[1.4] text-right pb-6">
               Four accounts. Clear differences. No hidden terms.
             </p>
           </div>

@@ -42,7 +42,7 @@ const TrustSection = () => {
             <h2 className="font-display text-[clamp(5rem,8vw,12rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,4rem)]">
               Trust & Regulation
             </h2>
-            <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-text-secondary leading-[1.4] max-w-[60rem]">
+            <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-text-secondary leading-[1.4] text-right">
               We publish our legal details in one place so you never have to
               guess.
             </p>
@@ -56,7 +56,7 @@ const TrustSection = () => {
               {legalDetails.map((detail, index) => (
                 <div
                   key={index}
-                  className="group bg-n83-black/30 border border-text-tertiary/30 p-[clamp(2.5rem,3vw,3rem)] hover:border-neon-primary/60 transition-all duration-500"
+                  className="group bg-n83-black/30 border-b border-neon-primary/60 p-[clamp(2.5rem,3vw,3rem)] hover:border-neon-primary/60 transition-all duration-500"
                   style={{
                     transform: `translateY(${index * -1}rem)`,
                     zIndex: legalDetails.length - index,

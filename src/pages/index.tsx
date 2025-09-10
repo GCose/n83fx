@@ -1,4 +1,5 @@
 import AccountsSection from "@/components/home2/AccountsSection";
+import CTASection from "@/components/home2/CTASection";
 import FAQSection from "@/components/home2/FAQSection";
 import HeroSection from "@/components/home2/HomeSection";
 import SpeedSilenceSection from "@/components/home2/SpeedSection";
@@ -38,7 +39,8 @@ const Home = () => {
           <AccountsSection />
           <SpeedSilenceSection />
           <TrustSection />
-        <FAQSection />
+          <FAQSection />
+          <CTASection />
         </div>
         <Footer />
       </div>
