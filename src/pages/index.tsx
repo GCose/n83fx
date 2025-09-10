@@ -2,7 +2,6 @@ import HomeAccountsDetailed from "@/components/home/HomeAccountsDetailed";
 import HomeEducationTools from "@/components/home/HomeEducationTools";
 import HomeFAQFinalCTA from "@/components/home/HomeFAQFinalCTA";
 import HomeMarketsOverview from "@/components/home/HomeMarketsOverview";
-import HomeN83FXSystem from "@/components/home/HomeN83FXSystem";
 import HomeTrustRegulation from "@/components/home/HomeTrustRegulation";
 import HeroSection from "@/components/home2/HomeSection";
 import ValueSection from "@/components/home2/ValueSection";
@@ -32,8 +31,6 @@ const Home = () => {
         <HeroSection />
         <WhySection />
         <ValueSection />
-        {/* <HomeOperations /> */}
-        <HomeN83FXSystem />
         <HomeAccountsDetailed />
         <HomeMarketsOverview />
         <HomeEducationTools />
