@@ -1,5 +1,5 @@
-import HomeFAQFinalCTA from "@/components/home/HomeFAQFinalCTA";
 import AccountsSection from "@/components/home2/AccountsSection";
+import FAQSection from "@/components/home2/FAQSection";
 import HeroSection from "@/components/home2/HomeSection";
 import SpeedSilenceSection from "@/components/home2/SpeedSection";
 import TrustSection from "@/components/home2/TrustSection";
@@ -37,8 +37,8 @@ const Home = () => {
           <AccountsSection />
           <SpeedSilenceSection />
           <TrustSection />
-          <HomeFAQFinalCTA />
         </div>
+        <FAQSection />
       </div>
       {/*==================== End of Page Content ====================*/}
     </Layout>
