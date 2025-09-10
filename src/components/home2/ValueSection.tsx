@@ -55,10 +55,10 @@ const ValueSection = () => {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-[clamp(2rem,4vw,4rem)] items-start border-t border-neon-primary/60 pt-6"
+                className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-[clamp(1rem,4vw,4rem)] items-start border-t border-neon-primary/60 pt-6"
               >
                 {/*==================== Column 1: Number ====================*/}
-                <div className="col-span-1 md:col-span-1 lg:col-span-1 mb-4 md:mb-0">
+                <div className="col-span-1 md:col-span-1 lg:col-span-1 md:mb-4">
                   <span className="font-display text-[clamp(3rem,5vw,6rem)] font-900 text-neon-primary leading-[1]">
                     {feature.number}
                   </span>
@@ -66,8 +66,8 @@ const ValueSection = () => {
                 {/*==================== End of Column 1 ====================*/}
 
                 {/*==================== Column 2: Title ====================*/}
-                <div className="col-span-1 md:col-span-2 lg:col-span-3 mb-4 md:mb-0">
-                  <h3 className="font-display text-[clamp(1.8rem,3vw,3.5rem)] font-700 text-text-primary leading-[1.1] tracking-tight">
+                <div className="col-span-1 md:col-span-2 lg:col-span-3 md:mb-4">
+                  <h3 className="font-display text-[clamp(2.7rem,3vw,3.5rem)] font-700 text-text-primary leading-[1.1] tracking-tight">
                     {feature.title}
                   </h3>
                 </div>
