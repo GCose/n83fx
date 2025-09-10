@@ -6,6 +6,7 @@ import HomeN83FXSystem from "@/components/home/HomeN83FXSystem";
 import HomeOperations from "@/components/home/HomeOperations";
 import HomeTrustRegulation from "@/components/home/HomeTrustRegulation";
 import HeroSection from "@/components/home2/HomeSection";
+import ValueSection from "@/components/home2/ValueSection";
 import WhySection from "@/components/home2/WhySection";
 import Layout from "@/components/layout/Layout";
 import { N83FXPageMeta } from "@/pageMeta/meta";
@@ -31,7 +32,8 @@ const Home = () => {
       <div className="relative z-10">
         <HeroSection />
         <WhySection />
-        <HomeOperations />
+        <ValueSection />
+        {/* <HomeOperations /> */}
         <HomeN83FXSystem />
         <HomeAccountsDetailed />
         <HomeMarketsOverview />
