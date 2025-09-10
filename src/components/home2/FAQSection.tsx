@@ -33,7 +33,7 @@ const FAQSection = () => {
       {/*==================== FAQ Section ====================*/}
       <section className="relative py-[clamp(8rem,12vw,10rem)]">
         {/*==================== Dark Overlay ====================*/}
-        <div className="absolute inset-0 bg-transparent"></div>
+        <div className="absolute inset-0 bg-n83-black"></div>
         {/*==================== End of Dark Overlay ====================*/}
 
         <div className="relative z-10 w-full max-w-container mx-auto px-container">

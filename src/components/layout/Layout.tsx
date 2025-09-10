@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Navigation from "./Navigation";
-import Footer from "./Footer";
 import type { LayoutProps } from "@/types/index";
 
 const Layout = ({ children, meta }: LayoutProps) => {
@@ -29,7 +28,6 @@ const Layout = ({ children, meta }: LayoutProps) => {
 
       <Navigation />
       <main>{children}</main>
-      <Footer />
     </>
   );
 };
