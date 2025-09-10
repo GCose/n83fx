@@ -193,17 +193,17 @@
         #00ff88,
         transparent
       ),
-      radial-gradient(2px 2px at 40px 70px, #00ff88, transparent),
+      radial-gradient(4px 4px at 40px 70px, #00ff88, transparent),
       radial-gradient(1px 1px at 90px 40px, #00ff88, transparent),
       radial-gradient(1px 1px at 130px 80px, #00ff88, transparent),
-      radial-gradient(2px 2px at 160px 30px, #00ff88, transparent),
+      radial-gradient(3px 3px at 160px 30px, #00ff88, transparent),
       radial-gradient(1px 1px at 200px 90px, #00ff88, transparent),
-      radial-gradient(2px 2px at 240px 50px, #00ff88, transparent),
+      radial-gradient(3px 3px at 240px 50px, #00ff88, transparent),
       radial-gradient(1px 1px at 280px 10px, #00ff88, transparent),
-      radial-gradient(2px 2px at 320px 70px, #00ff88, transparent),
+      radial-gradient(3px 3px at 320px 70px, #00ff88, transparent),
       radial-gradient(1px 1px at 360px 40px, #00ff88, transparent);
     background-size: 400px 120px;
-    animation: falling-bg 10s linear infinite;
+    /* animation: falling-bg 10s linear infinite; */
     opacity: 0.7;
   }
 
@@ -213,15 +213,15 @@
         #00ff88,
         transparent
       ),
-      radial-gradient(2px 2px at 100px 60px, #00ff88, transparent),
+      radial-gradient(3px 3px at 100px 60px, #00ff88, transparent),
       radial-gradient(1px 1px at 140px 10px, #00ff88, transparent),
-      radial-gradient(2px 2px at 180px 80px, #00ff88, transparent),
+      radial-gradient(3px 3px at 180px 80px, #00ff88, transparent),
       radial-gradient(1px 1px at 220px 45px, #00ff88, transparent),
-      radial-gradient(2px 2px at 260px 15px, #00ff88, transparent),
+      radial-gradient(3px 3px at 260px 15px, #00ff88, transparent),
       radial-gradient(1px 1px at 300px 85px, #00ff88, transparent),
-      radial-gradient(2px 2px at 340px 55px, #00ff88, transparent),
+      radial-gradient(3px 3px at 340px 55px, #00ff88, transparent),
       radial-gradient(1px 1px at 380px 25px, #00ff88, transparent),
-      radial-gradient(2px 2px at 420px 75px, #00ff88, transparent);
+      radial-gradient(3px 3px at 420px 75px, #00ff88, transparent);
     background-size: 450px 100px;
     animation: falling-bg 12s linear infinite;
     animation-delay: -5s;
