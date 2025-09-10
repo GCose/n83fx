@@ -56,13 +56,14 @@ const AccountsSection = () => {
     <>
       {/*==================== Accounts Section ====================*/}
       <section className="relative py-[clamp(10rem,20vw,15rem)]">
+
         {/*==================== Dark Overlay for Readability ====================*/}
-        <div className="absolute inset-0 bg-n83-black/30 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-n83-black"></div>
         {/*==================== End of Dark Overlay ====================*/}
 
         <div className="relative z-10 w-full max-w-container mx-auto px-container">
           {/*==================== Section Header ====================*/}
-          <div className="mb-[clamp(8rem,12vw,10rem)] border-b">
+          <div className="mb-[clamp(8rem,12vw,10rem)] border-b border-neon-primary/60">
             <h2 className="font-display text-[clamp(5rem,8vw,12rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,4rem)]">
               Account Types
             </h2>

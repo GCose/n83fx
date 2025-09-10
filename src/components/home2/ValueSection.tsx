@@ -33,12 +33,9 @@ const ValueSection = () => {
     <>
       {/*==================== Value Section ====================*/}
       <section className="relative py-[clamp(10rem,20vw,15rem)]">
-        {/*==================== Falling Tech Particles ====================*/}
-        <div className="falling__particles"></div>
-        {/*==================== End of Falling Tech Particles ====================*/}
 
         {/*==================== Dark Overlay ====================*/}
-        <div className="absolute inset-0 bg-n83-black backdrop-blur-sm z-0"></div>
+        <div className="absolute inset-0 bg-n83-black z-0"></div>
         {/*==================== End of Dark Overlay ====================*/}
 
         <div className="relative z-10 w-full max-w-container mx-auto px-container">

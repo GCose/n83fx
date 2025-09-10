@@ -21,7 +21,7 @@ const WhySection = () => {
       {/*==================== Why N83-FX Section ====================*/}
       <section className="relative py-[clamp(10rem,20vw,15rem)]">
         {/*==================== Dark Overlay ====================*/}
-        <div className="absolute inset-0 bg-n83-black backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-n83-black"></div>
         {/*==================== End of Dark Overlay ====================*/}
 
         <div className="relative z-10 w-full max-w-container mx-auto px-container">

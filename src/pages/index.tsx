@@ -29,13 +29,18 @@ const Home = () => {
       {/*==================== Page Content ====================*/}
       <div className="relative z-10">
         <HeroSection />
-        <WhySection />
-        <ValueSection />
-        <AccountsSection />
-        <HomeMarketsOverview />
-        <HomeEducationTools />
-        <HomeTrustRegulation />
-        <HomeFAQFinalCTA />
+        <div className="relative">
+          {/*==================== Falling Tech Particles ====================*/}
+          <div className="falling__particles"></div>
+          {/*==================== End of Falling Tech Particles ====================*/}
+          <WhySection />
+          <ValueSection />
+          <AccountsSection />
+          <HomeMarketsOverview />
+          <HomeEducationTools />
+          <HomeTrustRegulation />
+          <HomeFAQFinalCTA />
+        </div>
       </div>
       {/*==================== End of Page Content ====================*/}
     </Layout>
