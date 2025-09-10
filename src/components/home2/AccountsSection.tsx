@@ -79,8 +79,8 @@ const AccountsSection = () => {
                 key={index}
                 className={`relative p-[clamp(3rem,4vw,4rem)] border transition-all duration-500 hover:-translate-y-[6px] group ${
                   account.featured
-                    ? "bg-neon-primary/10 border-neon-primary backdrop-blur-md"
-                    : "bg-n83-black/40 border-text-tertiary backdrop-blur-md hover:border-neon-primary/60"
+                    ? "bg-neon-primary/10 border-neon-primary"
+                    : "bg-n83-black/0 border-text-tertiary hover:border-neon-primary/60"
                 }`}
               >
                 {/*==================== Account Header ====================*/}

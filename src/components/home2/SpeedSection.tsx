@@ -13,7 +13,7 @@ const SpeedSilenceSection = () => {
       {/*==================== Speed & Silence Section ====================*/}
       <section className="relative py-[clamp(10rem,20vw,15rem)]">
         {/*==================== Dark Overlay ====================*/}
-        <div className="absolute inset-0 bg-n83-black backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-n83-black"></div>
         {/*==================== End of Dark Overlay ====================*/}
 
         <div className="relative z-10 w-full max-w-container mx-auto px-container">
@@ -60,7 +60,7 @@ const SpeedSilenceSection = () => {
               ))}
 
               {/*==================== CTA Section ====================*/}
-              <div >
+              <div>
                 <Link
                   href="/about/about-n83fx"
                   className="group inline-flex items-center justify-center px-[clamp(4rem,6vw,8rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-transparent text-neon-primary font-body font-600 text-[clamp(1.6rem,2vw,2rem)] border-2 border-neon-primary hover:bg-neon-primary hover:text-n83-black transition-all duration-300"
