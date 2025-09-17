@@ -6,13 +6,13 @@ const HeroSection = () => {
       {/*==================== Hero Section ====================*/}
       <section className="relative h-screen w-full">
         {/*==================== Hero Content ====================*/}
-        <div className="absolute bottom-0 left-0 right-0 pb-[clamp(3rem,4vw,4rem)]">
-          <div className="w-full max-w-container mx-auto px-container">
-            <div>
+        <div className="absolute inset-0">
+          <div className="w-full max-w-container mx-auto px-container h-full">
+            <div className="h-full">
               {/*==================== Main Content ====================*/}
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-1 items-end">
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-1 h-full">
                 {/*==================== Left Column ====================*/}
-                <div className="lg:col-span-7">
+                <div className="lg:col-span-7 flex items-center">
                   {/*==================== Primary Headline ====================*/}
                   <div className="">
                     <h1 className="font-display text-[clamp(4rem,12vw,14rem)] font-900 leading-[0.85] text-text-primary tracking-tight">
@@ -28,7 +28,7 @@ const HeroSection = () => {
                 {/*==================== End of Left Column ====================*/}
 
                 {/*==================== Right Column ====================*/}
-                <div className="lg:col-span-5 space-y-[clamp(3rem,4vw,4rem)]">
+                <div className="lg:col-span-5 space-y-[clamp(3rem,4vw,4rem)] flex flex-col justify-end pb-[clamp(3rem,4vw,4rem)]">
                   <p className="font-body text-[clamp(1.8rem,3vw,3rem)] font-500 text-text-secondary leading-[1.2] max-w-[90rem]">
                     Simple tools. Clean screen. Fast moves.
                   </p>
