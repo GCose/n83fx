@@ -8,27 +8,27 @@ const AboutN83FXWho = () => {
   ];
 
   return (
-    <section className="bg-n83-gray-50 py-[clamp(8rem,10vw,12rem)]">
+    <section className="bg-n83-black py-[clamp(8rem,10vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
-        <div className="text-center mb-[clamp(6rem,7vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3.5rem,4vw,5rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
+        <div className="text-left mb-[clamp(6rem,7vw,8rem)]">
+          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(5rem,8vw,9rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
             Who We Serve
           </h2>
         </div>
         {/*==================== End of Section Header ====================*/}
 
         {/*==================== Main Layout ====================*/}
-        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center mb-[clamp(6rem,8vw,8rem)]">
+        <div className="border-t border-neon-primary/60 pt-[clamp(4rem,6vw,8rem)] grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center mb-[clamp(6rem,8vw,8rem)]">
           {/*==================== Left: Content ====================*/}
           <div>
-            <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.8rem,2.2vw,2.4rem)] mb-[clamp(4rem,5vw,5rem)]">
+            <p className="m-0 font-normal leading-[1.5] text-white/80 text-[clamp(1.8rem,2.2vw,2.4rem)] mb-[clamp(4rem,5vw,5rem)]">
               This is not a product for everyone. It{"'"}s a space for those who
               think deeply, act deliberately, and operate calmly.
             </p>
 
             <div className="mb-[clamp(4rem,5vw,5rem)]">
-              <p className="m-0 font-medium leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
+              <p className="m-0 font-medium leading-[1.4] text-white/80 text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
                 Whether you{"'"}re:
               </p>
 
@@ -40,7 +40,7 @@ const AboutN83FXWho = () => {
                       <div className="absolute w-full h-[5px] bg-n83-black top-1/2 -translate-y-1/2"></div>
                       <div className="absolute h-full w-[5px] bg-n83-black left-1/2 -translate-x-1/2"></div>
                     </div>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/80 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {audience}
                     </p>
                   </div>
@@ -50,12 +50,12 @@ const AboutN83FXWho = () => {
             </div>
 
             {/*==================== Philosophy Statement ====================*/}
-            <div className="bg-n83-white p-[clamp(3rem,4vw,4rem)] border-l border-r border-n83-black">
-              <p className="m-0 font-medium leading-[1.4] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[clamp(1.5rem,2vw,2rem)]">
+            <div className="bg-green-900/40 p-[clamp(3rem,4vw,4rem)] border-l border-r border-neon-primary">
+              <p className="m-0 font-medium leading-[1.4] text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[clamp(1.5rem,2vw,2rem)]">
                 N83-FX gives you what the market rarely offers:{" "}
                 <strong>a platform that respects your attention</strong>.
               </p>
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-white/80 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 We don{"'"}t push. We don{"'"}t gamify. We provide the
                 environment—
                 <strong>you bring the intelligence</strong>.
@@ -78,20 +78,20 @@ const AboutN83FXWho = () => {
             </div>
 
             {/*==================== Key Stats Overlay ====================*/}
-            <div className="mt-[clamp(3rem,4vw,4rem)] border-t border-n83-black border-b grid grid-cols-2 gap-[clamp(1.5rem,2vw,2rem)]">
+            <div className="mt-[clamp(3rem,4vw,4rem)] border-t border-n83-white border-b grid grid-cols-2 gap-[clamp(1.5rem,2vw,2rem)]">
               <div className="p-[clamp(2rem,3vw,3rem)] text-center">
-                <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
+                <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
                   Focused
                 </h4>
-                <p className="m-0 font-normal leading-[1.3] text-n83-gray-600 text-[clamp(1.3rem,1.5vw,1.5rem)]">
+                <p className="m-0 font-normal leading-[1.3] text-white/80 text-[clamp(1.3rem,1.5vw,1.5rem)]">
                   Traders
                 </p>
               </div>
               <div className="p-[clamp(2rem,3vw,3rem)] text-center">
-                <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
+                <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
                   Calm
                 </h4>
-                <p className="m-0 font-normal leading-[1.3] text-n83-gray-600 text-[clamp(1.3rem,1.5vw,1.5rem)]">
+                <p className="m-0 font-normal leading-[1.3] text-white/80 text-[clamp(1.3rem,1.5vw,1.5rem)]">
                   Environment
                 </p>
               </div>

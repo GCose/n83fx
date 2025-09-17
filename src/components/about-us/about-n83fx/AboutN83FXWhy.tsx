@@ -17,18 +17,18 @@ const AboutN83FXWhy = () => {
   ];
 
   return (
-    <section className="bg-n83-black border-t border-b py-[clamp(8rem,10vw,12rem)]">
+    <section className="bg-n83-black py-[clamp(8rem,10vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
-        <div className="text-center mb-[clamp(6rem,7vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3.5rem,4vw,5rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
+        <div className="text-left mb-[clamp(4rem,4vw,6rem)]">
+          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(5rem,8vw,9rem)] mb-2 uppercase tracking-tight">
             Why We Exist
           </h2>
         </div>
         {/*==================== End of Section Header ====================*/}
 
         {/*==================== Main Layout ====================*/}
-        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center mb-[clamp(6rem,8vw,8rem)]">
+        <div className="border-t border-neon-primary/60 pt-[clamp(4rem,6vw,8rem)] grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center mb-[clamp(6rem,8vw,8rem)]">
           {/*==================== Left: Visual ====================*/}
           <div className="relative">
             <div className="overflow-hidden relative rounded-[2.4rem] md:rounded-[1.6rem] bg-n83-black group">
@@ -45,7 +45,7 @@ const AboutN83FXWhy = () => {
 
           {/*==================== Right: Content ====================*/}
           <div>
-            <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.8rem,2.2vw,2.4rem)] mb-[clamp(4rem,5vw,5rem)]">
+            <p className="m-0 font-normal leading-[1.5] text-white/50 text-[clamp(1.8rem,2.2vw,2.4rem)] mb-[clamp(4rem,5vw,5rem)]">
               In a financial world dominated by hype and chaos, we believe the
               next evolution of wealth is not more—it{"'"}s better. Not louder
               platforms. Not faster clicks. Not dopamine dashboards.
@@ -59,14 +59,14 @@ const AboutN83FXWhy = () => {
                   className="flex items-start gap-[1.6rem] group"
                 >
                   <div
-                    className="w-[2rem] h-[2rem] bg-n83-black mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"
+                    className="w-[2rem] h-[2rem] bg-n83-white mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"
                     style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
                   ></div>
                   <div>
                     <h3 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.9rem,1.8vw,2rem)] mb-[0.5rem]">
                       {item.title}
                     </h3>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.6vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/50 text-[clamp(1.6rem,1.6vw,1.9rem)]">
                       {item.description}
                     </p>
                   </div>
@@ -80,7 +80,7 @@ const AboutN83FXWhy = () => {
         {/*==================== End of Main Layout ====================*/}
 
         {/*==================== Closing Statement ====================*/}
-        <div className="bg-n83-black rounded-[2rem] p-[clamp(3rem,4vw,4rem)] text-center">
+        <div className="border-l border-r border-neon-primary bg-green-900/40 p-[clamp(3rem,4vw,4rem)] text-center">
           <p className="m-0 font-medium leading-[1.4] text-n83-white text-[clamp(1.8rem,2vw,2.2rem)]">
             N83-FX was created to bring stillness into the act of
             trading—because wealth, like architecture, should be built
