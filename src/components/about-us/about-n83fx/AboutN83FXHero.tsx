@@ -16,8 +16,8 @@ const AboutN83FXHero = () => {
         {/*==================== End of Hero Title ====================*/}
 
         {/*==================== Full Screen Hero Image ====================*/}
-        <div className="w-full mb-[clamp(6rem,8vw,8rem)]">
-          <div className="w-full mx-auto overflow-hidden relative rounded-[2.4rem] bg-n83-black group min-h-[clamp(50rem,60vh,70rem)]">
+        <div className="mx-auto mb-[clamp(6rem,8vw,8rem)]">
+          <div className="mx-auto overflow-hidden relative rounded-[2.4rem] bg-n83-black group min-h-[clamp(50rem,60vh,70rem)]">
             <div className="absolute top-0 left-0 right-0 bottom-0 z-[2] pointer-events-none bg-gradient-to-b from-n83-black/90 via-transparent via-30% to-n83-black/85"></div>
             <Image
               priority
@@ -25,7 +25,7 @@ const AboutN83FXHero = () => {
               height={800}
               src="/images/about/about-hero.jpg"
               alt="N83-FX trading philosophy visualization"
-              className="w-full min-h-[clamp(50rem,60vh,70rem)] object-cover transition-transform duration-[600ms] ease-out saturate-[0.8] contrast-[1.1] group-hover:scale-[1.02]"
+              className=" min-h-[clamp(50rem,60vh,70rem)] object-cover transition-transform duration-[600ms] ease-out saturate-[0.8] contrast-[1.1] group-hover:scale-[1.02]"
             />
           </div>
           <div className="text-center mt-[clamp(2rem,3vw,4rem)]">

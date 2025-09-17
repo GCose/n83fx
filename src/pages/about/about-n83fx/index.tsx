@@ -25,7 +25,7 @@ const AboutN83FX = () => {
       </div>
       {/*==================== End of Fixed Video Background ====================*/}
 
-      <div className="relative z-10">
+      <div className="relative z-10 backdrop-blur-sm  ">
         <AboutN83FXHero />
         <AboutN83FXIntro />
         <div className="relative">

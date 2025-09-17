@@ -17,11 +17,11 @@ const AboutN83FXWhy = () => {
   ];
 
   return (
-    <section className="bg-n83-white py-[clamp(8rem,10vw,12rem)]">
+    <section className="bg-n83-black border-t border-b py-[clamp(8rem,10vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
         <div className="text-center mb-[clamp(6rem,7vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3.5rem,4vw,5rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
+          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3.5rem,4vw,5rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
             Why We Exist
           </h2>
         </div>
@@ -63,7 +63,7 @@ const AboutN83FXWhy = () => {
                     style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
                   ></div>
                   <div>
-                    <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.9rem,1.8vw,2rem)] mb-[0.5rem]">
+                    <h3 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.9rem,1.8vw,2rem)] mb-[0.5rem]">
                       {item.title}
                     </h3>
                     <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.6vw,1.9rem)]">

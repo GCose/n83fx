@@ -81,7 +81,7 @@ const ValueSection = () => {
                       height={800}
                       src={feature.image}
                       alt={feature.title}
-                      className="w-full h-[clamp(40rem,60vh,100vh)] md:h-[clamp(50rem,70vh,100vh)] lg:h-screen object-cover transition-transform duration-500 hover:scale-105"
+                      className="w-full h-[clamp(40rem,60vh,40vh)] md:h-[clamp(50rem,70vh,25vh)] object-cover transition-transform duration-500 hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-n83-black/40 via-transparent to-transparent pointer-events-none"></div>
                   </div>
