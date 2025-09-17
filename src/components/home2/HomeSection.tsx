@@ -14,8 +14,8 @@ const HeroSection = () => {
                 {/*==================== Left Column ====================*/}
                 <div className="lg:col-span-7">
                   {/*==================== Primary Headline ====================*/}
-                  <div className="space-y-[clamp(1.7rem,3vw,2rem)]">
-                    <h1 className="font-display text-[clamp(4rem,12vw,20rem)] font-900 leading-[0.85] text-text-primary tracking-tight">
+                  <div className="">
+                    <h1 className="font-display text-[clamp(4rem,12vw,14rem)] font-900 leading-[0.85] text-text-primary tracking-tight">
                       Built for{" "}
                       <span className="text-neon-primary animate-glow">
                         Winners

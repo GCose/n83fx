@@ -33,7 +33,6 @@ const ValueSection = () => {
     <>
       {/*==================== Value Section ====================*/}
       <section className="relative py-[clamp(10rem,20vw,15rem)]">
-
         {/*==================== Dark Overlay ====================*/}
         <div className="absolute inset-0 bg-n83-black z-0"></div>
         {/*==================== End of Dark Overlay ====================*/}
@@ -41,7 +40,7 @@ const ValueSection = () => {
         <div className="relative z-10 w-full max-w-container mx-auto px-container">
           {/*==================== Section Title ====================*/}
           <div className="mb-[clamp(8rem,18vw,12rem)]">
-            <h2 className="font-display text-[clamp(5rem,8vw,12rem)] font-900 text-text-primary leading-[0.9] tracking-tight">
+            <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-text-primary leading-[0.9] tracking-tight">
               What You Get
             </h2>
           </div>

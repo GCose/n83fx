@@ -14,7 +14,7 @@ const CTASection = () => {
           <div className="max-w-[80rem] mx-auto space-y-[clamp(4rem,6vw,6rem)]">
             {/*==================== Hero Statement ====================*/}
             <div className="space-y-[clamp(3rem,4vw,4rem)]">
-              <h2 className="font-display text-[clamp(6rem,12vw,11rem)] font-900 text-text-primary leading-[0.8] tracking-tight">
+              <h2 className="font-display text-[clamp(6rem,12vw,10rem)] font-900 text-text-primary leading-[0.8] tracking-tight">
                 Make Your{" "}
                 <span className="text-neon-primary animate-glow">Move</span>
               </h2>
@@ -29,7 +29,7 @@ const CTASection = () => {
             <div className="flex flex-col sm:flex-row gap-[clamp(3rem,4vw,5rem)] justify-center items-center">
               <Link
                 href="/account/open"
-                className="group relative inline-flex items-center justify-center px-[clamp(3rem,4vw,5rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-neon-primary text-n83-black font-body font-700 text-[clamp(1.8rem,2.5vw,2.5rem)] border-2 border-neon-primary hover:bg-transparent hover:text-neon-primary transition-all duration-500 shadow-[0_0_3rem_rgba(0,255,136,0.3)] hover:shadow-[0_0_5rem_rgba(0,255,136,0.5)]"
+                className="group relative inline-flex items-center justify-center px-[clamp(3rem,4vw,5rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-neon-primary text-n83-black font-body font-700 text-[clamp(1.8rem,2.5vw,1.8rem)] border-2 border-neon-primary hover:bg-transparent hover:text-neon-primary transition-all duration-500 shadow-[0_0_3rem_rgba(0,255,136,0.3)] hover:shadow-[0_0_5rem_rgba(0,255,136,0.5)]"
               >
                 <span className="relative z-10">Open Account</span>
                 <span className="ml-[2rem] group-hover:translate-x-[1rem] transition-transform duration-500 text-[clamp(2rem,2.5vw,2.5rem)] relative z-10">
@@ -43,7 +43,7 @@ const CTASection = () => {
 
               <Link
                 href="/pricing"
-                className="group inline-flex items-center justify-center px-[clamp(3rem,4vw,5rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-transparent text-text-primary font-body font-600 text-[clamp(1.8rem,2.5vw,2.5rem)] border-2 border-text-primary hover:border-neon-primary hover:text-neon-primary transition-all duration-500"
+                className="group inline-flex items-center justify-center px-[clamp(3rem,4vw,5rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-transparent text-text-primary font-body font-600 text-[clamp(1.8rem,2.5vw,1.8rem)] border-2 border-text-primary hover:border-neon-primary hover:text-neon-primary transition-all duration-500"
               >
                 See Pricing
                 <span className="ml-[2rem] group-hover:translate-x-[1rem] transition-transform duration-500 text-[clamp(2rem,2.5vw,2.5rem)]">

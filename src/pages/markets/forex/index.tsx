@@ -15,17 +15,24 @@ import { N83FXPageMeta } from "@/pageMeta/meta";
 const Forex = () => {
   return (
     <Layout meta={N83FXPageMeta.forexMeta}>
-      <ForexHero />
-      <ForexWhatIs />
-      <ForexHistory />
-      <ForexPairs />
-      <ForexWhy />
-      <ForexAdvantage />
-      {/* <ForexUAE /> */}
-      <ForexProcess />
-      <ForexRisk />
-      <ForexDifference />
-      <ForexStartJourney />
+      {/*==================== Falling Tech Particles ====================*/}
+      <div className="falling__particles"></div>
+      {/*==================== End of Falling Tech Particles ====================*/}
+
+      {/*==================== Page Content ====================*/}
+      <div className="relative">
+        <ForexHero />
+        <ForexWhatIs />
+        <ForexHistory />
+        <ForexPairs />
+        <ForexWhy />
+        <ForexAdvantage />
+        {/* <ForexUAE /> */}
+        <ForexProcess />
+        <ForexRisk />
+        <ForexDifference />
+        <ForexStartJourney />
+      </div>
     </Layout>
   );
 };

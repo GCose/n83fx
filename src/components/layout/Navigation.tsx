@@ -77,7 +77,7 @@ const Navigation = () => {
             <Link
               key={item.href}
               href={item.href}
-              className="block py-2 px-4 text-[1.7rem] text-gray-600 transition-smooth hover:bg-gray-50 hover:text-white"
+              className="block py-2 px-4 text-[1.7rem] text-gray-600 transition-smooth hover:bg-gray-50 hover:text-black"
             >
               {item.label}
             </Link>

@@ -3,17 +3,17 @@ import Image from "next/image";
 
 const ForexHero = () => {
   return (
-    <section className="relative bg-n83-white py-[clamp(8rem,12vw,12rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Hero Grid ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center min-h-[80vh]">
           {/*==================== Left: Content ====================*/}
           <div className="flex flex-col justify-center">
             <div className="mb-[clamp(3rem,4vw,4rem)]">
-              <h1 className="m-0 font-extrabold leading-[1.1] text-n83-black text-[clamp(4rem,6vw,7rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
+              <h1 className="m-0 font-extrabold leading-[1.1] text-n83-white text-[clamp(4rem,6vw,7rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
                 Forex Trading with Clarity
               </h1>
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.8rem,2.2vw,2.4rem)] max-w-[55rem]">
+              <p className="m-0 font-normal leading-[1.4] text-n83-gray-50 text-[clamp(1.8rem,2.2vw,2.4rem)] max-w-[55rem]">
                 Trade the world{"'"}s most liquid market through a platform
                 built on simplicity, transparency, and focus.
               </p>

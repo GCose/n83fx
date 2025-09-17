@@ -16,9 +16,9 @@ const Home = () => {
       {/*==================== Fixed Video Background ====================*/}
       <div className="fixed inset-0 z-2 bg-n83-black">
         <video
-          autoPlay
           loop
           muted
+          autoPlay
           playsInline
           className="h-full w-full object-cover"
         >
