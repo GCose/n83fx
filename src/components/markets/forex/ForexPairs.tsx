@@ -21,14 +21,14 @@ const ForexPairs = () => {
   ];
 
   return (
-    <section className="relative bg-n83-gray-50 py-[clamp(8rem,12vw,12rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
         <div className="text-center mb-[clamp(6rem,8vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(4rem,5vw,6rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
+          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(4rem,5vw,6rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
             Major, Minor, and Exotic Pairs
           </h2>
-          <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.8rem,2.2vw,2.4rem)] max-w-[70rem] mx-auto">
+          <p className="m-0 font-normal leading-[1.5] text-n83-gray-50/70 text-[clamp(1.8rem,2.2vw,2.4rem)] max-w-[70rem] mx-auto">
             When trading Forex, you always deal with two currencies: one you
             buy, and one you sell. These are called currency pairs.
           </p>
@@ -63,7 +63,7 @@ const ForexPairs = () => {
 
         {/*==================== Bottom Note ====================*/}
         <div className="text-center">
-          <p className="m-0 font-medium leading-[1.4] text-n83-gray-600 text-[clamp(2rem,2.2vw,2.4rem)] max-w-[80rem] mx-auto">
+          <p className="m-0 font-medium leading-[1.4] text-n83-gray-50 text-[clamp(2rem,2.2vw,2.4rem)] max-w-[80rem] mx-auto">
             At N83-FX, you have access to a wide range of currency pairs —
             whether you want the stability of majors or the opportunities in
             minors and exotics.

@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const AboutN83FXIntro = () => {
   return (
-    <section className="bg-n83-gray-100 py-[clamp(8rem,10vw,12rem)]">
+    <section className="bg-transparent py-[clamp(8rem,10vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
           {/*==================== Left: Content ====================*/}
           <div>
-            <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.8rem,2.2vw,2.4rem)] mb-[clamp(4rem,5vw,5rem)]">
+            <p className="m-0 font-normal leading-[1.5] text-white text-[clamp(1.8rem,2.2vw,2.4rem)] mb-[clamp(4rem,5vw,5rem)]">
               We didn{"'"}t build N83-FX to compete in the trading app race. We
               built it to redefine the race—by opting out of it. While others
               push for speed, scale, and stickiness, we designed N83-FX for
@@ -17,8 +17,8 @@ const AboutN83FXIntro = () => {
             </p>
 
             {/*==================== Definition Highlight ====================*/}
-            <div className="bg-n83-white p-[clamp(3rem,4vw,4rem)] border-l border-r border-n83-black mb-[clamp(4rem,5vw,5rem)]">
-              <p className="m-0 font-medium leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,2rem)]">
+            <div className="bg-transparent p-[clamp(3rem,4vw,4rem)] border-l border-r border-n83-white mb-[clamp(4rem,5vw,5rem)]">
+              <p className="m-0 font-medium leading-[1.4] text-white text-[clamp(1.6rem,1.8vw,2rem)]">
                 N83-FX is a multi-asset broker on MT5, serving traders who value
                 a calm, precise environment.
               </p>
