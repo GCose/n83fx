@@ -15,15 +15,14 @@ const CompanyProfileSupport = () => {
   ];
 
   return (
-    <section className="bg-n83-white py-[clamp(8rem,10vw,12rem)]">
+    <section className="bg-tranparent py-[clamp(8rem,10vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,10rem)] items-center">
           {/*==================== Left: Header ====================*/}
           <div>
-            <h2 className="m-0 font-extrabold leading-[1.1] text-n83-black text-[clamp(3.5rem,4vw,5rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
-              Support &<br />
-              Hours
+            <h2 className="m-0 font-extrabold leading-[1.1] text-n83-white text-[clamp(3.5rem,4vw,5rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
+              Support & Hours
             </h2>
           </div>
           {/*==================== End of Left: Header ====================*/}
@@ -33,12 +32,12 @@ const CompanyProfileSupport = () => {
             {supportDetails.map((detail, index) => (
               <div
                 key={index}
-                className="bg-n83-gray-100 rounded-[1.5rem] p-[clamp(2.5rem,3vw,3rem)]"
+                className="bg-transparent border p-[clamp(2.5rem,3vw,3rem)]"
               >
-                <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(1rem,1.5vw,1.5rem)] uppercase">
+                <h3 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(1rem,1.5vw,1.5rem)] uppercase">
                   {detail.title}
                 </h3>
-                <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                <p className="m-0 font-normal leading-[1.4] text-white/50 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                   {detail.content}
                 </p>
               </div>

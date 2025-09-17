@@ -18,7 +18,6 @@ const AboutN83FXHero = () => {
         {/*==================== Full Screen Hero Image ====================*/}
         <div className="mx-auto mb-[clamp(6rem,8vw,8rem)]">
           <div className="mx-auto overflow-hidden relative rounded-[2.4rem] bg-n83-black group min-h-[clamp(50rem,60vh,70rem)]">
-            <div className="absolute top-0 left-0 right-0 bottom-0 z-[2] pointer-events-none bg-gradient-to-b from-n83-black/90 via-transparent via-30% to-n83-black/85"></div>
             <Image
               priority
               width={1200}
@@ -46,7 +45,7 @@ const AboutN83FXHero = () => {
               <h3 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(1.9rem,4vw,3rem)] mb-[clamp(1rem,1.5vw,1.5rem)]">
                 MT5
               </h3>
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-white/50 text-[clamp(1.4rem,1.6vw,1.9rem)]">
                 Platform
               </p>
             </div>
@@ -54,7 +53,7 @@ const AboutN83FXHero = () => {
               <h3 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(1.9rem,4vw,3rem)] mb-[clamp(1rem,1.5vw,1.5rem)]">
                 Licensed
               </h3>
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-white/50 text-[clamp(1.4rem,1.6vw,1.9rem)]">
                 & Regulated
               </p>
             </div>
@@ -62,7 +61,7 @@ const AboutN83FXHero = () => {
               <h3 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(1.9rem,4vw,3rem)] mb-[clamp(1rem,1.5vw,1.5rem)]">
                 Segregated
               </h3>
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-white/50 text-[clamp(1.4rem,1.6vw,1.9rem)]">
                 Client Funds
               </p>
             </div>
@@ -70,7 +69,7 @@ const AboutN83FXHero = () => {
               <h3 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(1.9rem,4vw,3rem)] mb-[clamp(1rem,1.5vw,1.5rem)]">
                 Boutique
               </h3>
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-white/50 text-[clamp(1.4rem,1.6vw,1.9rem)]">
                 Approach
               </p>
             </div>

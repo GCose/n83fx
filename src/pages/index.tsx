@@ -1,14 +1,13 @@
-import AccountsSection from "@/components/home2/AccountsSection";
+import Layout from "@/components/layout/Layout";
+import { N83FXPageMeta } from "@/pageMeta/meta";
+import WhySection from "@/components/home2/WhySection";
 import CTASection from "@/components/home2/CTASection";
 import FAQSection from "@/components/home2/FAQSection";
 import HeroSection from "@/components/home2/HomeSection";
-import SpeedSilenceSection from "@/components/home2/SpeedSection";
 import TrustSection from "@/components/home2/TrustSection";
 import ValueSection from "@/components/home2/ValueSection";
-import WhySection from "@/components/home2/WhySection";
-import Footer from "@/components/layout/Footer";
-import Layout from "@/components/layout/Layout";
-import { N83FXPageMeta } from "@/pageMeta/meta";
+import AccountsSection from "@/components/home2/AccountsSection";
+import SpeedSilenceSection from "@/components/home2/SpeedSection";
 
 const Home = () => {
   return (
@@ -42,7 +41,6 @@ const Home = () => {
           <FAQSection />
           <CTASection />
         </div>
-        <Footer />
       </div>
       {/*==================== End of Page Content ====================*/}
     </Layout>
