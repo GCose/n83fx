@@ -153,8 +153,8 @@ const AccountsTypes = () => {
                 href="/account/open"
                 className={`cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] w-full ${
                   account.popular
-                    ? "text-n83-white bg-white/10 hover:-translate-y-[2px] hover:bg-white/15"
-                    : "text-n83-white bg-transparent border-2 border-n83-white/60 hover:text-n83-white hover:-translate-y-[2px] hover:bg-n83-black"
+                    ? "text-n83-white bg-white/10 hover:-translate-y-[2px] hover:bg-green-500/35"
+                    : "text-n83-white bg-transparent border-2 border-n83-white/60 hover:text-n83-white hover:-translate-y-[2px] hover:bg-green-400/30 hover:border-transparent"
                 }`}
               >
                 {account.cta}
