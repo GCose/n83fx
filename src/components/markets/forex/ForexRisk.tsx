@@ -8,18 +8,18 @@ const ForexRisk = () => {
   ];
 
   return (
-    <section className="relative bg-n83-white py-[clamp(8rem,12vw,12rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)] border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
           {/*==================== Left: Content ====================*/}
           <div className="flex flex-col justify-center">
-            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
+            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
               Understanding Risk
             </h2>
 
             <div className="space-y-[clamp(2.5rem,3vw,3rem)]">
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Forex trading involves leverage, which can amplify profits but
                 also magnify losses. This is why risk management is central to
                 our philosophy. At **N83-FX**, we encourage traders to:
@@ -33,13 +33,13 @@ const ForexRisk = () => {
                     className="flex items-center gap-[1.5rem] group"
                   >
                     <svg
-                      className="w-[3rem] h-[3rem] text-n83-black mt-[0.4rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-110"
+                      className="w-[3rem] h-[3rem] text-n83-white mt-[0.4rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-110"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
                       <path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99zM11 16h2v2h-2v-2zm0-6h2v4h-2v-4z" />
                     </svg>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {point}
                     </p>
                   </div>
@@ -48,8 +48,8 @@ const ForexRisk = () => {
               {/*==================== End of Risk Points ====================*/}
 
               {/*==================== Transparency Quote ====================*/}
-              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-n83-gray-50 border-l border-r border-n83-black">
-                <p className="m-0 font-medium leading-[1.4] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-white/15 border-l border-r border-n83-black">
+                <p className="m-0 font-medium leading-[1.4] text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)]">
                   We believe transparency is respect. That{"'"}s why we make
                   risks as clear as the opportunities.
                 </p>
@@ -72,11 +72,11 @@ const ForexRisk = () => {
             </div>
 
             {/*==================== Risk Management Highlight ====================*/}
-            <div className="mt-[clamp(3rem,4vw,4rem)] p-[clamp(2.5rem,3vw,3rem)] bg-n83-gray-50 border-l border-r border-n83-black">
-              <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2.1rem)] mb-[1rem]">
+            <div className="mt-[clamp(3rem,4vw,4rem)] p-[clamp(2.5rem,3vw,3rem)] bg-neon-primary/10 border-l border-r border-neon-primary/50">
+              <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,2.1rem)] mb-[1rem]">
                 Risk Management is Central
               </h4>
-              <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Leverage amplifies both profits and losses. Responsible trading
                 practices are essential for long-term success.
               </p>

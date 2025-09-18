@@ -22,7 +22,7 @@ const AccountsWhyChoose = () => {
   ];
 
   return (
-    <section className="relative bg-transparent py-[clamp(8rem,12vw,12rem)] backdrop-blur-lg border-t">
+    <section className="relative bg-transparent py-[clamp(8rem,12vw,16rem)] backdrop-blur-lg border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Editorial Layout ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-start">

@@ -28,7 +28,7 @@ const ForexN83Advantage = () => {
   ];
 
   return (
-    <section className="relative bg-n83-black py-[clamp(8rem,12vw,12rem)] border-t">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)] border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
         <div className="mb-[clamp(8rem,12vw,10rem)] border-b">

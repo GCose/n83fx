@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const IndicesHero = () => {
   return (
-    <section className="relative bg-n83-white py-[clamp(8rem,12vw,12rem)]">
+    <section className="relative bg-n83-white py-[clamp(8rem,12vw,16rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Hero Grid ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center min-h-[80vh]">

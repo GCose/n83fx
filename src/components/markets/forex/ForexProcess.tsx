@@ -30,13 +30,13 @@ const ForexHowToStart = () => {
   ];
 
   return (
-    <section className="relative bg-n83-gray-100 py-[clamp(8rem,12vw,12rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)] border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
           {/*==================== Left: Content ====================*/}
           <div className="flex flex-col justify-center">
-            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
+            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
               How to Start Trading Forex with N83-FX
             </h2>
 
@@ -51,10 +51,10 @@ const ForexHowToStart = () => {
                     {step.number}
                   </div>
                   <div className="pt-[0.5rem]">
-                    <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(1rem,1.2vw,1.2rem)]">
+                    <h3 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(1rem,1.2vw,1.2rem)]">
                       {step.title}
                     </h3>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {step.description}
                     </p>
                   </div>

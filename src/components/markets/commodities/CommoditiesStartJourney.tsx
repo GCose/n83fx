@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const CommoditiesStartJourney = () => {
   return (
-    <section className="relative py-[clamp(8rem,12vw,12rem)]">
+    <section className="relative py-[clamp(8rem,12vw,16rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Final CTA Section ====================*/}
         <div className="bg-n83-black rounded-[3rem] p-[clamp(4rem,6vw,6rem)] text-center">
