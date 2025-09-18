@@ -64,14 +64,14 @@ const AccountsTypes = () => {
   ];
 
   return (
-    <section className="bg-n83-gray-100 py-[clamp(8rem,10vw,12rem)]">
+    <section className="bg-transparent py-[clamp(8rem,10vw,12rem)] border-t backdrop-blur-lg">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
-        <div className="text-center mb-[clamp(6rem,7vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
+        <div className="mb-[clamp(8rem,12vw,10rem)] border-b border-neon-primary/60">
+          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,4rem)]">
             Four Clear Choices
           </h2>
-          <p className="m-0 font-normal leading-[1.5] max-w-[70rem] mx-auto text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+          <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-text-secondary leading-[1.4] text-right pb-6">
             Each account designed for different trading needs, all built on the
             same foundation of clarity and transparency.
           </p>
@@ -79,11 +79,11 @@ const AccountsTypes = () => {
         {/*==================== End of Section Header ====================*/}
 
         {/*==================== Account Cards Grid ====================*/}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[clamp(3rem,4vw,4rem)]">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[clamp(3rem,4vw,4rem)]">
           {accountTypes.map((account, index) => (
             <div
               key={index}
-              className={`relative bg-n83-white rounded-[1.6rem] px-8 py-[clamp(3rem,4vw,4rem)] transition-all duration-300 hover:-translate-y-[2px] ${
+              className={`relative bg-transparent border-neon-primary/50 rounded-[1.6rem] px-3 py-[clamp(3rem,4vw,4rem)] transition-all duration-300 hover:-translate-y-[2px] ${
                 account.popular
                   ? "border-2 border-n83-black"
                   : "border border-n83-gray-200"
@@ -101,21 +101,21 @@ const AccountsTypes = () => {
 
               {/*==================== Card Header ====================*/}
               <div className="text-left max-[480px]:mt-10 my-2">
-                <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2rem,2.4vw,2.4rem)] mb-[clamp(1.5rem,2vw,2rem)] uppercase tracking-tight">
+                <h3 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(2rem,2.4vw,2.4rem)] mb-[clamp(1.5rem,2vw,2rem)] uppercase tracking-tight">
                   {account.title}
                 </h3>
                 <div className="mb-[clamp(2rem,2.5vw,2.5rem)]">
-                  <div className="text-[clamp(3.2rem,4vw,4.8rem)] font-extrabold text-n83-black mb-[0.5rem]">
+                  <div className="text-[clamp(3.2rem,4vw,4.8rem)] font-extrabold text-n83-white mb-[0.5rem]">
                     {account.minDeposit}
                   </div>
-                  <div className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-n83-gray-600">
+                  <div className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80">
                     minimum deposit
                   </div>
                 </div>
-                <h4 className="m-0 font-bold leading-[1.3] text-n83-black text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(1.5rem,2vw,2rem)]">
+                <h4 className="m-0 font-bold leading-[1.3] text-n83-white text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(1.5rem,2vw,2rem)]">
                   {account.subtitle}
                 </h4>
-                <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.5rem,1.6vw,1.8rem)]">
+                <p className="m-0 font-normal leading-[1.5] text-white/80 text-[clamp(1.5rem,1.6vw,1.8rem)]">
                   {account.description}
                 </p>
               </div>
@@ -129,10 +129,10 @@ const AccountsTypes = () => {
                     className="flex items-start gap-[1.5rem]"
                   >
                     <div
-                      className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0"
+                      className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0"
                       style={{ transform: "rotate(45deg)" }}
                     ></div>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/80 text-[clamp(1.4rem,1.6vw,1.6rem)]">
                       {feature}
                     </p>
                   </div>
@@ -141,8 +141,8 @@ const AccountsTypes = () => {
               {/*==================== End of Account Features ====================*/}
 
               {/*==================== Best For Section ====================*/}
-              <div className="p-[clamp(2rem,3vw,3rem)] bg-n83-white border-l border-r border-n83-black mb-[clamp(3rem,4vw,4rem)]">
-                <p className="m-0 font-medium leading-[1.4] text-n83-black text-[clamp(1.5rem,1.7vw,1.7rem)]">
+              <div className="p-[clamp(2rem,3vw,3rem)] bg-neon-primary/10 border-l border-r border-neon-primary/50 mb-[clamp(3rem,4vw,4rem)]">
+                <p className="m-0 font-medium leading-[1.4] text-n83-white text-[clamp(1.5rem,1.7vw,1.7rem)]">
                   👉 {account.bestFor}
                 </p>
               </div>
@@ -153,8 +153,8 @@ const AccountsTypes = () => {
                 href="/account/open"
                 className={`cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] w-full ${
                   account.popular
-                    ? "text-n83-white bg-n83-black hover:-translate-y-[2px] hover:bg-n83-gray-900 hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)]"
-                    : "text-n83-black bg-transparent border-2 border-n83-black hover:text-n83-white hover:-translate-y-[2px] hover:bg-n83-black"
+                    ? "text-n83-white bg-white/10 hover:-translate-y-[2px] hover:bg-white/15"
+                    : "text-n83-white bg-transparent border-2 border-n83-white/60 hover:text-n83-white hover:-translate-y-[2px] hover:bg-n83-black"
                 }`}
               >
                 {account.cta}

@@ -77,10 +77,10 @@ const AccountsSection = () => {
             {accountTypes.map((account, index) => (
               <div
                 key={index}
-                className={`relative p-[clamp(3rem,4vw,4rem)] border transition-all duration-500 hover:-translate-y-[6px] group ${
+                className={`relative p-[clamp(3rem,4vw,4rem)] border-neon-primary/50 rounded-[2rem] border transition-all duration-500 hover:-translate-y-[6px] group ${
                   account.featured
                     ? "bg-neon-primary/10 border-neon-primary"
-                    : "bg-n83-black/0 border-text-tertiary hover:border-neon-primary/60"
+                    : "bg-n83-black/0 hover:border-neon-primary/60"
                 }`}
               >
                 {/*==================== Account Header ====================*/}

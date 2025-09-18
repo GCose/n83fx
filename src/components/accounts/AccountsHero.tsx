@@ -3,16 +3,16 @@ import Image from "next/image";
 
 const AccountsHero = () => {
   return (
-    <section className="flex min-h-screen pt-[5rem] flex-col bg-white">
+    <section className="flex min-h-screen pt-[5rem] flex-col bg-transparent backdrop-blur-sm">
       <div className="flex-1 w-full flex flex-col px-container py-[clamp(4rem,6vw,6rem)]">
         {/*==================== Editorial Title ====================*/}
         <div className="w-full mx-auto max-w-[120rem] text-center mb-[clamp(4rem,5vw,5rem)]">
-          <h1 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(4rem,5vw,8rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
+          <h1 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(4rem,5vw,8rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
             Our Accounts
             <br />
             in Detail
           </h1>
-          <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.8rem,2vw,2.4rem)] max-w-[90rem] mx-auto">
+          <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.8rem,2vw,2.4rem)] max-w-[90rem] mx-auto">
             Choose from Standard, Advanced, Pro, or Islamic accounts — each
             designed with simple structure, full transparency, and respect for
             traders at every level.
@@ -52,37 +52,37 @@ const AccountsHero = () => {
         {/*==================== End of Full Screen Hero Image ====================*/}
 
         {/*==================== Editorial Stats Section ====================*/}
-        <div className="border-t border-b border-black py-[clamp(4rem,2vw,5rem)] mb-[clamp(8rem,10vw,10rem)]">
+        <div className="border-t border-b border-white py-[clamp(4rem,2vw,5rem)] mb-[clamp(8rem,10vw,10rem)]">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-[clamp(4rem,6vw,6rem)] text-center">
             <div>
-              <h3 className="m-0 font-800 leading-[1.2] text-black text-[clamp(3rem,5vw,5rem)] mb-[clamp(1rem,2vw,2rem)]">
+              <h3 className="m-0 font-800 leading-[1.2] text-white text-[clamp(3rem,5vw,5rem)] mb-[clamp(1rem,2vw,2rem)]">
                 4
               </h3>
-              <p className="m-0 font-normal leading-[1.4] text-gray-600 text-[clamp(1.6rem,1.8vw,2rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,2rem)]">
                 Account Types
               </p>
             </div>
             <div>
-              <h3 className="m-0 font-800 leading-[1.2] text-black text-[clamp(3rem,5vw,5rem)] mb-[clamp(1rem,2vw,2rem)]">
+              <h3 className="m-0 font-800 leading-[1.2] text-white text-[clamp(3rem,5vw,5rem)] mb-[clamp(1rem,2vw,2rem)]">
                 $100
               </h3>
-              <p className="m-0 font-normal leading-[1.4] text-gray-600 text-[clamp(1.6rem,1.8vw,2rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,2rem)]">
                 Minimum Start
               </p>
             </div>
             <div>
-              <h3 className="m-0 font-800 leading-[1.2] text-black text-[clamp(3rem,5vw,5rem)] mb-[clamp(1rem,2vw,2rem)]">
+              <h3 className="m-0 font-800 leading-[1.2] text-white text-[clamp(3rem,5vw,5rem)] mb-[clamp(1rem,2vw,2rem)]">
                 MT5
               </h3>
-              <p className="m-0 font-normal leading-[1.4] text-gray-600 text-[clamp(1.6rem,1.8vw,2rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,2rem)]">
                 Same Platform
               </p>
             </div>
             <div>
-              <h3 className="m-0 font-800 leading-[1.2] text-black text-[clamp(3rem,5vw,5rem)] mb-[clamp(1rem,2vw,2rem)]">
+              <h3 className="m-0 font-800 leading-[1.2] text-white text-[clamp(3rem,5vw,5rem)] mb-[clamp(1rem,2vw,2rem)]">
                 0%
               </h3>
-              <p className="m-0 font-normal leading-[1.4] text-gray-600 text-[clamp(1.6rem,1.8vw,2rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,2rem)]">
                 Commission Fees
               </p>
             </div>
@@ -101,7 +101,7 @@ const AccountsHero = () => {
             </Link>
             <Link
               href="#compare"
-              className="cursor-pointer font-medium text-[clamp(1.8rem,2vw,2.2rem)] rounded-[3rem] items-center whitespace-nowrap inline-flex py-[clamp(2rem,2.5vw,2.5rem)] px-[clamp(4rem,5vw,5rem)] justify-center text-black bg-transparent border-2 border-black hover:text-white hover:-translate-y-0.5 hover:bg-black w-full lg:w-auto font-playfair max-w-[40rem] transition-smooth"
+              className="cursor-pointer font-medium text-[clamp(1.8rem,2vw,2.2rem)] rounded-[3rem] items-center whitespace-nowrap inline-flex py-[clamp(2rem,2.5vw,2.5rem)] px-[clamp(4rem,5vw,5rem)] justify-center text-white bg-transparent border-2 border-white hover:text-white hover:-translate-y-0.5 hover:bg-gray-900 hover:border-transparent w-full lg:w-auto font-playfair max-w-[40rem] transition-smooth"
             >
               Compare All Accounts
             </Link>
