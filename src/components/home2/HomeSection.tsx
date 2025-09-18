@@ -15,7 +15,7 @@ const HeroSection = () => {
                 <div className="lg:col-span-7 flex items-center">
                   {/*==================== Primary Headline ====================*/}
                   <div className="">
-                    <h1 className="font-display text-[clamp(4rem,12vw,14rem)] font-900 leading-[0.85] text-text-primary tracking-tight">
+                    <h1 className="font-display text-[clamp(4rem,12vw,18rem)] font-900 leading-[0.85] text-text-primary tracking-tight">
                       Built for{" "}
                       <span className="text-neon-primary animate-glow">
                         Winners
