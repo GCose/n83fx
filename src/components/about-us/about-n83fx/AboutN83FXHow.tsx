@@ -20,11 +20,11 @@ const AboutN83FXHow = () => {
     <section className="bg-n83-white py-[clamp(8rem,10vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
-        <div className="text-center mb-[clamp(6rem,7vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3.5rem,4vw,5rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
+        <div className="mb-[clamp(8rem,12vw,10rem)] border-b border-black">
+          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-n83-black leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,4rem)]">
             How We{"'"}re Built
           </h2>
-          <p className="m-0 font-normal leading-[1.5] text-n83-black text-[clamp(1.8rem,2.2vw,2.4rem)] max-w-[70rem] mx-auto">
+          <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-n83-black/60 leading-[1.4] text-right pb-6">
             N83-FX is designed like a boutique—not a casino. Every pixel, every
             flow, every word is intentional.
           </p>
