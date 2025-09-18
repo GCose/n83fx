@@ -2,18 +2,18 @@ import Image from "next/image";
 
 const CryptoWhatIs = () => {
   return (
-    <section className="relative bg-n83-white py-[clamp(8rem,12vw,16rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)] border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-start">
           {/*==================== Left: Content ====================*/}
           <div className="flex flex-col justify-center">
-            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
+            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
               What is Crypto Trading?
             </h2>
 
             <div className="space-y-[clamp(2.5rem,3vw,3rem)]">
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Cryptocurrencies are digital assets built on blockchain
                 technology. Unlike traditional currencies, they operate without
                 central banks. Bitcoin, Ethereum, and other digital coins have
@@ -21,7 +21,7 @@ const CryptoWhatIs = () => {
                 dollars daily.
               </p>
 
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Crypto markets are known for their volatility — prices can move
                 dramatically within hours. For traders, this creates both
                 opportunities and risks. At N83-FX, we provide access to the
@@ -45,20 +45,20 @@ const CryptoWhatIs = () => {
             </div>
 
             {/*==================== Key Facts Grid ====================*/}
-            <div className="mt-[clamp(3rem,4vw,4rem)] grid grid-cols-2 gap-[clamp(1.5rem,2vw,2rem)]">
-              <div className="p-[clamp(2rem,3vw,3rem)] bg-n83-gray-50 rounded-[1.6rem] text-center">
-                <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
+            <div className="mt-[clamp(3rem,4vw,4rem)] grid grid-cols-2 gap-[clamp(1.5rem,2vw,2rem)] border-t border-b">
+              <div className="p-[clamp(2rem,3vw,3rem)]  text-center">
+                <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
                   24/7
                 </h4>
-                <p className="m-0 font-normal leading-[1.3] text-n83-gray-600 text-[clamp(1.3rem,1.5vw,1.5rem)]">
+                <p className="m-0 font-normal leading-[1.3] text-white/70 text-[clamp(1.3rem,1.5vw,1.5rem)]">
                   Trading Hours
                 </p>
               </div>
-              <div className="p-[clamp(2rem,3vw,3rem)] bg-n83-gray-50 rounded-[1.6rem] text-center">
-                <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
+              <div className="p-[clamp(2rem,3vw,3rem)]  text-center">
+                <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
                   High
                 </h4>
-                <p className="m-0 font-normal leading-[1.3] text-n83-gray-600 text-[clamp(1.3rem,1.5vw,1.5rem)]">
+                <p className="m-0 font-normal leading-[1.3] text-white/70 text-[clamp(1.3rem,1.5vw,1.5rem)]">
                   Volatility
                 </p>
               </div>

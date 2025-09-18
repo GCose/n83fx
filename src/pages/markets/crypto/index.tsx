@@ -15,17 +15,22 @@ import { N83FXPageMeta } from "@/pageMeta/meta";
 const Crypto = () => {
   return (
     <Layout meta={N83FXPageMeta.cryptoMeta}>
-      <CryptoHero />
-      <CryptoWhatIs />
-      <CryptoHistory />
-      <CryptoWhyTrade />
-      <CryptoWhyTradeWithUs />
-      <CryptoN83Advantage />
-      {/* <CryptoUAE /> */}
-      <CryptoHowToTrade />
-      <CryptoManagingRisk />
-      <CryptoWhyDifferent />
-      <CryptoBeginJourney />
+      <div className="relative">
+        {/*==================== Falling Tech Particles ====================*/}
+        <div className="falling__particles"></div>
+        {/*==================== End of Falling Tech Particles ====================*/}
+        <CryptoHero />
+        <CryptoWhatIs />
+        <CryptoHistory />
+        <CryptoWhyTrade />
+        <CryptoWhyTradeWithUs />
+        <CryptoN83Advantage />
+        {/* <CryptoUAE /> */}
+        <CryptoHowToTrade />
+        <CryptoManagingRisk />
+        <CryptoWhyDifferent />
+        <CryptoBeginJourney />
+      </div>
     </Layout>
   );
 };
