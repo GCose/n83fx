@@ -28,6 +28,19 @@ const Layout = ({ children, meta }: LayoutProps) => {
       </Head>
 
       <Navigation />
+      {/*==================== Fixed Video Background ====================*/}
+      <div className="fixed inset-0 z-2 bg-n83-black">
+        <video
+          loop
+          muted
+          autoPlay
+          playsInline
+          className="h-full w-full object-cover"
+        >
+          <source src="/videos/hero-section-2.mp4" type="video/mp4" />
+        </video>
+      </div>
+      {/*==================== End of Fixed Video Background ====================*/}
       <main>{children}</main>
       <Footer />
     </>

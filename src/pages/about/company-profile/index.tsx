@@ -10,20 +10,6 @@ import { N83FXPageMeta } from "@/pageMeta/meta";
 const CompanyProfile = () => {
   return (
     <Layout meta={N83FXPageMeta.companyProfileMeta}>
-      {/*==================== Fixed Video Background ====================*/}
-      <div className="fixed inset-0 z-2 bg-n83-black">
-        <video
-          loop
-          muted
-          autoPlay
-          playsInline
-          className="h-full w-full object-cover"
-        >
-          <source src="/videos/hero-section-2.mp4" type="video/mp4" />
-        </video>
-      </div>
-      {/*==================== End of Fixed Video Background ====================*/}
-
       <div className="relative">
         {/*==================== Falling Tech Particles ====================*/}
         <div className="falling__particles"></div>
