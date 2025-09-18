@@ -15,17 +15,22 @@ import { N83FXPageMeta } from "@/pageMeta/meta";
 const Indices = () => {
   return (
     <Layout meta={N83FXPageMeta.indicesMeta}>
-      <IndicesHero />
-      <IndicesWhatIs />
-      <IndicesHistory />
-      <IndicesWhy />
-      <IndicesWhyTrade />
-      <IndicesN83Advantage />
-      {/* <IndicesUAE /> */}
-      <IndicesProcess />
-      <IndicesRiskManagement />
-      <IndicesDifference />
-      <IndicesStartJourney />
+      <div className="relative">
+        {/*==================== Falling Tech Particles ====================*/}
+        <div className="falling__particles"></div>
+        {/*==================== End of Falling Tech Particles ====================*/}
+        <IndicesHero />
+        <IndicesWhatIs />
+        <IndicesHistory />
+        <IndicesWhy />
+        <IndicesWhyTrade />
+        <IndicesN83Advantage />
+        {/* <IndicesUAE /> */}
+        <IndicesProcess />
+        <IndicesRiskManagement />
+        <IndicesDifference />
+        <IndicesStartJourney />
+      </div>
     </Layout>
   );
 };
