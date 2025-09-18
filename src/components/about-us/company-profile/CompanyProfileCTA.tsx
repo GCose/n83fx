@@ -9,13 +9,13 @@ const CompanyProfileCTA = () => {
           <div className="flex items-center gap-[clamp(3rem,4vw,5rem)] flex-col lg:flex-row justify-center">
             <Link
               href="/accounts"
-              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.8rem,2.5vw,2.5rem)] px-[clamp(4rem,5vw,5rem)] text-n83-black bg-n83-white hover:-translate-y-[3px] hover:bg-n83-gray-50 w-full lg:w-auto max-w-[35rem]"
+              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.8rem,2.5vw,2.5rem)] px-[clamp(4rem,5vw,5rem)] text-n83-white bg-n83-white hover:-translate-y-[3px] hover:bg-n83-gray-50 w-full lg:w-auto max-w-[35rem]"
             >
               Compare Accounts
             </Link>
             <Link
               href="/account/open"
-              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.8rem,2.5vw,2.5rem)] px-[clamp(4rem,5vw,5rem)] text-n83-white bg-transparent border-2 border-n83-white hover:text-n83-black hover:-translate-y-[3px] hover:bg-n83-white w-full lg:w-auto max-w-[35rem]"
+              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.8rem,2.5vw,2.5rem)] px-[clamp(4rem,5vw,5rem)] text-n83-white bg-transparent border-2 border-n83-white hover:text-n83-white hover:-translate-y-[3px] hover:bg-n83-white w-full lg:w-auto max-w-[35rem]"
             >
               Open Account
             </Link>

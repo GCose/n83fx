@@ -22,7 +22,7 @@ const StocksWhyTrade = () => {
   ];
 
   return (
-    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)] border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
@@ -42,19 +42,19 @@ const StocksWhyTrade = () => {
 
           {/*==================== Right: Content ====================*/}
           <div className="flex flex-col justify-center">
-            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
+            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
               Why Trade Stocks with N83-FX?
             </h2>
 
             <div className="space-y-[clamp(2.5rem,3vw,3rem)]">
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Many brokers position stocks as just another tab in their
                 platform. At N83-FX, we believe stocks deserve focus — because
                 they{"'"}re where traders connect directly with the world{"'"}s
                 economic story.
               </p>
 
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 With us, you gain:
               </p>
 
@@ -66,14 +66,14 @@ const StocksWhyTrade = () => {
                     className="flex items-start gap-[1.5rem] group"
                   >
                     <div
-                      className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                      className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
                       style={{ transform: "rotate(45deg)" }}
                     ></div>
                     <div>
-                      <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
+                      <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
                         {advantage.title}
                       </h4>
-                      <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                      <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                         {advantage.description}
                       </p>
                     </div>

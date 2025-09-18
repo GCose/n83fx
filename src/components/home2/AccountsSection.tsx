@@ -161,7 +161,7 @@ const AccountsSection = () => {
                     href={account.openLink}
                     className={`group inline-flex items-center justify-center px-[clamp(2.5rem,3vw,3.5rem)] py-[clamp(1.2rem,1.5vw,1.4rem)] font-body font-600 text-[clamp(1.6rem,1.6vw,1.8rem)] border-2 transition-all duration-300 flex-1 ${
                       account.featured
-                        ? "bg-neon-primary text-n83-black border-neon-primary hover:bg-transparent hover:text-neon-primary"
+                        ? "bg-neon-primary text-n83-white border-neon-primary hover:bg-transparent hover:text-neon-primary"
                         : "bg-transparent text-text-primary border-text-primary hover:border-neon-primary hover:text-neon-primary"
                     }`}
                   >
@@ -187,7 +187,7 @@ const AccountsSection = () => {
           <div className="relative text-center">
             <Link
               href="/accounts/compare"
-              className="group inline-flex items-center justify-center px-[clamp(4rem,6vw,8rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-transparent text-neon-primary font-body font-600 text-[clamp(1.6rem,2vw,2rem)] border-2 border-neon-primary hover:bg-neon-primary hover:text-n83-black transition-all duration-300"
+              className="group inline-flex items-center justify-center px-[clamp(4rem,6vw,8rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-transparent text-neon-primary font-body font-600 text-[clamp(1.6rem,2vw,2rem)] border-2 border-neon-primary hover:bg-neon-primary hover:text-n83-white transition-all duration-300"
             >
               Compare All Accounts
               <span className="ml-[1.5rem] group-hover:translate-x-[0.5rem] transition-transform duration-300">

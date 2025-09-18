@@ -15,17 +15,22 @@ import { N83FXPageMeta } from "@/pageMeta/meta";
 const Futures = () => {
   return (
     <Layout meta={N83FXPageMeta.futuresMeta}>
-      <FuturesHero />
-      <FuturesWhatIs />
-      <FuturesHistory />
-      <FuturesWhyTrade />
-      <FuturesWhyTradeWithUs />
-      <FuturesN83Advantage />
-      {/* <FuturesUAE /> */}
-      <FuturesProcess />
-      <FuturesRisk />
-      <FuturesDifference />
-      <FuturesStartJourney />
+      <div className="relative">
+        {/*==================== Falling Tech Particles ====================*/}
+        <div className="falling__particles"></div>
+        {/*==================== End of Falling Tech Particles ====================*/}
+        <FuturesHero />
+        <FuturesWhatIs />
+        <FuturesHistory />
+        <FuturesWhyTrade />
+        <FuturesWhyTradeWithUs />
+        <FuturesN83Advantage />
+        {/* <FuturesUAE /> */}
+        <FuturesProcess />
+        <FuturesRisk />
+        <FuturesDifference />
+        <FuturesStartJourney />
+      </div>
     </Layout>
   );
 };

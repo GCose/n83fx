@@ -48,7 +48,7 @@ const ForexPairs = () => {
               <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
                 {pair.description}
               </p>
-              <div className="pt-[clamp(1.5rem,2vw,2rem)] border-t border-n83-black/10">
+              <div className="pt-[clamp(1.5rem,2vw,2rem)] border-t /10">
                 <p className="m-0 font-medium text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)]">
                   Examples:{" "}
                   <span className="font-normal text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)">

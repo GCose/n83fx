@@ -44,7 +44,7 @@ const AccountsProcess = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[clamp(3rem,4vw,4rem)] mb-[clamp(6rem,8vw,8rem)]">
             {steps.map((step, index) => (
               <div key={index} className="text-center">
-                <div className="w-[clamp(6rem,8vw,8rem)] h-[clamp(6rem,8vw,8rem)] bg-n83-white text-n83-black rounded-full flex items-center justify-center mx-auto mb-[clamp(2rem,3vw,3rem)] font-bold text-[clamp(2rem,2.5vw,2.5rem)]">
+                <div className="w-[clamp(6rem,8vw,8rem)] h-[clamp(6rem,8vw,8rem)] bg-n83-white text-n83-white rounded-full flex items-center justify-center mx-auto mb-[clamp(2rem,3vw,3rem)] font-bold text-[clamp(2rem,2.5vw,2.5rem)]">
                   {step.number}
                 </div>
                 <h3 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(1rem,1.5vw,1.5rem)]">
@@ -61,13 +61,13 @@ const AccountsProcess = () => {
           <div className="flex items-center gap-[clamp(2rem,3vw,3rem)] flex-col lg:flex-row justify-center mb-[clamp(4rem,5vw,5rem)]">
             <Link
               href="/account/open"
-              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-black bg-n83-white hover:-translate-y-[2px] hover:bg-n83-gray-50 hover:shadow-[0_8px_25px_rgba(255,255,255,0.15)] w-full lg:w-auto max-w-[30rem]"
+              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-n83-white hover:-translate-y-[2px] hover:bg-n83-gray-50 hover:shadow-[0_8px_25px_rgba(255,255,255,0.15)] w-full lg:w-auto max-w-[30rem]"
             >
               Open Your Account Today
             </Link>
             <Link
               href="#compare"
-              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-transparent border-2 border-n83-white hover:text-n83-black hover:-translate-y-[2px] hover:bg-n83-white w-full lg:w-auto max-w-[30rem]"
+              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-transparent border-2 border-n83-white hover:text-n83-white hover:-translate-y-[2px] hover:bg-n83-white w-full lg:w-auto max-w-[30rem]"
             >
               Compare All Accounts
             </Link>

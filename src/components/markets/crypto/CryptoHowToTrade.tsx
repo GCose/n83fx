@@ -70,7 +70,7 @@ const CryptoHowToTrade = () => {
             {/*==================== CTA ====================*/}
             <Link
               href="/account/open"
-              className="cursor-pointer font-medium border-2 rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-n83-black hover:-translate-y-[2px] hover:bg-n83-gray-900 hover:border-transparent w-full lg:w-auto max-w-[35rem]"
+              className="cursor-pointer font-medium border-2 rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-n83-black hover:-translate-y-[2px] hover:bg-neon-primary/20hover:border-transparent w-full lg:w-auto max-w-[35rem]"
             >
               Get Started Today
             </Link>

@@ -22,12 +22,12 @@ const CommoditiesHistory = () => {
 
           {/*==================== Right: Content ====================*/}
           <div className="flex flex-col justify-center">
-            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
+            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
               A Brief History of Commodity Trading
             </h2>
 
             <div className="space-y-[clamp(2.5rem,3vw,3rem)]">
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Commodity trading is as old as civilization itself. Ancient
                 merchants exchanged goods across trade routes long before
                 financial markets existed. In the 19th century, organized
@@ -35,7 +35,7 @@ const CommoditiesHistory = () => {
                 futures trading.
               </p>
 
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Today, digital platforms allow traders worldwide to access
                 commodities markets instantly. Whether you{"'"}re buying oil,
                 hedging with gold, or speculating on agricultural shifts,
@@ -43,17 +43,17 @@ const CommoditiesHistory = () => {
               </p>
 
               {/*==================== Evolution Points ====================*/}
-              <div className="grid gap-[clamp(2rem,3vw,3rem)]">
+              <div className="grid gap-[clamp(3rem,3vw,6rem)]">
                 <div className="flex items-start gap-[1.5rem] group">
                   <div
-                    className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                    className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
                     style={{ transform: "rotate(45deg)" }}
                   ></div>
                   <div>
-                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
+                    <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
                       Ancient Trade Routes
                     </h4>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       Merchants exchanged goods across civilizations before
                       financial markets existed.
                     </p>
@@ -62,14 +62,14 @@ const CommoditiesHistory = () => {
 
                 <div className="flex items-start gap-[1.5rem] group">
                   <div
-                    className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                    className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
                     style={{ transform: "rotate(45deg)" }}
                   ></div>
                   <div>
-                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
+                    <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
                       Exchange Formalization
                     </h4>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       The Chicago Board of Trade organized standardized
                       commodity contracts.
                     </p>
@@ -78,14 +78,14 @@ const CommoditiesHistory = () => {
 
                 <div className="flex items-start gap-[1.5rem] group">
                   <div
-                    className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                    className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
                     style={{ transform: "rotate(45deg)" }}
                   ></div>
                   <div>
-                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
+                    <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
                       Digital Access
                     </h4>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       Modern platforms provide instant global commodities market
                       access.
                     </p>

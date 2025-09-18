@@ -51,7 +51,7 @@ const ForexN83Advantage = () => {
               </h3>
 
               {/*==================== Conditions List ====================*/}
-              <div className="grid gap-[clamp(2rem,3vw,3rem)]">
+              <div className="grid gap-[clamp(3rem,3vw,6rem)]">
                 {conditions.map((condition, index) => (
                   <div
                     key={index}
@@ -136,7 +136,7 @@ const ForexN83Advantage = () => {
             {accountTypes.map((account, index) => (
               <div
                 key={index}
-                className="p-[clamp(2rem,3vw,3rem)] bg-white/15 rounded-[1.6rem] hover:border-n83-black/20 transition-all duration-300 hover:-translate-y-[2px]"
+                className="p-[clamp(2rem,3vw,3rem)] bg-white/15 rounded-[1.6rem] hover:/20 transition-all duration-300 hover:-translate-y-[2px]"
               >
                 <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,2.1rem)] mb-[1rem]">
                   {account.title}

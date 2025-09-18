@@ -9,18 +9,18 @@ const StocksWhy = () => {
   ];
 
   return (
-    <section className="relative bg-n83-white py-[clamp(8rem,12vw,16rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)] border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Main Layout ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
           {/*==================== Left: Content ====================*/}
           <div className="flex flex-col justify-center">
-            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
+            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
               Why Trade Stocks?
             </h2>
 
             <div className="space-y-[clamp(2.5rem,3vw,3rem)]">
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Stocks are more than numbers — they reflect real businesses,
                 innovations, and industries. Traders choose stocks because they:
               </p>
@@ -33,10 +33,10 @@ const StocksWhy = () => {
                     className="flex items-start gap-[1.5rem] group"
                   >
                     <div
-                      className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                      className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
                       style={{ transform: "rotate(45deg)" }}
                     ></div>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {reason}
                     </p>
                   </div>
@@ -45,8 +45,8 @@ const StocksWhy = () => {
               {/*==================== End of Trading Reasons List ====================*/}
 
               {/*==================== Closing Statement ====================*/}
-              <div className="pt-[clamp(2rem,3vw,3rem)] border-t border-n83-black">
-                <p className="m-0 font-medium leading-[1.5] text-n83-black text-[clamp(1.7rem,1.9vw,2rem)]">
+              <div className="pt-[clamp(2rem,3vw,3rem)] border-t">
+                <p className="m-0 font-medium leading-[1.5] text-n83-white text-[clamp(1.7rem,1.9vw,2rem)]">
                   Whether you{"'"}re trading Tesla{"'"}s latest move or hedging
                   with healthcare stocks, equities allow you to participate
                   directly in the performance of the world{"'"}s most

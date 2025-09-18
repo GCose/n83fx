@@ -44,7 +44,7 @@ const SpeedSilenceSection = () => {
                   <div className="flex items-start gap-[clamp(3rem,4vw,4rem)]">
                     {/*==================== Animated Bullet ====================*/}
                     <div className="flex-shrink-0 pt-[1rem]">
-                      <div className="w-[2rem] h-[2rem] border-2 border-neon-primary transform rotate-45 group-hover:scale-125 group-hover:bg-neon-primary/20 transition-all duration-500"></div>
+                      <div className="w-[2rem] h-[2rem] border-2 border-neon-primary transform rotate-45 group-hover:scale-125 group-hover:bg-neon-primary/20transition-all duration-500"></div>
                     </div>
                     {/*==================== End of Animated Bullet ====================*/}
 
@@ -63,7 +63,7 @@ const SpeedSilenceSection = () => {
               <div>
                 <Link
                   href="/about/about-n83fx"
-                  className="group inline-flex items-center justify-center px-[clamp(4rem,6vw,8rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-transparent text-neon-primary font-body font-600 text-[clamp(1.6rem,2vw,2rem)] border-2 border-neon-primary hover:bg-neon-primary hover:text-n83-black transition-all duration-300"
+                  className="group inline-flex items-center justify-center px-[clamp(4rem,6vw,8rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-transparent text-neon-primary font-body font-600 text-[clamp(1.6rem,2vw,2rem)] border-2 border-neon-primary hover:bg-neon-primary hover:text-n83-white transition-all duration-300"
                 >
                   See the Platform
                   <span className="ml-[1.5rem] group-hover:translate-x-[0.5rem] transition-transform duration-300">

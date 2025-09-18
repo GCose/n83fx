@@ -22,35 +22,35 @@ const MetalsHistory = () => {
 
           {/*==================== Right: Content ====================*/}
           <div className="flex flex-col justify-center">
-            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
+            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
               A Short History of Metals
             </h2>
 
             <div className="space-y-[clamp(2.5rem,3vw,3rem)]">
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Gold and silver were the earliest forms of money, trusted across
                 civilizations. For centuries, currencies were backed by gold
                 reserves, linking metals directly to economic value.
               </p>
 
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Trading metals has moved from physical bars and coins to instant
                 digital access — a transformation that allows traders to
                 participate globally with ease.
               </p>
 
               {/*==================== Evolution Points ====================*/}
-              <div className="grid gap-[clamp(2rem,3vw,3rem)]">
+              <div className="grid gap-[clamp(3rem,3vw,6rem)]">
                 <div className="flex items-start gap-[1.5rem] group">
                   <div
-                    className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                    className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
                     style={{ transform: "rotate(45deg)" }}
                   ></div>
                   <div>
-                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
+                    <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
                       Ancient Money
                     </h4>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       Gold is still considered the ultimate store of value.
                     </p>
                   </div>
@@ -58,14 +58,14 @@ const MetalsHistory = () => {
 
                 <div className="flex items-start gap-[1.5rem] group">
                   <div
-                    className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                    className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
                     style={{ transform: "rotate(45deg)" }}
                   ></div>
                   <div>
-                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
+                    <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
                       Dual Purpose Silver
                     </h4>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       Silver plays a dual role in both finance and industry.
                     </p>
                   </div>
@@ -73,14 +73,14 @@ const MetalsHistory = () => {
 
                 <div className="flex items-start gap-[1.5rem] group">
                   <div
-                    className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                    className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
                     style={{ transform: "rotate(45deg)" }}
                   ></div>
                   <div>
-                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
+                    <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)] mb-[0.5rem]">
                       Industrial Demand
                     </h4>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       Copper and other base metals reflect global growth and
                       demand.
                     </p>

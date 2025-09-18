@@ -29,12 +29,12 @@ const IndicesRisk = () => {
 
           {/*==================== Right: Content ====================*/}
           <div className="flex flex-col justify-center">
-            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
+            <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
               Managing Risk in Indices
             </h2>
 
             <div className="space-y-[clamp(2.5rem,3vw,3rem)]">
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Indices represent whole markets, which means they can move
                 sharply during economic or political events. At N83-FX, we
                 emphasize:
@@ -48,10 +48,10 @@ const IndicesRisk = () => {
                     className="flex items-start gap-[1.5rem] group"
                   >
                     <div
-                      className="w-[2rem] h-[2rem] bg-n83-black rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                      className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"
                       style={{ transform: "rotate(45deg)" }}
                     ></div>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {point}
                     </p>
                   </div>
@@ -60,8 +60,8 @@ const IndicesRisk = () => {
               {/*==================== End of Risk Points ====================*/}
 
               {/*==================== Closing Statement ====================*/}
-              <div className="pt-[clamp(2rem,3vw,3rem)] border-t border-n83-black">
-                <p className="m-0 font-medium leading-[1.5] text-n83-black text-[clamp(1.7rem,1.9vw,2rem)]">
+              <div className="pt-[clamp(2rem,3vw,3rem)] border-t ">
+                <p className="m-0 font-medium leading-[1.5] text-n83-white text-[clamp(1.7rem,1.9vw,2rem)]">
                   We believe risk should be clear and manageable, not hidden.
                 </p>
               </div>

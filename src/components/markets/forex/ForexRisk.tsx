@@ -48,7 +48,7 @@ const ForexRisk = () => {
               {/*==================== End of Risk Points ====================*/}
 
               {/*==================== Transparency Quote ====================*/}
-              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-white/15 border-l border-r border-n83-black">
+              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-white/15 border-l border-r ">
                 <p className="m-0 font-medium leading-[1.4] text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)]">
                   We believe transparency is respect. That{"'"}s why we make
                   risks as clear as the opportunities.

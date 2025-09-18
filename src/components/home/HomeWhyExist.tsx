@@ -14,7 +14,7 @@ const HomeWhyExist = () => {
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
         <div className="text-center mb-[clamp(6rem,7vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,6rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
+          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,6rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
             Why We Exist
           </h2>
         </div>
@@ -38,14 +38,14 @@ const HomeWhyExist = () => {
 
           {/*==================== Right: Content ====================*/}
           <div>
-            <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(3rem,4vw,4rem)]">
+            <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(3rem,4vw,4rem)]">
               Most platforms make markets feel louder—flashing prompts, crowded
               screens, pressure to trade more. We built N83-FX for people who
               want the opposite: a clear space to think, act, and stay in
               control.
             </p>
 
-            <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(3rem,4vw,4rem)]">
+            <h3 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.8rem,2vw,2rem)] mb-[clamp(3rem,4vw,4rem)]">
               Our approach is simple:
             </h3>
 
@@ -57,10 +57,10 @@ const HomeWhyExist = () => {
                   className="flex items-start gap-[1.6rem] group"
                 >
                   <div
-                    className="w-[2rem] h-[2rem] bg-n83-black mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"
+                    className="w-[2rem] h-[2rem] bg-n83-white mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"
                     style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
                   ></div>
-                  <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                  <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                     {approach}
                   </p>
                 </div>
@@ -71,7 +71,7 @@ const HomeWhyExist = () => {
             {/*==================== CTA Link ====================*/}
             <Link
               href="/about/about-n83fx"
-              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-n83-black hover:-translate-y-[2px] hover:bg-n83-gray-900 hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] w-full lg:w-auto max-w-[30rem]"
+              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-n83-black hover:-translate-y-[2px] hover:bg-neon-primary/20hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] w-full lg:w-auto max-w-[30rem]"
             >
               Read About N83-FX
             </Link>

@@ -55,12 +55,12 @@ const ForexWhatIs = () => {
             </div>
 
             {/*==================== Key Facts Grid ====================*/}
-            <div className="mt-[clamp(3rem,4vw,4rem)] border-t border-n83-black border-b grid grid-cols-2 gap-[clamp(1.5rem,2vw,2rem)]">
+            <div className="mt-[clamp(3rem,4vw,4rem)] border-t  border-b grid grid-cols-2 gap-[clamp(1.5rem,2vw,2rem)]">
               <div className="p-[clamp(2rem,3vw,3rem)]  text-center">
                 <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
                   $6T+
                 </h4>
-                <p className="m-0 font-normal leading-[1.3] text-n83-gray-600 text-[clamp(1.3rem,1.5vw,1.5rem)]">
+                <p className="m-0 font-normal leading-[1.3] text-white/70 text-[clamp(1.3rem,1.5vw,1.5rem)]">
                   Traded Daily
                 </p>
               </div>
@@ -68,7 +68,7 @@ const ForexWhatIs = () => {
                 <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
                   24/5
                 </h4>
-                <p className="m-0 font-normal leading-[1.3] text-n83-gray-600 text-[clamp(1.3rem,1.5vw,1.5rem)]">
+                <p className="m-0 font-normal leading-[1.3] text-white/70 text-[clamp(1.3rem,1.5vw,1.5rem)]">
                   Trading Hours
                 </p>
               </div>

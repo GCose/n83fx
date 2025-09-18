@@ -50,7 +50,7 @@ const CryptoN83Advantage = () => {
               </h3>
 
               {/*==================== Conditions List ====================*/}
-              <div className="grid gap-[clamp(2rem,3vw,3rem)]">
+              <div className="grid gap-[clamp(3rem,3vw,6rem)]">
                 {conditions.map((condition, index) => (
                   <div
                     key={index}

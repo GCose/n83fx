@@ -84,9 +84,7 @@ const AccountsTypes = () => {
             <div
               key={index}
               className={`relative bg-transparent border-neon-primary/50 rounded-[1.6rem] px-3 py-[clamp(3rem,4vw,4rem)] transition-all duration-300 hover:-translate-y-[2px] ${
-                account.popular
-                  ? "border-2 border-n83-black"
-                  : "border border-n83-gray-200"
+                account.popular ? "border-2 " : "border border-n83-gray-200"
               }`}
             >
               {/*==================== Popular Badge ====================*/}

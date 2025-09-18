@@ -58,7 +58,7 @@ const AboutN83FXClosing = () => {
             <div className="flex items-center gap-[clamp(2rem,3vw,3rem)] flex-col lg:flex-row">
               <Link
                 href="/account/open"
-                className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.8rem,2vw,2rem)] py-[clamp(2rem,2.5vw,2.5rem)] px-[clamp(4rem,5vw,5rem)] text-n83-white border-2 border-n83-white/50 bg-n83-black hover:-translate-y-[2px] hover:bg-n83-gray-900 hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] w-full lg:w-auto max-w-[35rem]"
+                className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.8rem,2vw,2rem)] py-[clamp(2rem,2.5vw,2.5rem)] px-[clamp(4rem,5vw,5rem)] text-n83-white border-2 border-n83-white/50 bg-n83-black hover:-translate-y-[2px] hover:bg-neon-primary/20hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] w-full lg:w-auto max-w-[35rem]"
               >
                 Start Trading
               </Link>

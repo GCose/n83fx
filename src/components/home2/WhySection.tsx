@@ -70,7 +70,7 @@ const WhySection = () => {
           <div className="text-center">
             <Link
               href="/about/about-n83fx"
-              className="group inline-flex items-center justify-center px-[clamp(4rem,6vw,8rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-transparent text-neon-primary font-body font-600 text-[clamp(1.6rem,2vw,2rem)] border-2 border-neon-primary hover:bg-neon-primary hover:text-n83-black transition-all duration-300"
+              className="group inline-flex items-center justify-center px-[clamp(4rem,6vw,8rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-transparent text-neon-primary font-body font-600 text-[clamp(1.6rem,2vw,2rem)] border-2 border-neon-primary hover:bg-neon-primary hover:text-n83-white transition-all duration-300"
             >
               See the Platform
               <span className="ml-[1.5rem] group-hover:translate-x-[0.5rem] transition-transform duration-300">

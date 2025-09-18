@@ -96,7 +96,7 @@ const ValueSection = () => {
           <div className="mt-[clamp(7rem,2vw,10rem)] text-center">
             <Link
               href="/account/open"
-              className="group inline-flex items-center justify-center px-[clamp(3rem,4vw,5rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-neon-primary text-n83-black font-body font-700 text-[clamp(1.6rem,2vw,2rem)] hover:bg-transparent hover:text-neon-primary border-2 border-neon-primary transition-all duration-300"
+              className="group inline-flex items-center justify-center px-[clamp(3rem,4vw,5rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-neon-primary text-n83-white font-body font-700 text-[clamp(1.6rem,2vw,2rem)] hover:bg-transparent hover:text-neon-primary border-2 border-neon-primary transition-all duration-300"
             >
               Open Account
               <span className="ml-[1.5rem] group-hover:translate-x-[0.5rem] transition-transform duration-300">

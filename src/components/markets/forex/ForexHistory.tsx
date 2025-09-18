@@ -42,7 +42,7 @@ const ForexHistory = () => {
               </p>
 
               {/*==================== Evolution Points ====================*/}
-              <div className="space-y-[clamp(4rem,2.5vw,6rem)] pt-[clamp(2rem,3vw,3rem)] border-t border-n83-black/20">
+              <div className="space-y-[clamp(4rem,2.5vw,6rem)] pt-[clamp(2rem,3vw,3rem)] border-t /20">
                 <div className="flex items-start gap-[1.5rem] group">
                   <div
                     className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:rotate-45"

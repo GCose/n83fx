@@ -15,17 +15,22 @@ import { N83FXPageMeta } from "@/pageMeta/meta";
 const Stocks = () => {
   return (
     <Layout meta={N83FXPageMeta.stocksMeta}>
-      <StocksHero />
-      <StocksWhatIs />
-      <StocksHistory />
-      <StocksWhy />
-      <StocksWhyTrade />
-      <StocksN83Advantage />
-      {/* <StocksUAE /> */}
-      <StocksProcess />
-      <StocksRisk />
-      <StocksWhyDifferent />
-      <StocksStartJourney />
+      <div className="relative">
+        {/*==================== Falling Tech Particles ====================*/}
+        <div className="falling__particles"></div>
+        {/*==================== End of Falling Tech Particles ====================*/}
+        <StocksHero />
+        <StocksWhatIs />
+        <StocksHistory />
+        <StocksWhy />
+        <StocksWhyTrade />
+        <StocksN83Advantage />
+        {/* <StocksUAE /> */}
+        <StocksProcess />
+        <StocksRisk />
+        <StocksWhyDifferent />
+        <StocksStartJourney />
+      </div>
     </Layout>
   );
 };

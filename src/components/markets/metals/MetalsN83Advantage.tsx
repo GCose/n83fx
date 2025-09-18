@@ -27,14 +27,14 @@ const MetalsN83Advantage = () => {
   ];
 
   return (
-    <section className="relative bg-n83-white py-[clamp(8rem,12vw,16rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
         <div className="text-center mb-[clamp(6rem,8vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
+          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
             The N83-FX Advantage
           </h2>
-          <p className="m-0 font-normal leading-[1.5] max-w-[60rem] mx-auto text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+          <p className="m-0 font-normal leading-[1.5] max-w-[60rem] mx-auto text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
             Three pillars that make metals trading at N83-FX different
           </p>
         </div>
@@ -45,7 +45,7 @@ const MetalsN83Advantage = () => {
           <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
             {/*==================== Left: Content ====================*/}
             <div className="flex flex-col justify-center">
-              <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2.4rem,3vw,3.2rem)] mb-[clamp(2rem,3vw,3rem)]">
+              <h3 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(2.4rem,3vw,3.2rem)] mb-[clamp(2rem,3vw,3rem)]">
                 Boutique Trading Conditions
               </h3>
 
@@ -60,7 +60,7 @@ const MetalsN83Advantage = () => {
                       <div className="absolute w-full h-[5px] bg-n83-black top-1/2 -translate-y-1/2"></div>
                       <div className="absolute h-full w-[5px] bg-n83-black left-1/2 -translate-x-1/2"></div>
                     </div>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {condition}
                     </p>
                   </div>
@@ -106,10 +106,10 @@ const MetalsN83Advantage = () => {
 
             {/*==================== Right: Content ====================*/}
             <div className="flex flex-col justify-center">
-              <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2.4rem,3vw,3.2rem)] mb-[clamp(2rem,3vw,3rem)]">
+              <h3 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(2.4rem,3vw,3.2rem)] mb-[clamp(2rem,3vw,3rem)]">
                 Platform for Focus
               </h3>
-              <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Metals are traded on MetaTrader 5 (MT5), customized at N83-FX to
                 emphasize clarity. Every chart and tool is simplified for
                 decision-making.
@@ -121,9 +121,9 @@ const MetalsN83Advantage = () => {
         {/*==================== End of Trading Platform MT5 ====================*/}
 
         {/*==================== Four Account Types ====================*/}
-        <div className="p-[clamp(4rem,6vw,6rem)] border-t border-b border-n83-black">
+        <div className="p-[clamp(4rem,6vw,6rem)] border-t border-b ">
           <div className="text-center mb-[clamp(4rem,5vw,5rem)]">
-            <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2.4rem,3vw,3.2rem)] mb-[clamp(1.5rem,2vw,2rem)]">
+            <h3 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(2.4rem,3vw,3.2rem)] mb-[clamp(1.5rem,2vw,2rem)]">
               Four Account Types
             </h3>
           </div>
@@ -133,12 +133,12 @@ const MetalsN83Advantage = () => {
             {accountTypes.map((account, index) => (
               <div
                 key={index}
-                className="p-[clamp(2rem,3vw,3rem)] bg-n83-white rounded-[1.6rem] hover:border-n83-black/20 transition-all duration-300 hover:-translate-y-[2px]"
+                className="p-[clamp(2rem,3vw,3rem)] bg-n83-white rounded-[1.6rem] hover:/20 transition-all duration-300 hover:-translate-y-[2px]"
               >
-                <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2.1rem)] mb-[1rem]">
+                <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,2.1rem)] mb-[1rem]">
                   {account.title}
                 </h4>
-                <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                   {account.description}
                 </p>
               </div>
