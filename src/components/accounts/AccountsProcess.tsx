@@ -25,10 +25,10 @@ const AccountsProcess = () => {
   ];
 
   return (
-    <section className="relative py-[clamp(8rem,12vw,12rem)]">
+    <section className="relative py-[clamp(8rem,12vw,12rem)] backdrop-blur-lg border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Final CTA Section ====================*/}
-        <div className="bg-n83-black rounded-[3rem] p-[clamp(4rem,6vw,6rem)] text-center">
+        <div className="bg-neon-primary/10 rounded-[3rem] p-[clamp(4rem,6vw,6rem)] text-center">
           <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
             How to Open an Account
           </h2>
