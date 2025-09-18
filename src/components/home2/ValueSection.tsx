@@ -51,7 +51,7 @@ const ValueSection = () => {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-[clamp(1rem,4vw,4rem)] items-start border-t border-neon-primary/60 pt-6"
+                className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-[clamp(1rem,4vw,4rem)] items-start border-t pt-6"
               >
                 {/*==================== Column 1: Number ====================*/}
                 <div className="col-span-1 md:col-span-1 lg:col-span-2 md:mb-4">
