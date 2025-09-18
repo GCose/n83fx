@@ -37,7 +37,7 @@ const CompanyProfileSupport = () => {
                 <h3 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(1rem,1.5vw,1.5rem)] uppercase">
                   {detail.title}
                 </h3>
-                <p className="m-0 font-normal leading-[1.4] text-white/50 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                   {detail.content}
                 </p>
               </div>

@@ -23,14 +23,14 @@ const ForexWhy = () => {
   ];
 
   return (
-    <section className="relative bg-n83-white py-[clamp(8rem,12vw,12rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,12rem)] border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
-        <div className="text-center mb-[clamp(6rem,8vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(4rem,5vw,6rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
+        <div className="mb-[clamp(8rem,12vw,10rem)] border-b">
+          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,6rem)]">
             Why Trade Forex with N83-FX?
           </h2>
-          <p className="m-0 font-normal leading-[1.5] text-n83-gray-600 text-[clamp(1.8rem,2.2vw,2.4rem)] max-w-[80rem] mx-auto">
+          <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-text-secondary leading-[1.4] text-right pb-6">
             Most platforms make trading feel noisy and overwhelming. Flashing
             screens, unnecessary alerts, and complicated setups are common.
           </p>
@@ -41,7 +41,7 @@ const ForexWhy = () => {
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-start">
           {/*==================== Left: Content ====================*/}
           <div className="flex flex-col justify-center">
-            <h3 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(2.4rem,3vw,3.2rem)] mb-[clamp(3rem,4vw,4rem)]">
+            <h3 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(2.4rem,3vw,3.2rem)] mb-[clamp(3rem,4vw,4rem)]">
               We take a different approach:
             </h3>
 
@@ -53,14 +53,14 @@ const ForexWhy = () => {
                   className="flex items-start gap-[1.6rem] group"
                 >
                   <div
-                    className="w-[2rem] h-[2rem] bg-n83-black mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"
+                    className="w-[2rem] h-[2rem] bg-n83-white mt-[0.8rem] flex-shrink-0 transition-transform duration-300 group-hover:scale-125"
                     style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
                   ></div>
                   <div>
-                    <h4 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.6rem,1.8vw,2.1rem)] mb-[0.5rem]">
+                    <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,2.1rem)] mb-[0.5rem]">
                       {approach.title}
                     </h4>
-                    <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {approach.description}
                     </p>
                   </div>
@@ -70,8 +70,8 @@ const ForexWhy = () => {
             {/*==================== End of Approaches Grid ====================*/}
 
             {/*==================== Closing Statement ====================*/}
-            <div className="p-[clamp(2.5rem,3vw,3rem)] bg-n83-gray-50 border-l border-r border-n83-black">
-              <p className="m-0 font-medium leading-[1.4] text-n83-black text-[clamp(1.6rem,1.8vw,1.9rem)]">
+            <div className="p-[clamp(2.5rem,3vw,3rem)] bg-neon-primary/10 border-l border-r border-neon-primary/50">
+              <p className="m-0 font-medium leading-[1.4] text-n83-white text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 Whether you are just starting or you are already experienced,
                 our goal is the same: to give you a clean, secure environment
                 where decisions are easier to make.

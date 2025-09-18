@@ -34,7 +34,7 @@ const WhySection = () => {
           {/*==================== End of Section Title ====================*/}
 
           {/*==================== Cards Row with Borders ====================*/}
-          <div className="border-t border-b border-neon-primary/60 py-[clamp(2rem,4vw,4rem)] mb-[clamp(8rem,10vw,12rem)]">
+          <div className="border-t border-b py-[clamp(2rem,4vw,4rem)] mb-[clamp(8rem,10vw,12rem)]">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-[clamp(5rem,6vw,4rem)]">
               {reasons.map((reason, index) => (
                 <div key={index} className="lg:text-left">

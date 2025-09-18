@@ -45,8 +45,8 @@ const AccountsComparison = () => {
     >
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
-        <div className="mb-[clamp(8rem,12vw,10rem)] border-b border-neon-primary/60">
-          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,4rem)]">
+        <div className="mb-[clamp(8rem,12vw,10rem)] border-b">
+          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,5rem)]">
             Compare All Accounts
           </h2>
           <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-text-secondary leading-[1.4] text-right pb-6">
@@ -124,14 +124,14 @@ const AccountsComparison = () => {
                         className={`font-bold text-[clamp(1.4rem,1.6vw,1.6rem)] ${
                           account.swapFree === "Yes"
                             ? "text-white"
-                            : "text-white/80"
+                            : "text-white/70"
                         }`}
                       >
                         {account.swapFree}
                       </span>
                     </div>
                     <div className="text-center">
-                      <p className="m-0 font-normal leading-[1.3] text-white/80 text-[clamp(1.3rem,1.5vw,1.5rem)]">
+                      <p className="m-0 font-normal leading-[1.3] text-white/70 text-[clamp(1.3rem,1.5vw,1.5rem)]">
                         {account.bestFor}
                       </p>
                     </div>
@@ -159,7 +159,7 @@ const AccountsComparison = () => {
                 </div>
                 <div className="space-y-[clamp(1.5rem,2vw,2rem)]">
                   <div className="flex justify-between items-center">
-                    <span className="font-medium text-white/80 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    <span className="font-medium text-white/70 text-[clamp(1.4rem,1.6vw,1.6rem)]">
                       Spreads:
                     </span>
                     <span className="font-bold text-white text-[clamp(1.4rem,1.6vw,1.6rem)]">
@@ -167,7 +167,7 @@ const AccountsComparison = () => {
                     </span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="font-medium text-white/80 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    <span className="font-medium text-white/70 text-[clamp(1.4rem,1.6vw,1.6rem)]">
                       Leverage:
                     </span>
                     <span className="font-bold text-white text-[clamp(1.4rem,1.6vw,1.6rem)]">
@@ -175,7 +175,7 @@ const AccountsComparison = () => {
                     </span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="font-medium text-white/80 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    <span className="font-medium text-white/70 text-[clamp(1.4rem,1.6vw,1.6rem)]">
                       Commission:
                     </span>
                     <span className="font-bold text-white text-[clamp(1.4rem,1.6vw,1.6rem)]">
@@ -183,7 +183,7 @@ const AccountsComparison = () => {
                     </span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="font-medium text-white/80 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    <span className="font-medium text-white/70 text-[clamp(1.4rem,1.6vw,1.6rem)]">
                       Swap-Free:
                     </span>
                     <span
@@ -198,7 +198,7 @@ const AccountsComparison = () => {
                   </div>
                 </div>
                 <div className="mt-[clamp(2rem,3vw,3rem)] pt-[clamp(2rem,3vw,3rem)] border-t border-gray-200">
-                  <p className="m-0 font-medium leading-[1.4] text-white/80 text-[clamp(1.4rem,1.6vw,1.6rem)] text-center">
+                  <p className="m-0 font-medium leading-[1.4] text-white/70 text-[clamp(1.4rem,1.6vw,1.6rem)] text-center">
                     {account.bestFor}
                   </p>
                 </div>
@@ -214,7 +214,7 @@ const AccountsComparison = () => {
           <h3 className="m-0 font-bold leading-[1.3] text-white text-[clamp(2.5rem,3vw,3rem)] mb-[clamp(2rem,3vw,3rem)]">
             Risk Reminder
           </h3>
-          <p className="m-0 font-normal leading-[1.5] text-white/80 text-[clamp(1.8rem,2vw,2rem)] max-w-[100rem] mx-auto">
+          <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.8rem,2vw,2rem)] max-w-[100rem] mx-auto">
             Trading involves risk. Leverage can amplify both profits and losses.
             Only trade with money you can afford to lose. At N83-FX, we
             encourage disciplined, responsible trading.

@@ -20,10 +20,10 @@ const Footer = () => {
                 src="/images/logos/logo-light.svg"
               />
             </Link>
-            <p className="text-[clamp(1.8rem,2.2vw,2.2rem)] font-normal leading-[1.5] text-white/80 mb-[clamp(3rem,4vw,4rem)]">
+            <p className="text-[clamp(1.8rem,2.2vw,2.2rem)] font-normal leading-[1.5] text-white/70 mb-[clamp(3rem,4vw,4rem)]">
               Trade with clarity
             </p>
-            <p className="text-[clamp(1.5rem,1.8vw,1.7rem)] leading-[1.6] text-white/80">
+            <p className="text-[clamp(1.5rem,1.8vw,1.7rem)] leading-[1.6] text-white/70">
               We believe investing should feel good. No complexity, no pressure,
               just straightforward tools for building wealth.
             </p>
@@ -37,25 +37,25 @@ const Footer = () => {
             <div className="flex flex-col gap-[clamp(1rem,1.5vw,1.5rem)]">
               <Link
                 href="/platform/zero-commission"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 Zero Commission Trading
               </Link>
               <Link
                 href="/platform/real-time-insights"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 Real-time Insights
               </Link>
               <Link
                 href="/platform/beginner-mode"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 Beginner Mode
               </Link>
               <Link
                 href="/platform/expert-tools"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 Expert Tools
               </Link>
@@ -70,25 +70,25 @@ const Footer = () => {
             <div className="flex flex-col gap-[clamp(1rem,1.5vw,1.5rem)]">
               <Link
                 href="/learn/trading-basics"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 Trading Basics
               </Link>
               <Link
                 href="/learn/market-education"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 Market Education
               </Link>
               <Link
                 href="/learn/emotional-investing"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 Emotional Investing
               </Link>
               <Link
                 href="/learn/help-center"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 Help Center
               </Link>
@@ -103,25 +103,25 @@ const Footer = () => {
             <div className="flex flex-col gap-[clamp(1rem,1.5vw,1.5rem)]">
               <Link
                 href="/about/company-info"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 About N83-FX
               </Link>
               <Link
                 href="/transparency-report"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 Transparency Report
               </Link>
               <Link
                 href="/security"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 Security
               </Link>
               <Link
                 href="/careers"
-                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
+                className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70 transition-smooth hover:text-n83-white hover:translate-x-[3px]"
               >
                 Careers
               </Link>
@@ -134,24 +134,24 @@ const Footer = () => {
           <div className="flex flex-wrap justify-center md:justify-start gap-[clamp(2rem,3vw,3rem)]">
             <Link
               href="/legal/privacy-policy"
-              className="text-[clamp(1.3rem,1.5vw,1.5rem)] text-white/60 transition-smooth hover:text-n83-white"
+              className="text-[clamp(1.3rem,1.5vw,1.5rem)] text-white/70 transition-smooth hover:text-n83-white"
             >
               Privacy Policy
             </Link>
             <Link
               href="/legal/terms-conditions"
-              className="text-[clamp(1.3rem,1.5vw,1.5rem)] text-white/60 transition-smooth hover:text-n83-white"
+              className="text-[clamp(1.3rem,1.5vw,1.5rem)] text-white/70 transition-smooth hover:text-n83-white"
             >
               Terms of Service
             </Link>
             <Link
               href="/legal/risk-disclosure"
-              className="text-[clamp(1.3rem,1.5vw,1.5rem)] text-white/60 transition-smooth hover:text-n83-white"
+              className="text-[clamp(1.3rem,1.5vw,1.5rem)] text-white/70 transition-smooth hover:text-n83-white"
             >
               Risk Disclosure
             </Link>
           </div>
-          <p className="text-[clamp(1.3rem,1.5vw,1.5rem)] text-white/60 text-center md:text-left">
+          <p className="text-[clamp(1.3rem,1.5vw,1.5rem)] text-white/70 text-center md:text-left">
             © 2025 N83-FX. Securities by SIPC.
           </p>
         </div>

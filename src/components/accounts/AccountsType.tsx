@@ -67,8 +67,8 @@ const AccountsTypes = () => {
     <section className="bg-transparent py-[clamp(8rem,10vw,12rem)] border-t backdrop-blur-lg">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
-        <div className="mb-[clamp(8rem,12vw,10rem)] border-b border-neon-primary/60">
-          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,4rem)]">
+        <div className="mb-[clamp(8rem,12vw,10rem)] border-b">
+          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,5rem)]">
             Four Clear Choices
           </h2>
           <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-text-secondary leading-[1.4] text-right pb-6">
@@ -108,14 +108,14 @@ const AccountsTypes = () => {
                   <div className="text-[clamp(3.2rem,4vw,4.8rem)] font-extrabold text-n83-white mb-[0.5rem]">
                     {account.minDeposit}
                   </div>
-                  <div className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/80">
+                  <div className="text-[clamp(1.4rem,1.6vw,1.6rem)] text-white/70">
                     minimum deposit
                   </div>
                 </div>
                 <h4 className="m-0 font-bold leading-[1.3] text-n83-white text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(1.5rem,2vw,2rem)]">
                   {account.subtitle}
                 </h4>
-                <p className="m-0 font-normal leading-[1.5] text-white/80 text-[clamp(1.5rem,1.6vw,1.8rem)]">
+                <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.5rem,1.6vw,1.8rem)]">
                   {account.description}
                 </p>
               </div>
@@ -132,7 +132,7 @@ const AccountsTypes = () => {
                       className="w-[2rem] h-[2rem] bg-n83-white rounded-sm mt-[0.8rem] flex-shrink-0"
                       style={{ transform: "rotate(45deg)" }}
                     ></div>
-                    <p className="m-0 font-normal leading-[1.4] text-white/80 text-[clamp(1.4rem,1.6vw,1.6rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.4rem,1.6vw,1.6rem)]">
                       {feature}
                     </p>
                   </div>

@@ -34,7 +34,7 @@ const CompanyProfilePolicies = () => {
               ))}
             </div>
             <div className="mt-[clamp(3rem,4vw,4rem)] pt-[clamp(2rem,2.5vw,2.5rem)] border-t border-n83-gray-50">
-              <p className="m-0 font-normal leading-[1.4] text-white/50 text-[clamp(1.4rem,1.6vw,1.6rem)] text-center">
+              <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.4rem,1.6vw,1.6rem)] text-center">
                 (Each item links to the live PDF/HTML.)
               </p>
             </div>

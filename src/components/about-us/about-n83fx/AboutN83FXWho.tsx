@@ -22,13 +22,13 @@ const AboutN83FXWho = () => {
         <div className="border-t border-neon-primary/60 pt-[clamp(4rem,6vw,8rem)] grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center mb-[clamp(6rem,8vw,8rem)]">
           {/*==================== Left: Content ====================*/}
           <div>
-            <p className="m-0 font-normal leading-[1.5] text-white/80 text-[clamp(1.8rem,2.2vw,2.4rem)] mb-[clamp(4rem,5vw,5rem)]">
+            <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.8rem,2.2vw,2.4rem)] mb-[clamp(4rem,5vw,5rem)]">
               This is not a product for everyone. It{"'"}s a space for those who
               think deeply, act deliberately, and operate calmly.
             </p>
 
             <div className="mb-[clamp(4rem,5vw,5rem)]">
-              <p className="m-0 font-medium leading-[1.4] text-white/80 text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
+              <p className="m-0 font-medium leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,2rem)] mb-[clamp(2rem,2.5vw,2.5rem)]">
                 Whether you{"'"}re:
               </p>
 
@@ -40,7 +40,7 @@ const AboutN83FXWho = () => {
                       <div className="absolute w-full h-[5px] bg-n83-black top-1/2 -translate-y-1/2"></div>
                       <div className="absolute h-full w-[5px] bg-n83-black left-1/2 -translate-x-1/2"></div>
                     </div>
-                    <p className="m-0 font-normal leading-[1.4] text-white/80 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {audience}
                     </p>
                   </div>
@@ -55,7 +55,7 @@ const AboutN83FXWho = () => {
                 N83-FX gives you what the market rarely offers:{" "}
                 <strong>a platform that respects your attention</strong>.
               </p>
-              <p className="m-0 font-normal leading-[1.4] text-white/80 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+              <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                 We don{"'"}t push. We don{"'"}t gamify. We provide the
                 environment—
                 <strong>you bring the intelligence</strong>.
@@ -83,7 +83,7 @@ const AboutN83FXWho = () => {
                 <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
                   Focused
                 </h4>
-                <p className="m-0 font-normal leading-[1.3] text-white/80 text-[clamp(1.3rem,1.5vw,1.5rem)]">
+                <p className="m-0 font-normal leading-[1.3] text-white/70 text-[clamp(1.3rem,1.5vw,1.5rem)]">
                   Traders
                 </p>
               </div>
@@ -91,7 +91,7 @@ const AboutN83FXWho = () => {
                 <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(2rem,2.5vw,2.5rem)] mb-[0.5rem]">
                   Calm
                 </h4>
-                <p className="m-0 font-normal leading-[1.3] text-white/80 text-[clamp(1.3rem,1.5vw,1.5rem)]">
+                <p className="m-0 font-normal leading-[1.3] text-white/70 text-[clamp(1.3rem,1.5vw,1.5rem)]">
                   Environment
                 </p>
               </div>

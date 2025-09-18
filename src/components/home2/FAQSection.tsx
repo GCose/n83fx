@@ -38,8 +38,8 @@ const FAQSection = () => {
 
         <div className="relative z-10 w-full max-w-container mx-auto px-container">
           {/*==================== Section Header ====================*/}
-          <div className="mb-[clamp(6rem,8vw,8rem)] border-b border-neon-primary/60 pb-[clamp(3rem,4vw,4rem)]">
-            <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,4rem)]">
+          <div className="mb-[clamp(6rem,8vw,8rem)] border-b pb-[clamp(3rem,4vw,4rem)]">
+            <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,5rem)]">
               FAQ
             </h2>
             <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-text-secondary leading-[1.4] text-right">
@@ -61,7 +61,7 @@ const FAQSection = () => {
                 onClick={() => setOpenFAQ(openFAQ === index ? -1 : index)}
               >
                 {/*==================== Question ====================*/}
-                <div className="bg-n83-black/40 backdrop-blur-md border-b border-neon-primary/60 p-[clamp(2.5rem,3vw,3rem)] group-hover:border-neon-primary/60 transition-all duration-500">
+                <div className="bg-n83-black/40 backdrop-blur-md border-b p-[clamp(2.5rem,3vw,3rem)] group-hover:border-neon-primary/60 transition-all duration-500">
                   <div className="flex items-center justify-between gap-[2rem]">
                     <h3 className="font-body text-[clamp(1.8rem,2.2vw,2.2rem)] font-600 text-text-primary leading-[1.3] group-hover:text-neon-primary transition-colors duration-500">
                       {faq.question}

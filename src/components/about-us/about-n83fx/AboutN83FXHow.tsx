@@ -21,7 +21,7 @@ const AboutN83FXHow = () => {
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
         <div className="mb-[clamp(8rem,12vw,10rem)] border-b border-black">
-          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-n83-black leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,4rem)]">
+          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-n83-black leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,5rem)]">
             How We{"'"}re Built
           </h2>
           <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-n83-black/60 leading-[1.4] text-right pb-6">
@@ -48,7 +48,7 @@ const AboutN83FXHow = () => {
                   <h3 className="m-0 font-bold leading-[1.2] text-white text-[clamp(1.8rem,2vw,2.2rem)] mb-[0.5rem]">
                     Others: Noise & Chaos
                   </h3>
-                  <p className="m-0 font-normal leading-[1.3] text-white/80 text-[clamp(1.4rem,1.5vw,1.6rem)]">
+                  <p className="m-0 font-normal leading-[1.3] text-white/70 text-[clamp(1.4rem,1.5vw,1.6rem)]">
                     Overwhelming interfaces designed to distract
                   </p>
                 </div>
@@ -70,7 +70,7 @@ const AboutN83FXHow = () => {
                   <h3 className="m-0 font-bold leading-[1.2] text-white text-[clamp(1.8rem,2vw,2.2rem)] mb-[0.5rem]">
                     N83-FX: Clarity & Calm
                   </h3>
-                  <p className="m-0 font-normal leading-[1.3] text-white/80 text-[clamp(1.4rem,1.5vw,1.6rem)]">
+                  <p className="m-0 font-normal leading-[1.3] text-white/70 text-[clamp(1.4rem,1.5vw,1.6rem)]">
                     Intentional design that respects focus
                   </p>
                 </div>

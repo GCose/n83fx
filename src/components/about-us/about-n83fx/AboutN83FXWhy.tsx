@@ -45,7 +45,7 @@ const AboutN83FXWhy = () => {
 
           {/*==================== Right: Content ====================*/}
           <div>
-            <p className="m-0 font-normal leading-[1.5] text-white/50 text-[clamp(1.8rem,2.2vw,2.4rem)] mb-[clamp(4rem,5vw,5rem)]">
+            <p className="m-0 font-normal leading-[1.5] text-white/70 text-[clamp(1.8rem,2.2vw,2.4rem)] mb-[clamp(4rem,5vw,5rem)]">
               In a financial world dominated by hype and chaos, we believe the
               next evolution of wealth is not more—it{"'"}s better. Not louder
               platforms. Not faster clicks. Not dopamine dashboards.
@@ -66,7 +66,7 @@ const AboutN83FXWhy = () => {
                     <h3 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.9rem,1.8vw,2rem)] mb-[0.5rem]">
                       {item.title}
                     </h3>
-                    <p className="m-0 font-normal leading-[1.4] text-white/50 text-[clamp(1.6rem,1.6vw,1.9rem)]">
+                    <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.6vw,1.9rem)]">
                       {item.description}
                     </p>
                   </div>
