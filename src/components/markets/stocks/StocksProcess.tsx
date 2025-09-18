@@ -60,7 +60,7 @@ const StocksProcess = () => {
                   key={index}
                   className="flex items-start gap-[clamp(2rem,3vw,3rem)] group"
                 >
-                  <div className="w-[clamp(4rem,5vw,5rem)] h-[clamp(4rem,5vw,5rem)] bg-n83-black text-n83-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-[clamp(1.4rem,1.6vw,1.6rem)] group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-[clamp(4rem,5vw,5rem)] h-[clamp(4rem,5vw,5rem)] bg-white/20 text-n83-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-[clamp(1.4rem,1.6vw,1.6rem)] group-hover:scale-110 transition-transform duration-300">
                     {step.number}
                   </div>
                   <div className="pt-[0.5rem]">
@@ -79,7 +79,7 @@ const StocksProcess = () => {
             {/*==================== CTA ====================*/}
             <Link
               href="/account/open"
-              className="cursor-pointer font-medium border rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-n83-black hover:-translate-y-[2px] hover:bg-neon-primary/20hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] w-full lg:w-auto max-w-[35rem]"
+              className="cursor-pointer font-medium border rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-n83-black hover:-translate-y-[2px] hover:bg-neon-primary/20  w-full lg:w-auto max-w-[35rem]"
             >
               Get Started Today
             </Link>

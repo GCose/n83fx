@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const MetalsHero = () => {
   return (
-    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)] border-t">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Hero Grid ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center min-h-[80vh]">
@@ -23,13 +23,13 @@ const MetalsHero = () => {
             <div className="flex items-center gap-[clamp(2rem,3vw,3rem)] flex-col lg:flex-row">
               <Link
                 href="/account/open"
-                className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-n83-black hover:-translate-y-[2px] hover:bg-neon-primary/20hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] w-full lg:w-auto max-w-[30rem]"
+                className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white border hover:-translate-y-[2px] hover:bg-neon-primary/20  w-full lg:w-auto max-w-[30rem]"
               >
                 Open an Account Today
               </Link>
               <Link
                 href="/platforms"
-                className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-transparent border-2  hover:text-n83-white hover:-translate-y-[2px] hover:bg-n83-black w-full lg:w-auto max-w-[30rem]"
+                className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-white/10  hover:text-n83-white hover:-translate-y-[2px] hover:bg-neon-primary/20 w-full lg:w-auto max-w-[30rem]"
               >
                 Download MT5
               </Link>

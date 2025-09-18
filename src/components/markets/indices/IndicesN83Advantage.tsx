@@ -133,7 +133,7 @@ const IndicesN83Advantage = () => {
             {accountTypes.map((account, index) => (
               <div
                 key={index}
-                className="p-[clamp(2rem,3vw,3rem)] bg-n83-white rounded-[1.6rem] hover:/20 transition-all duration-300 hover:-translate-y-[2px]"
+                className="p-[clamp(2rem,3vw,3rem)] bg-white/10 rounded-[1.6rem] hover:/20 transition-all duration-300 hover:-translate-y-[2px]"
               >
                 <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,2.1rem)] mb-[1rem]">
                   {account.title}

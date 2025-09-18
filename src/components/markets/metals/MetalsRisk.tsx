@@ -67,7 +67,7 @@ const MetalsRisk = () => {
               {/*==================== End of Transparency Statement ====================*/}
 
               {/*==================== Risk Management Focus ====================*/}
-              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-n83-white border-l border-r ">
+              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-neon-primary/10 border-l border-r border-neon-primary/50">
                 <p className="m-0 font-medium leading-[1.4] text-n83-white text-[clamp(1.8rem,2vw,2rem)]">
                   At N83-FX, risk awareness and proper positioning are part of
                   every trading decision.

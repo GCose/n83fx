@@ -37,7 +37,7 @@ const MetalsProcess = () => {
     <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)] border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
-        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center">
+        <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-start">
           {/*==================== Left: Content ====================*/}
           <div className="flex flex-col justify-center">
             <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(3rem,4vw,4rem)] uppercase tracking-tight">
@@ -59,7 +59,7 @@ const MetalsProcess = () => {
                   key={index}
                   className="flex items-start gap-[clamp(2rem,3vw,3rem)] group"
                 >
-                  <div className="w-[clamp(4rem,5vw,5rem)] h-[clamp(4rem,5vw,5rem)] bg-n83-black text-n83-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-[clamp(1.4rem,1.6vw,1.6rem)] group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-[clamp(4rem,5vw,5rem)] h-[clamp(4rem,5vw,5rem)] bg-white/20 text-n83-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-[clamp(1.4rem,1.6vw,1.6rem)] group-hover:scale-110 transition-transform duration-300">
                     {step.number}
                   </div>
                   <div className="pt-[0.5rem]">
@@ -78,7 +78,7 @@ const MetalsProcess = () => {
             {/*==================== CTA ====================*/}
             <Link
               href="/account/open"
-              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white bg-n83-black hover:-translate-y-[2px] hover:bg-neon-primary/20hover:shadow-[0_8px_25px_rgba(0,0,0,0.15)] w-full lg:w-auto max-w-[35rem]"
+              className="cursor-pointer font-medium rounded-[3rem] items-center whitespace-nowrap inline-flex justify-center transition-smooth text-[clamp(1.6rem,1.8vw,1.9rem)] py-[clamp(1.6rem,2vw,1.8rem)] px-[clamp(3.2rem,4vw,4rem)] text-n83-white border hover:-translate-y-[2px] hover:bg-neon-primary/20  w-full lg:w-auto max-w-[35rem]"
             >
               Get Started Today
             </Link>

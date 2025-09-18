@@ -15,17 +15,22 @@ import { N83FXPageMeta } from "@/pageMeta/meta";
 const Metals = () => {
   return (
     <Layout meta={N83FXPageMeta.metalsMeta}>
-      <MetalsHero />
-      <MetalsWhatIs />
-      <MetalsHistory />
-      <MetalsWhy />
-      <MetalsWhyTrade />
-      <MetalsN83Advantage />
-      {/* <MetalsUAE /> */}
-      <MetalsProcess />
-      <MetalsRisk />
-      <MetalsDifference />
-      <MetalsStartJourney />
+      <div className="relative">
+        {/*==================== Falling Tech Particles ====================*/}
+        <div className="falling__particles"></div>
+        {/*==================== End of Falling Tech Particles ====================*/}
+        <MetalsHero />
+        <MetalsWhatIs />
+        <MetalsHistory />
+        <MetalsWhy />
+        <MetalsWhyTrade />
+        <MetalsN83Advantage />
+        {/* <MetalsUAE /> */}
+        <MetalsProcess />
+        <MetalsRisk />
+        <MetalsDifference />
+        <MetalsStartJourney />
+      </div>
     </Layout>
   );
 };
