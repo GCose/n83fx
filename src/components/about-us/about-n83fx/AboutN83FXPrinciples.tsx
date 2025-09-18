@@ -25,25 +25,25 @@ const AboutN83FXPrinciples = () => {
   ];
 
   return (
-    <section className="bg-n83-gray-100 py-[clamp(8rem,10vw,12rem)]">
+    <section className="bg-n83-black py-[clamp(8rem,10vw,12rem)]">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
-        <div className="text-center mb-[clamp(6rem,7vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-black text-[clamp(3.5rem,4vw,5rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
+        <div className="text-left mb-[clamp(2rem,6vw,4rem)]">
+          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(4rem,5vw,8rem)] mb-[clamp(2rem,2.5vw,3rem)] uppercase tracking-tight">
             What We Stand For
           </h2>
         </div>
         {/*==================== End of Section Header ====================*/}
 
         {/*==================== Main Layout ====================*/}
-        <div className="grid lg:grid-cols-2 gap-[clamp(2rem,8vw,4rem)] items-start">
+        <div className="border-t border-neon-primary/60 pt-[clamp(2rem,4vw,6rem)] grid lg:grid-cols-2 gap-[clamp(2rem,8vw,4rem)] items-start">
           {/*==================== Left: Principles ====================*/}
           <div>
             <div className="space-y-[clamp(0.8rem,4vw,2rem)]">
               {principles.map((item, index) => (
                 <div
                   key={index}
-                  className="bg-n83-white rounded-[2rem] p-[clamp(3rem,3.5vw,3.5rem)] hover:-translate-y-[2px] transition-all duration-300 group"
+                  className="bg-neon-primary/10 rounded-[2rem] p-[clamp(3rem,3.5vw,3.5rem)] hover:-translate-y-[2px] transition-all duration-300 group"
                 >
                   <div className="flex items-start gap-[clamp(2rem,2.5vw,2.5rem)]">
                     <div className="mt-[0.5rem] opacity-60 group-hover:opacity-100 transition-opacity duration-300">
@@ -52,7 +52,7 @@ const AboutN83FXPrinciples = () => {
                         height="20"
                         fill="none"
                         viewBox="0 0 20 20"
-                        className="text-n83-black"
+                        className="text-n83-white"
                       >
                         <path d="M10 2L13 7H7L10 2Z" fill="currentColor" />
                         <path
@@ -62,10 +62,10 @@ const AboutN83FXPrinciples = () => {
                       </svg>
                     </div>
                     <div className="flex-1">
-                      <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.8rem,2vw,2.4rem)] mb-[clamp(1rem,1.5vw,1.5rem)] uppercase">
+                      <h3 className="m-0 font-bold leading-[1.2] text-white text-[clamp(1.8rem,2vw,2.4rem)] mb-[clamp(1rem,1.5vw,1.5rem)] uppercase">
                         {item.principle}
                       </h3>
-                      <p className="m-0 font-normal leading-[1.4] text-n83-gray-600 text-[clamp(1.7rem,1.6vw,2rem)]">
+                      <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.7rem,1.6vw,2rem)]">
                         {item.meaning}
                       </p>
                     </div>
