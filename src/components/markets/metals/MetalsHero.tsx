@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const MetalsHero = () => {
   return (
-    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)] border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Hero Grid ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-center min-h-[80vh]">

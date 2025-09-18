@@ -15,17 +15,22 @@ import { N83FXPageMeta } from "@/pageMeta/meta";
 const Commodities = () => {
   return (
     <Layout meta={N83FXPageMeta.commoditiesMeta}>
-      <CommoditiesHero />
-      <CommoditiesWhatIs />
-      <CommoditiesHistory />
-      <CommoditiesWhy />
-      <CommoditiesWhyTrade />
-      <CommoditiesN83Advantage />
-      {/* <CommoditiesUAE /> */}
-      <CommoditiesProcess />
-      <CommoditiesRisk />
-      <CommoditiesWhyDifferent />
-      <CommoditiesStartJourney />
+      <div className="relative">
+        {/*==================== Falling Tech Particles ====================*/}
+        <div className="falling__particles"></div>
+        {/*==================== End of Falling Tech Particles ====================*/}
+        <CommoditiesHero />
+        <CommoditiesWhatIs />
+        <CommoditiesHistory />
+        <CommoditiesWhy />
+        <CommoditiesWhyTrade />
+        <CommoditiesN83Advantage />
+        {/* <CommoditiesUAE /> */}
+        <CommoditiesProcess />
+        <CommoditiesRisk />
+        <CommoditiesWhyDifferent />
+        <CommoditiesStartJourney />
+      </div>
     </Layout>
   );
 };

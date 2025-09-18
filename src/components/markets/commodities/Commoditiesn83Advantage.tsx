@@ -27,14 +27,14 @@ const CommoditiesN83Advantage = () => {
   ];
 
   return (
-    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)] border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
-        <div className="text-center mb-[clamp(6rem,8vw,8rem)]">
-          <h2 className="m-0 font-extrabold leading-[1.2] text-n83-white text-[clamp(3rem,4vw,4.5rem)] mb-[clamp(2rem,3vw,3rem)] uppercase tracking-tight">
+        <div className="mb-[clamp(8rem,12vw,10rem)] border-b">
+          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-text-primary leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,5rem)]">
             The N83-FX Advantage
           </h2>
-          <p className="m-0 font-normal leading-[1.5] max-w-[60rem] mx-auto text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
+          <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-text-secondary leading-[1.4] text-right pb-6">
             Three pillars that make commodities trading at N83-FX different
           </p>
         </div>
@@ -57,8 +57,8 @@ const CommoditiesN83Advantage = () => {
                     className="flex items-start gap-[1.5rem] group"
                   >
                     <div className="relative w-[2rem] h-[2rem] flex-shrink-0 mt-[0.8rem]">
-                      <div className="absolute w-full h-[5px] bg-n83-black top-1/2 -translate-y-1/2"></div>
-                      <div className="absolute h-full w-[5px] bg-n83-black left-1/2 -translate-x-1/2"></div>
+                      <div className="absolute w-full h-[5px] bg-n83-white top-1/2 -translate-y-1/2"></div>
+                      <div className="absolute h-full w-[5px] bg-n83-white left-1/2 -translate-x-1/2"></div>
                     </div>
                     <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,1.9rem)]">
                       {condition}
@@ -134,7 +134,7 @@ const CommoditiesN83Advantage = () => {
             {accountTypes.map((account, index) => (
               <div
                 key={index}
-                className="p-[clamp(2rem,3vw,3rem)] bg-n83-white rounded-[1.6rem] hover:/20 transition-all duration-300 hover:-translate-y-[2px]"
+                className="p-[clamp(2rem,3vw,3rem)] bg-white/10 rounded-[1.6rem] hover:/20 transition-all duration-300 hover:-translate-y-[2px]"
               >
                 <h4 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.6rem,1.8vw,2.1rem)] mb-[1rem]">
                   {account.title}

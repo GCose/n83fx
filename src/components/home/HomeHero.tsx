@@ -36,7 +36,7 @@ const HomeHero = () => {
 
         {/*==================== Trust Snapshot ====================*/}
         <div className="text-center mb-[clamp(4rem,5vw,5rem)]">
-          <div className="bg-n83-gray-50 border-l border-r  p-[clamp(3rem,4vw,4rem)] max-w-[90rem] mx-auto mb-[clamp(4rem,5vw,5rem)]">
+          <div className="bg-neon-primary/10 border-l border-r border-neon-primary/50  p-[clamp(3rem,4vw,4rem)] max-w-[90rem] mx-auto mb-[clamp(4rem,5vw,5rem)]">
             <p className="m-0 font-normal leading-[1.4] text-n83-white text-[clamp(1.6rem,1.8vw,2rem)]">
               N83-FX Markets Ltd — Licensed by [Regulator] (License [XXXX]).
               Registered address: [Address]. Client funds held in segregated

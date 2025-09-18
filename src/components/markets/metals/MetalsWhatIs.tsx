@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MetalsWhatIs = () => {
   return (
-    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)]">
+    <section className="relative bg-n83-black py-[clamp(8rem,12vw,16rem)] border-t">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Layout ====================*/}
         <div className="grid lg:grid-cols-2 gap-[clamp(6rem,8vw,8rem)] items-start">
@@ -31,7 +31,7 @@ const MetalsWhatIs = () => {
               </p>
 
               {/*==================== Highlight Quote ====================*/}
-              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-n83-gray-50 border-l border-r ">
+              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-neon-primary/10 border-l border-r border-neon-primary/50 ">
                 <p className="m-0 font-medium leading-[1.4] text-n83-white text-[clamp(1.8rem,2vw,2rem)]">
                   At N83-FX, metals are presented simply, with straightforward
                   pricing and transparent execution — so you can trade them with
