@@ -55,7 +55,7 @@ const AccountsSection = () => {
   return (
     <>
       {/*==================== Accounts Section ====================*/}
-      <section className="relative py-[clamp(10rem,20vw,15rem)]">
+      <section className="relative py-[clamp(10rem,20vw,15rem)] border-t">
         {/*==================== Dark Overlay for Readability ====================*/}
         <div className="absolute inset-0 bg-n83-black"></div>
         {/*==================== End of Dark Overlay ====================*/}

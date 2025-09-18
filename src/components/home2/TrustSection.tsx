@@ -31,7 +31,7 @@ const TrustSection = () => {
   return (
     <>
       {/*==================== Trust & Regulation Section ====================*/}
-      <section className="relative py-[clamp(8rem,12vw,10rem)]">
+      <section className="relative py-[clamp(8rem,12vw,16rem)] border-t">
         {/*==================== Dark Overlay ====================*/}
         <div className="absolute inset-0 bg-n83-black"></div>
         {/*==================== End of Dark Overlay ====================*/}
@@ -62,7 +62,7 @@ const TrustSection = () => {
                     zIndex: legalDetails.length - index,
                   }}
                 >
-                  <h4 className="font-display text-[clamp(1.8rem,2.2vw,2rem)] font-700 text-neon-primary mb-[clamp(1rem,1.5vw,1.5rem)] group-hover:text-neon-primary transition-colors duration-500">
+                  <h4 className="font-display text-[clamp(1.8rem,2.2vw,2.5rem)] font-700 text-neon-primary mb-[clamp(1rem,1.5vw,1.5rem)] group-hover:text-neon-primary transition-colors duration-500">
                     {detail.label}:
                   </h4>
                   <p className="font-body text-[clamp(1.6rem,1.8vw,1.8rem)] font-400 text-text-secondary leading-[1.5]">

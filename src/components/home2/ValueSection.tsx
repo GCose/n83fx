@@ -32,7 +32,7 @@ const ValueSection = () => {
   return (
     <>
       {/*==================== Value Section ====================*/}
-      <section className="relative py-[clamp(10rem,20vw,15rem)]">
+      <section className="relative py-[clamp(10rem,20vw,15rem)] border-t">
         {/*==================== Dark Overlay ====================*/}
         <div className="absolute inset-0 bg-n83-black z-0"></div>
         {/*==================== End of Dark Overlay ====================*/}

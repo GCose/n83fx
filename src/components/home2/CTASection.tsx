@@ -4,22 +4,19 @@ const CTASection = () => {
   return (
     <>
       {/*==================== Final CTA Section ====================*/}
-      <section className="relative py-[clamp(10rem,15vw,12rem)]">
-        {/*==================== Dark Overlay ====================*/}
-        <div className="absolute inset-0 bg-n83-black z-20"></div>
-        {/*==================== End of Dark Overlay ====================*/}
+      <section className="relative bg-n83-black py-[clamp(10rem,15vw,12rem)] border-t">
 
         <div className="relative z-40 w-full max-w-container mx-auto px-container">
           {/*==================== Main Content ====================*/}
           <div className="max-w-[80rem] mx-auto space-y-[clamp(4rem,6vw,6rem)]">
             {/*==================== Hero Statement ====================*/}
             <div className="space-y-[clamp(3rem,4vw,4rem)]">
-              <h2 className="font-display text-[clamp(6rem,12vw,10rem)] font-900 text-text-primary leading-[0.8] tracking-tight">
+              <h2 className="font-display text-center text-[clamp(6rem,12vw,10rem)] font-900 text-text-primary leading-[0.8] tracking-tight">
                 Make Your{" "}
                 <span className="text-neon-primary animate-glow">Move</span>
               </h2>
 
-              <p className="font-body text-[clamp(2rem,3vw,2.8rem)] font-500 text-text-secondary leading-[1.3] max-w-[60rem] mx-auto">
+              <p className="font-body text-center text-[clamp(2rem,3vw,2.8rem)] font-500 text-text-secondary leading-[1.3] max-w-[60rem] mx-auto">
                 Join a platform that respects your time and your focus.
               </p>
             </div>
@@ -54,8 +51,8 @@ const CTASection = () => {
             {/*==================== End of Primary CTAs ====================*/}
 
             {/*==================== Disclaimer ====================*/}
-            <div className="pt-[clamp(4rem,5vw,5rem)] border-t border-text-tertiary/30">
-              <p className="font-body text-[clamp(1.4rem,1.8vw,1.8rem)] text-text-muted leading-[1.4] italic">
+            <div className="pt-3 border-t">
+              <p className="font-body text-center text-[clamp(1.4rem,1.8vw,1.8rem)] text-text-muted leading-[1.4] italic">
                 Trading is risky. No returns are promised.
               </p>
             </div>
