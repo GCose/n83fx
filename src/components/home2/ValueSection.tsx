@@ -4,30 +4,120 @@ import Link from "next/link";
 const ValueSection = () => {
   const features = [
     {
-      number: "1",
       title: "See your position, fast",
       description: "One clean view for entries, exits, and size. No clutter.",
-      image: "/images/home-page/hero.jpg",
+      icon: (
+        <svg
+          viewBox="0 0 24 24"
+          className="w-[clamp(2.5rem,3vw,3.5rem)] h-[clamp(2.5rem,3vw,3.5rem)]"
+        >
+          <rect
+            x="3"
+            y="3"
+            width="18"
+            height="18"
+            rx="2"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          />
+          <path d="M9 9h6v6H9z" fill="currentColor" />
+        </svg>
+      ),
     },
     {
-      number: "2",
       title: "Risk controls that keep you honest",
       description: "Set limits. Set stops. Keep your plan tight.",
-      image: "/images/home-page/why-section/home-why.jpg",
+      icon: (
+        <svg
+          viewBox="0 0 24 24"
+          className="w-[clamp(2.5rem,3vw,3.5rem)] h-[clamp(2.5rem,3vw,3.5rem)]"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="10"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          />
+          <path
+            d="M12 6v6l4 2"
+            stroke="currentColor"
+            strokeWidth="2"
+            fill="none"
+          />
+        </svg>
+      ),
     },
     {
-      number: "3",
       title: "Clean alerts, not loud ones",
       description: "Only what matters. Right when it matters.",
-      image: "/images/home-page/what-section/what.jpg",
+      icon: (
+        <svg
+          viewBox="0 0 24 24"
+          className="w-[clamp(2.5rem,3vw,3.5rem)] h-[clamp(2.5rem,3vw,3.5rem)]"
+        >
+          <path
+            d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          />
+          <path
+            d="M13.73 21a2 2 0 0 1-3.46 0"
+            stroke="currentColor"
+            strokeWidth="2"
+            fill="none"
+          />
+        </svg>
+      ),
     },
     {
-      number: "4",
       title: "Fast actions",
       description: "Fewer clicks. Quicker moves. More focus.",
-      image: "/images/home-page/operations-section/home-operations.jpg",
+      icon: (
+        <svg
+          viewBox="0 0 24 24"
+          className="w-[clamp(2.5rem,3vw,3.5rem)] h-[clamp(2.5rem,3vw,3.5rem)]"
+        >
+          <polygon
+            points="13,2 3,14 12,14 11,22 21,10 12,10"
+            fill="currentColor"
+          />
+        </svg>
+      ),
     },
   ];
+
+  const FeatureCard = ({ feature }: { feature: (typeof features)[0] }) => (
+    <div className="flex items-start gap-[clamp(2rem,3vw,3rem)]">
+      {/*==================== Icon Card ====================*/}
+      <div className="relative p-[1px] rounded-xl bg-gradient-to-r from-neon-primary/40 via-neon-primary/60 to-neon-primary/40 flex-shrink-0">
+        {/*==================== Animated Border Effect ====================*/}
+        <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-neon-primary/30 via-neon-primary/50 to-neon-primary/30 blur-sm animate-pulse"></div>
+        {/*==================== End of Animated Border Effect ====================*/}
+
+        {/*==================== Icon Container ====================*/}
+        <div className="relative bg-n83-black rounded-xl w-[clamp(6rem,7vw,8rem)] h-[clamp(6rem,7vw,8rem)] flex items-center justify-center text-neon-primary">
+          {feature.icon}
+        </div>
+        {/*==================== End of Icon Container ====================*/}
+      </div>
+      {/*==================== End of Icon Card ====================*/}
+
+      {/*==================== Text Content ====================*/}
+      <div className="flex-1 min-w-0">
+        <h3 className="font-display text-[clamp(1.8rem,2.2vw,2.8rem)] font-700 text-text-primary leading-[1.1] tracking-tight mb-[clamp(0.8rem,1.2vw,1.5rem)]">
+          {feature.title}
+        </h3>
+        <p className="font-body text-[clamp(1.3rem,1.5vw,1.8rem)] text-text-secondary leading-[1.4] opacity-70">
+          {feature.description}
+        </p>
+      </div>
+      {/*==================== End of Text Content ====================*/}
+    </div>
+  );
 
   return (
     <>
@@ -46,54 +136,73 @@ const ValueSection = () => {
           </div>
           {/*==================== End of Section Title ====================*/}
 
-          {/*==================== Features Rows ====================*/}
-          <div className="space-y-[clamp(12rem,15vw,18rem)]">
-            {features.map((feature, index) => (
-              <div
-                key={index}
-                className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-[clamp(1rem,4vw,4rem)] items-start border-t pt-6"
-              >
-                {/*==================== Column 1: Number ====================*/}
-                <div className="col-span-1 md:col-span-1 lg:col-span-2 md:mb-4">
-                  <span className="font-display text-[clamp(3rem,5vw,6rem)] font-900 text-neon-primary leading-[1]">
-                    {feature.number}
-                  </span>
-                </div>
-                {/*==================== End of Column 1 ====================*/}
-
-                {/*==================== Column 2: Title ====================*/}
-                <div className="col-span-1 md:col-span-2 lg:col-span-4 md:mb-4">
-                  <h3 className="font-display text-[clamp(2.7rem,3vw,3.5rem)] font-700 text-text-primary leading-[1.1] tracking-tight">
-                    {feature.title}
-                  </h3>
-                </div>
-                {/*==================== End of Column 2 ====================*/}
-
-                {/*==================== Column 3: Content + Image ====================*/}
-                <div className="col-span-1 md:col-span-3 lg:col-span-6">
-                  <p className="font-body text-[clamp(1.6rem,3vw,2.7rem)] text-left md:text-right text-text-secondary leading-[1.1] mb-[clamp(3rem,4vw,2rem)]">
-                    {feature.description}
-                  </p>
-
-                  <div className="relative rounded-lg overflow-hidden">
-                    <Image
-                      width={1200}
-                      height={800}
-                      src={feature.image}
-                      alt={feature.title}
-                      className="w-full h-[clamp(40rem,60vh,40vh)] md:h-[clamp(50rem,70vh,25vh)] object-cover transition-transform duration-500 hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-n83-black/40 via-transparent to-transparent pointer-events-none"></div>
-                  </div>
-                </div>
-                {/*==================== End of Column 3 ====================*/}
+          {/*==================== Desktop Zig-Zag Layout ====================*/}
+          <div className="hidden lg:block">
+            <div className="grid grid-cols-7 grid-rows-3 gap-[clamp(3rem,4vw,5rem)] max-w-[140rem] mx-auto min-h-[80rem]">
+              {/*==================== Feature 1: Top Left ====================*/}
+              <div className="col-span-2 row-span-1 self-end">
+                <FeatureCard feature={features[0]} />
               </div>
+
+              {/*==================== Central Image ====================*/}
+              <div className="col-span-3 row-span-3 self-center">
+                <div className="relative rounded-xl overflow-hidden bg-n83-black/50 backdrop-blur-sm h-[clamp(60rem,70vh,80rem)]">
+                  <Image
+                    width={800}
+                    height={600}
+                    src="/images/home-page/hero.jpg"
+                    alt="Trading platform interface"
+                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-n83-black/40 via-transparent to-transparent pointer-events-none"></div>
+                </div>
+              </div>
+
+              {/*==================== Feature 2: Center Right ====================*/}
+              <div className="col-span-2 row-span-1 self-center">
+                <FeatureCard feature={features[1]} />
+              </div>
+
+              {/*==================== Empty Spaces ====================*/}
+              <div className="col-span-2"></div>
+              <div className="col-span-2"></div>
+
+              {/*==================== Feature 3: Bottom Left ====================*/}
+              <div className="col-span-2 row-span-1 self-start">
+                <FeatureCard feature={features[2]} />
+              </div>
+
+              {/*==================== Feature 4: Bottom Right ====================*/}
+              <div className="col-span-2 row-span-1 self-start">
+                <FeatureCard feature={features[3]} />
+              </div>
+            </div>
+          </div>
+          {/*==================== End of Desktop Zig-Zag Layout ====================*/}
+
+          {/*==================== Mobile Vertical Layout ====================*/}
+          <div className="lg:hidden space-y-[clamp(4rem,6vw,6rem)]">
+            {/*==================== Central Image Mobile ====================*/}
+            <div className="relative rounded-xl overflow-hidden bg-n83-black/50 backdrop-blur-sm h-[clamp(40rem,50vh,50rem)] mb-[clamp(6rem,8vw,8rem)]">
+              <Image
+                width={400}
+                height={600}
+                src="/images/home-page/hero.jpg"
+                alt="Trading platform interface"
+                className="w-full h-screen object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-n83-black/40 via-transparent to-transparent pointer-events-none"></div>
+            </div>
+
+            {/*==================== Features Stack Mobile ====================*/}
+            {features.map((feature, index) => (
+              <FeatureCard key={index} feature={feature} />
             ))}
           </div>
-          {/*==================== End of Features Rows ====================*/}
+          {/*==================== End of Mobile Vertical Layout ====================*/}
 
           {/*==================== Call to Action ====================*/}
-          <div className="mt-[clamp(7rem,2vw,10rem)] text-center">
+          <div className="mt-4 text-center">
             <Link
               href="/account/open"
               className="group inline-flex items-center justify-center px-[clamp(3rem,4vw,5rem)] py-[clamp(1.5rem,2.5vw,1.7rem)] bg-neon-primary/60 text-n83-white font-body font-700 text-[clamp(1.6rem,2vw,2rem)] hover:bg-transparent hover:text-neon-primary border-2 border-neon-primary transition-all duration-300"
