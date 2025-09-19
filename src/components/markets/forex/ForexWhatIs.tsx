@@ -31,7 +31,7 @@ const ForexWhatIs = () => {
               </p>
 
               {/*==================== Highlight Quote ====================*/}
-              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-transparent backdrop-blur-sm border-l border-r border-n83-white">
+              <div className="p-[clamp(2.5rem,3vw,3rem)] bg-neon-primary/10 backdrop-blur-sm border-l border-r border-neon-primary/50">
                 <p className="m-0 font-medium leading-[1.4] text-n83-white text-[clamp(1.8rem,2vw,2rem)]">
                   At N83-FX, we believe that opportunity is best used when
                   trading is done with calm and clarity.

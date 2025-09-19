@@ -47,7 +47,7 @@ const ForexHowToStart = () => {
                   key={index}
                   className="flex gap-[clamp(2rem,3vw,3rem)] items-start group"
                 >
-                  <div className="w-[clamp(5rem,6vw,6rem)] h-[clamp(5rem,6vw,6rem)] bg-n83-black text-n83-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-[clamp(1.4rem,1.6vw,1.6rem)] group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-[clamp(5rem,6vw,6rem)] h-[clamp(5rem,6vw,6rem)] bg-n83-white/20 text-n83-white rounded-full flex items-center justify-center flex-shrink-0 font-bold text-[clamp(1.4rem,1.6vw,1.6rem)] group-hover:scale-110 transition-transform duration-300">
                     {step.number}
                   </div>
                   <div className="pt-[0.5rem]">
