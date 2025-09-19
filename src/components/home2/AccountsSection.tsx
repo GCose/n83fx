@@ -161,7 +161,7 @@ const AccountsSection = () => {
                     href={account.openLink}
                     className={`group inline-flex items-center justify-center px-[clamp(2.5rem,3vw,3.5rem)] py-[clamp(1.2rem,1.5vw,1.4rem)] font-body font-600 text-[clamp(1.6rem,1.6vw,1.8rem)] border-2 transition-all duration-300 flex-1 ${
                       account.featured
-                        ? "bg-neon-primary text-n83-white border-neon-primary hover:bg-transparent hover:text-neon-primary"
+                        ? "bg-neon-primary/60 text-n83-white border-neon-primary hover:bg-transparent hover:text-neon-primary"
                         : "bg-transparent text-text-primary border-text-primary hover:border-neon-primary hover:text-neon-primary"
                     }`}
                   >
