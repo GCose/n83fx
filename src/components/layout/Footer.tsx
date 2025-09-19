@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="relative z-30 bg-transparent border-t text-n83-white py-[clamp(8rem,12vw,16rem)] pb-[clamp(4rem,6vw,6rem)]">
+    <footer className="relative z-30 bg-transparent text-n83-white py-[clamp(8rem,12vw,16rem)] pb-[clamp(4rem,6vw,6rem)]">
       <div className="w-full mx-auto max-w-[140rem] px-container">
         {/*==================== Main Footer Content ====================*/}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[clamp(6rem,8vw,8rem)] mb-[clamp(6rem,8vw,8rem)]">
@@ -17,7 +17,7 @@ const Footer = () => {
                 width={200}
                 height={40}
                 alt="N83-FX Logo"
-                src="/images/logos/logo-light.svg"
+                src="/images/logos/4.png"
               />
             </Link>
             <p className="text-[clamp(1.8rem,2.2vw,2.2rem)] font-normal leading-[1.5] text-white/70 mb-[clamp(3rem,4vw,4rem)]">
@@ -130,7 +130,7 @@ const Footer = () => {
         </div>
 
         {/*==================== Footer Bottom ====================*/}
-        <div className="flex flex-col md:flex-row items-center justify-between pt-[clamp(4rem,6vw,6rem)] border-t border-white/10 gap-8 md:gap-0">
+        <div className="flex flex-col md:flex-row items-center justify-between pt-[clamp(4rem,6vw,6rem)] border-t border-white gap-8 md:gap-0">
           <div className="flex flex-wrap justify-center md:justify-start gap-[clamp(2rem,3vw,3rem)]">
             <Link
               href="/legal/privacy-policy"

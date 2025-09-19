@@ -25,7 +25,7 @@ const AccountsProcess = () => {
   ];
 
   return (
-    <section className="relative py-[clamp(8rem,12vw,16rem)] backdrop-blur-lg border-t">
+    <section className="relative py-[clamp(8rem,12vw,16rem)] backdrop-blur-lg border-t border-b">
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Final CTA Section ====================*/}
         <div className="bg-neon-primary/10 rounded-[3rem] p-[clamp(4rem,6vw,6rem)] text-center">
