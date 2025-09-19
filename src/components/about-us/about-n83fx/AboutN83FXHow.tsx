@@ -21,10 +21,10 @@ const AboutN83FXHow = () => {
       <div className="w-full max-w-container mx-auto px-container">
         {/*==================== Section Header ====================*/}
         <div className="mb-[clamp(8rem,12vw,10rem)] border-b border-black">
-          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-n83-white leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,5rem)]">
+          <h2 className="font-display text-[clamp(5rem,8vw,9rem)] font-900 text-n83-black leading-[0.9] tracking-tight mb-[clamp(2rem,4vw,5rem)]">
             How We{"'"}re Built
           </h2>
-          <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-n83-white/60 leading-[1.4] text-right pb-6">
+          <p className="font-body text-[clamp(1.8rem,2.5vw,2.4rem)] font-500 text-n83-black/60 leading-[1.4] text-right pb-6">
             N83-FX is designed like a boutique—not a casino. Every pixel, every
             flow, every word is intentional.
           </p>
@@ -86,12 +86,12 @@ const AboutN83FXHow = () => {
           {buildingBlocks.map((block, index) => (
             <div
               key={index}
-              className="bg-n83-gray-50 rounded-[2rem] p-[clamp(3rem,3.5vw,3.5rem)] text-center group hover:bg-n83-white hover:-translate-y-[2px] transition-all duration-300"
+              className="bg-n83-gray-100 rounded-[2rem] p-[clamp(3rem,3.5vw,3.5rem)] text-center group hover:bg-n83-white hover:-translate-y-[2px] transition-all duration-300"
             >
-              <h3 className="m-0 font-bold leading-[1.2] text-n83-white text-[clamp(1.9rem,1.8vw,2.4rem)] mb-[clamp(1rem,1.5vw,2rem)]">
+              <h3 className="m-0 font-bold leading-[1.2] text-n83-black text-[clamp(1.9rem,1.8vw,2.4rem)] mb-[clamp(1rem,1.5vw,2rem)]">
                 {block.title}
               </h3>
-              <p className="m-0 font-normal leading-[1.2] text-white/70 text-[clamp(1.7rem,1.6vw,2.1rem)]">
+              <p className="m-0 font-normal leading-[1.2] text-black/70 text-[clamp(1.7rem,1.6vw,2.1rem)]">
                 {block.description}
               </p>
             </div>
@@ -103,7 +103,7 @@ const AboutN83FXHow = () => {
         <div className="space-y-[clamp(3rem,4vw,4rem)]">
           {/*==================== Ethics Statement ====================*/}
           <div className="bg-n83-gray-50 p-[clamp(3rem,4vw,4rem)] border-t border-b  text-center">
-            <p className="m-0 font-normal leading-[1.4] text-white/70 text-[clamp(1.6rem,1.8vw,2.1rem)]">
+            <p className="m-0 font-normal leading-[1.4] text-black/70 text-[clamp(1.6rem,1.8vw,2.1rem)]">
               No ads. No selling of order flow. No compromises. <br />
               If applicable—confirm with legal; otherwise remove.
             </p>

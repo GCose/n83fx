@@ -248,7 +248,7 @@
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    @apply bg-black;
+    @apply bg-white;
   }
 
   ::selection {
