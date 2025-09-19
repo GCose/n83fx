@@ -40,7 +40,7 @@ const AboutN83FXHow = () => {
                 <Image
                   width={600}
                   height={400}
-                  src="/images/about/about-confusion.jpg"
+                  src="/images/about/about-how-1.jpg"
                   alt="Chaotic, overwhelming trading platform interface"
                   className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(25rem,30vh,35rem)] saturate-[0.6] contrast-[1.2] brightness-[0.8] opacity-80 group-hover:scale-[1.02]"
                 />
@@ -62,7 +62,7 @@ const AboutN83FXHow = () => {
                 <Image
                   width={600}
                   height={400}
-                  src="/images/about/about-calm.jpg"
+                  src="/images/about/about-how-3.jpg"
                   alt="N83-FX clean, minimal trading interface"
                   className="w-full h-full object-cover transition-transform duration-[0.6s] min-h-[clamp(25rem,30vh,35rem)] saturate-[0.8] contrast-[1.1] brightness-[0.95] group-hover:scale-[1.02]"
                 />
@@ -102,7 +102,7 @@ const AboutN83FXHow = () => {
         {/*==================== Ethics & Trust Section ====================*/}
         <div className="space-y-[clamp(3rem,4vw,4rem)]">
           {/*==================== Ethics Statement ====================*/}
-          <div className="bg-n83-gray-50 p-[clamp(3rem,4vw,4rem)] border-t border-b  text-center">
+          <div className="p-[clamp(3rem,4vw,4rem)] border-t border-b border-black text-center">
             <p className="m-0 font-normal leading-[1.4] text-black/70 text-[clamp(1.6rem,1.8vw,2.1rem)]">
               No ads. No selling of order flow. No compromises. <br />
               If applicable—confirm with legal; otherwise remove.
